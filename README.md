@@ -18,6 +18,7 @@ El punto de partida para aprender Python desde cero o mejorar tus habilidades. I
 ## 🖥️ Sobre Programación
 
 Conceptos fundamentales de la programación:
+
 - **📊 Algoritmos y estructuras de datos:** Conceptos básicos y avanzados.
 - **💻 Paradigmas de programación:** Imperativa, orientada a objetos y funcional.
 - **✅ Buenas prácticas:** Código limpio, eficiente y mantenible.
@@ -25,6 +26,7 @@ Conceptos fundamentales de la programación:
 ## 🐍 Sobre Python
 
 Profundización en Python:
+
 - **📛 Nomenclatura:** Convenciones para variables, funciones y clases.
 - **🔄 Control de flujo:** Estructuras condicionales y bucles.
 - **🗃️ Estructuras de datos:** Listas, tuplas, conjuntos y diccionarios.
@@ -36,14 +38,9 @@ Profundización en Python:
 
 Uso de Python en ciencias tradicionales:
 
-### ➕ Matemática
-Cálculos matemáticos con `numpy` y `scipy`.
-
-### 🪐 Física
-Simulaciones y análisis de datos experimentales.
-
-### 📈 Estadística
-Análisis estadístico con `pandas` y `scipy`.
+* **➕ Matemática**: Cálculos matemáticos con `numpy` y `scipy`.
+* **🪐 Física**: Simulaciones y análisis de datos experimentales.
+* **📈 Estadística**: Análisis estadístico con `pandas` y `scipy`.
 
 ## 📊 Ciencia de Datos
 
