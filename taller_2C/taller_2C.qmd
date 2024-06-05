@@ -9,3 +9,8 @@ Direct code:
 ```{pyodide-python}
 print('Hola mundo!')
 ```
+
+Direct code:
+```{pyodide-python}
+print('Hola mundo!')
+```
