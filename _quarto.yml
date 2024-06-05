@@ -3,21 +3,24 @@ project:
   output-dir: docs
   
 book:
-  title: "PySchool"
-  subtitle: "Python"
+  title: "🐍 PySchool"
   author: "Python Chile"
-  date: "30/08/2024"
+  date: "08/20/2024"
+  favicon: "images/pc.png"
   chapters:
     - index.qmd
-    - taller_1/taller_1.qmd
-    - taller_2A/taller_2A.qmd
-    - taller_2B/taller_2B.qmd
-    - taller_2C/taller_2C.qmd
-    - template/quarto_template.qmd
+    - talleres/intro_progra.qmd
+    - talleres/taller_1/taller_1.qmd
+    - talleres/taller_2A/taller_2A.qmd
+    - talleres/taller_2C/taller_2C.qmd
+
+lang: es
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
+  epub:
+    cover-image: images/cover.png
 
 filters: 
   - pyodide

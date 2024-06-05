@@ -1,0 +1,134 @@
+# Ciencia de Datos
+
+Python es una herramienta esencial en la ciencia de datos debido a su simplicidad y la potencia de sus bibliotecas. Aquí presentamos ejemplos de cómo Python puede solucionar problemas comunes en la ciencia de datos.
+
+## Exploración de Datos
+
+### Carga de Datos
+Usando `pandas` para cargar y explorar un conjunto de datos:
+```{pyodide-python}
+import pandas as pd
+
+# Cargar un conjunto de datos de ejemplo
+url = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv'
+df = pd.read_csv(url)
+
+# Mostrar las primeras filas del conjunto de datos
+print(df.head())
+```
+
+### Estadísticas Descriptivas
+Calcular estadísticas descriptivas básicas:
+```{pyodide-python}
+# Describir el conjunto de datos
+descripcion = df.describe()
+print(descripcion)
+```
+
+## Visualización de Datos
+
+### Gráficos Básicos
+Usando `matplotlib` y `seaborn` para visualizar datos:
+```{pyodide-python}
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Histograma de las propinas
+plt.figure(figsize=(10, 6))
+sns.histplot(df['tip'], bins=30, kde=True)
+plt.title('Distribución de las Propinas')
+plt.xlabel('Propina')
+plt.ylabel('Frecuencia')
+plt.show()
+```
+
+### Gráficos de Dispersión
+Visualizar la relación entre dos variables:
+```{pyodide-python}
+# Gráfico de dispersión entre el total de la cuenta y la propina
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='total_bill', y='tip', data=df)
+plt.title('Relación entre Total de la Cuenta y Propina')
+plt.xlabel('Total de la Cuenta')
+plt.ylabel('Propina')
+plt.show()
+```
+
+## Preprocesamiento de Datos
+
+### Manejo de Valores Nulos
+Identificar y manejar valores nulos:
+```{pyodide-python}
+# Identificar valores nulos
+valores_nulos = df.isnull().sum()
+print(valores_nulos)
+
+# Eliminar filas con valores nulos
+df_clean = df.dropna()
+print(df_clean.head())
+```
+
+### Codificación de Variables Categóricas
+Convertir variables categóricas en variables numéricas:
+```{pyodide-python}
+# Convertir variables categóricas a variables dummy
+df_encoded = pd.get_dummies(df, columns=['sex', 'smoker', 'day', 'time'], drop_first=True)
+print(df_encoded.head())
+```
+
+## Modelado de Datos
+
+### Regresión Lineal
+Usando `scikit-learn` para ajustar un modelo de regresión lineal:
+```{pyodide-python}
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+
+# Definir variables predictoras y variable objetivo
+X = df_encoded[['total_bill', 'size', 'sex_Male', 'smoker_Yes', 'day_Sat', 'day_Sun', 'day_Thur', 'time_Dinner']]
+y = df_encoded['tip']
+
+# Dividir los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Ajustar el modelo de regresión lineal
+modelo = LinearRegression()
+modelo.fit(X_train, y_train)
+
+# Realizar predicciones
+y_pred = modelo.predict(X_test)
+
+# Evaluar el modelo
+mse = mean_squared_error(y_test, y_pred)
+print(f'Error Cuadrático Medio: {mse}')
+```
+
+### Clasificación
+Usando `scikit-learn` para ajustar un modelo de clasificación:
+```{pyodide-python}
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+
+# Variable objetivo binaria para la clasificación (ejemplo: 'size' > 2)
+df_encoded['large_party'] = (df_encoded['size'] > 2).astype(int)
+
+# Definir variables predictoras y variable objetivo
+X = df_encoded[['total_bill', 'tip', 'sex_Male', 'smoker_Yes', 'day_Sat', 'day_Sun', 'day_Thur', 'time_Dinner']]
+y = df_encoded['large_party']
+
+# Dividir los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Ajustar el modelo de árbol de decisión
+modelo = DecisionTreeClassifier()
+modelo.fit(X_train, y_train)
+
+# Realizar predicciones
+y_pred = modelo.predict(X_test)
+
+# Evaluar el modelo
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Precisión del modelo: {accuracy}')
+```
+
