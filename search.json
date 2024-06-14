@@ -4,7 +4,37 @@
     "href": "index.html",
     "title": "🐍 PySchool",
     "section": "",
-    "text": "1 🏠 Home\n\n\n\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nTe invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!",
+    "text": "1 🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nTe invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cómo-usar-esta-página",
+    "href": "index.html#cómo-usar-esta-página",
+    "title": "🐍 PySchool",
+    "section": "1.1 💡 Cómo usar esta página",
+    "text": "1.1 💡 Cómo usar esta página\n¡Mira un ejemplo del filtro quarto-pyodide en acción!\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#autoría",
+    "href": "index.html#autoría",
+    "title": "🐍 PySchool",
+    "section": "1.2 📜 Autoría",
+    "text": "1.2 📜 Autoría\nEste proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.\n\n1.2.1 Reconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#recursos",
+    "href": "index.html#recursos",
+    "title": "🐍 PySchool",
+    "section": "1.3 📚 Recursos",
+    "text": "1.3 📚 Recursos\n\n1.3.1 ¿Dónde aprender “en serio”?\nPara quienes desean profundizar en sus conocimientos de Python, aquí hay algunos recursos recomendados:\n\nCursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.\n\n\n\n\n1.3.2 Consejos para Aprender Python\n\nPracticar Regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en Proyectos Reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver Ejercicios y Retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a Comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
