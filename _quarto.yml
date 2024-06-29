@@ -9,18 +9,28 @@ book:
   favicon: "images/pc.png"
   chapters:
     - index.qmd
-    - talleres/intro_progra.qmd
-    - talleres/taller_1/taller_1.qmd
-    - talleres/taller_2A/taller_2A.qmd
-    - talleres/taller_2C/taller_2C.qmd
+    - part: prefacio/intro.qmd
+      chapters:
+        - prefacio/intro_progra.qmd
+        - prefacio/intro_python.qmd
+    - part: talleres/intro.qmd
+      chapters:
+        - talleres/taller_1.qmd
+        - talleres/taller_2.qmd
 
+index:
+  qmd:
 lang: es
 
 format:
   html:
     theme: flatly
+    number-sections: false
   epub:
     cover-image: images/cover.png
 
+
 filters: 
   - pyodide
+
+sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración
