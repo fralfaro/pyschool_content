@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "🐍 PySchool",
     "section": "",
-    "text": "1 🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nTe invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!",
+    "text": "🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nTe invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -13,8 +13,8 @@
     "objectID": "index.html#cómo-usar-esta-página",
     "href": "index.html#cómo-usar-esta-página",
     "title": "🐍 PySchool",
-    "section": "1.1 💡 Cómo usar esta página",
-    "text": "1.1 💡 Cómo usar esta página\n¡Mira un ejemplo del filtro quarto-pyodide en acción!\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
+    "section": "💡 Cómo usar esta página",
+    "text": "💡 Cómo usar esta página\n¡Mira un ejemplo del filtro quarto-pyodide en acción!\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -23,8 +23,8 @@
     "objectID": "index.html#autoría",
     "href": "index.html#autoría",
     "title": "🐍 PySchool",
-    "section": "1.2 📜 Autoría",
-    "text": "1.2 📜 Autoría\nEste proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.\n\n1.2.1 Reconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
+    "section": "📜 Autoría",
+    "text": "📜 Autoría\nEste proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.\n\nReconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -33,220 +33,270 @@
     "objectID": "index.html#recursos",
     "href": "index.html#recursos",
     "title": "🐍 PySchool",
-    "section": "1.3 📚 Recursos",
-    "text": "1.3 📚 Recursos\n\n1.3.1 ¿Dónde aprender “en serio”?\nPara quienes desean profundizar en sus conocimientos de Python, aquí hay algunos recursos recomendados:\n\nCursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.\n\n\n\n\n1.3.2 Consejos para Aprender Python\n\nPracticar Regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en Proyectos Reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver Ejercicios y Retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a Comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
+    "section": "📚 Recursos",
+    "text": "📚 Recursos\n\n¿Dónde aprender “en serio”?\nPara quienes desean profundizar en sus conocimientos de Python, aquí hay algunos recursos recomendados:\n\nCursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.\n\n\n\n\nConsejos para Aprender Python\n\nPracticar Regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en Proyectos Reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver Ejercicios y Retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a Comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
   },
   {
-    "objectID": "talleres/intro_progra.html",
-    "href": "talleres/intro_progra.html",
-    "title": "2  Sobre Programación",
+    "objectID": "prefacio/intro.html",
+    "href": "prefacio/intro.html",
+    "title": "Prefacio",
     "section": "",
-    "text": "2.1 Introducción\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nLas computadoras son expertas en llevar a cabo tareas rutinarias. Idealmente, cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es el proceso de traducir un enfoque para resolver problemas en términos comprensibles para la computadora.\nAdemás, la programación abarca una amplia gama de lenguajes y paradigmas, cada uno con sus propias características y aplicaciones. Desde los clásicos como C y Java hasta los modernos como Python y JavaScript, cada lenguaje tiene sus fortalezas y debilidades, y la elección del lenguaje adecuado depende del contexto y los requisitos del proyecto.\nLa programación no se limita solo a escribir código. También implica planificación, diseño y depuración de software. Los programadores deben comprender los requisitos del usuario, diseñar soluciones eficientes y depurar errores para garantizar que el software funcione correctamente.",
+    "text": "💻 Sobre Programación\nLa programación es la base sobre la cual se construyen todas las aplicaciones y sistemas que usamos en nuestra vida diaria. Es el proceso de diseñar y construir un conjunto de instrucciones que una computadora puede seguir para realizar una tarea específica. A través de la programación, podemos resolver problemas, automatizar procesos y crear soluciones innovadoras que mejoran nuestra eficiencia y productividad. En este apartado, introduciremos los conceptos básicos de la programación, sus principios fundamentales y las mejores prácticas para escribir código limpio y efectivo.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sobre Programación</span>"
+      "Prefacio"
     ]
   },
   {
-    "objectID": "talleres/intro_progra.html#introducción",
-    "href": "talleres/intro_progra.html#introducción",
-    "title": "2  Sobre Programación",
+    "objectID": "prefacio/intro.html#sobre-python",
+    "href": "prefacio/intro.html#sobre-python",
+    "title": "Prefacio",
+    "section": "🐍 Sobre Python",
+    "text": "🐍 Sobre Python\nPython es uno de los lenguajes de programación más populares y versátiles en la actualidad. Con una sintaxis sencilla y clara, es ideal tanto para principiantes como para programadores experimentados. Python se utiliza en una amplia variedad de aplicaciones, desde desarrollo web y análisis de datos hasta inteligencia artificial y automatización de tareas. En esta sección, nos adentraremos en las características que hacen de Python una herramienta poderosa y accesible, proporcionando ejemplos prácticos y ejercicios para que puedas empezar a escribir tus propios programas.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html",
+    "href": "prefacio/intro_progra.html",
+    "title": "💻 Sobre Programación",
+    "section": "",
+    "text": "Introducción\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nLas computadoras son expertas en llevar a cabo tareas rutinarias. Idealmente, cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es el proceso de traducir un enfoque para resolver problemas en términos comprensibles para la computadora.\nAdemás, la programación abarca una amplia gama de lenguajes y paradigmas, cada uno con sus propias características y aplicaciones. Desde los clásicos como C y Java hasta los modernos como Python y JavaScript, cada lenguaje tiene sus fortalezas y debilidades, y la elección del lenguaje adecuado depende del contexto y los requisitos del proyecto.\nLa programación no se limita solo a escribir código. También implica planificación, diseño y depuración de software. Los programadores deben comprender los requisitos del usuario, diseñar soluciones eficientes y depurar errores para garantizar que el software funcione correctamente.",
+    "crumbs": [
+      "Prefacio",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html#introducción",
+    "href": "prefacio/intro_progra.html#introducción",
+    "title": "💻 Sobre Programación",
     "section": "",
     "text": "“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth\n\n\n\n“Automatizar tareas para que la computadora las realice por nosotros.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sobre Programación</span>"
+      "Prefacio",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
     ]
   },
   {
-    "objectID": "talleres/intro_progra.html#algoritmos",
-    "href": "talleres/intro_progra.html#algoritmos",
-    "title": "2  Sobre Programación",
-    "section": "2.2 Algoritmos",
-    "text": "2.2 Algoritmos\n\n\n\n\n“La informática se trata de computadores tanto como la astronomía se trata de telescopios.” – Edsger Dijkstra\n\nAl diseñar un programa, el desafío principal es crear y describir un procedimiento que esté completamente bien definido, sin ambigüedades, y que efectivamente resuelva el problema.\nPor tanto, la programación no se centra tanto en los computadores como en resolver problemas de manera estructurada. Su objeto de estudio principal son los algoritmos.\nUn algoritmo es un procedimiento bien definido para resolver un problema. Todos utilizamos algoritmos a diario, incluso sin darnos cuenta:\na) Receta de cocina\nUna receta de cocina es un ejemplo de algoritmo; aunque algunos pasos puedan parecer ambiguos (¿cuánto es «una pizca de sal»? ¿qué significa «agregar a gusto»?), en general las instrucciones están lo suficientemente bien definidas para seguirlas sin problemas.\nLa entrada de una receta son los ingredientes y ciertos datos como: ¿para cuántas personas se está cocinando? El proceso es la serie de pasos para manipular los ingredientes. La salida es el plato terminado.\nEn principio, si una receta está suficientemente bien explicada, cualquiera podría preparar el plato incluso sin conocimientos previos de cocina.\nb) Método de multiplicación\nEl método para multiplicar números a mano que aprendemos en la escuela es otro ejemplo de algoritmo. Siguiendo paso a paso el procedimiento, siempre obtendremos el producto.\nLa entrada del algoritmo de multiplicación son los dos factores. El proceso consiste en una secuencia de pasos donde los dígitos se multiplican, las reservas se suman, y los productos intermedios se suman finalmente. La salida del algoritmo es el producto obtenido.\n\n2.2.1 Componentes de un algoritmo\nConceptualmente, un algoritmo consta de tres elementos principales:\n\nEntrada: Representa los datos iniciales o inputs que el algoritmo utilizará para llevar a cabo su tarea.\nProceso: Consiste en la serie de pasos lógicos y operaciones que el algoritmo realiza utilizando la entrada para producir un resultado.\nSalida: Es el resultado final o output que proporciona el algoritmo después de ejecutar el proceso.\n\nEl proceso se describe mediante una secuencia ordenada de instrucciones. Además, puede incluir estructuras como ciclos, que repiten un conjunto de instrucciones un número determinado de veces, y condicionales, que determinan qué conjunto de instrucciones se ejecutarán según ciertas condiciones.\n\n\n2.2.2 Cómo describir un algoritmo\nConsideremos un ejemplo sencillo: un algoritmo para resolver ecuaciones cuadráticas.\nUna ecuación cuadrática es una ecuación de la forma \\(ax^2+bx+c=0\\), donde \\(a, b\\) y \\(c\\) son datos dados, con \\(a\\neq0\\), y \\(x\\) es la incógnita cuyo valor que se desea determinar.\nPor ejemplo, \\(2x^2−5x+2=0\\) es una ecuación cuadrática con \\(a=2\\), \\(b=−5\\) y \\(c=2\\). Sus soluciones son \\(x_1=1/2\\) y \\(x_2=2\\), como se puede comprobar fácilmente al reemplazar estos valores en la ecuación. El problema es cómo obtener estos valores en primer lugar.\nEl problema computacional de resolver una ecuación cuadrática puede ser planteado así:\n\nDados \\(a, b\\) y \\(c\\), entontrar los valores reales de \\(x\\) que satisfacen \\(ax^2+bx+c=0\\).\n\nLa entrada del algoritmo, pues, son los valores \\(a, b\\) y \\(c\\), y la salida son las raíces reales \\(x\\) (que pueden ser cero, una o dos) de la ecuación. En un programa computacional, los valores de \\(a, b\\) y \\(c\\) deberían ser ingresados usando el teclado, y las soluciones \\(x\\) deberían ser mostradas a continuación en la pantalla.\nAl estudiar álgebra aprendemos un algoritmo para resolver este problema. Es lo suficientemente detallado para que pueda usarlo cualquier persona, incluso sin saber qué es una ecuación cuadrática, o para que lo pueda hacer un computador. A continuación veremos algunas maneras de describir el procedimiento.\nLenguaje natural\nDurante el proceso mental de diseñar un algoritmo, es común pensar y describir los pasos en la misma manera en que hablamos a diario. Por ejemplo:\n\nTeniendo los valores de \\(a, b\\) y \\(c\\), calcular el discriminante \\(D=b^2−4ac\\). Si es discriminante es negativo, entonces la ecuación no tiene soluciones reales. Si es discriminante es igual a cero, entonces la ecuación tiene una única solución real, que es \\(x=−b/2a\\). Si el discriminante es positivo, entonces la ecuación tiene dos soluciones reales, que son \\(x_1=(−b−\\sqrt{D})/2a\\) y \\(x_2=(−b+\\sqrt{D})/2a\\).\n\nEsta manera de expresar un algoritmo no es ideal, ya que el lenguaje natural es:\n\nimpreciso: puede tener ambigüedades;\nno universal: personas distintas describirán el proceso de maneras distintas; y\nno estructurado: la descripción no está expresada en función de componentes simples.\n\nAún así, es posible identificar los pasos del algoritmo. Por ejemplo, hay que evaluar la expresión \\(b^2−4ac\\), y ponerle el nombre \\(D\\) a su resultado. Esto se llama asignación, y es un tipo de instrucción que aparece en casi todos los algoritmos. Después de eso, el algoritmo puede usar el nombre \\(D\\) para referirse al valor calculado.\nDiagrama de flujo Un diagrama de flujo es una representación gráfica de un algoritmo. Los pasos son representados por varios tipos de bloques, y el flujo de ejecución es indicado por flechas que conectan los bloques:\n\n\n\nEl inicio y el final del algoritmo son representados con bloques circulares. El algoritmo siempre debe ser capaz llegar desde uno hasta el otro, sin importar por qué camino lo hace. Un algoritmo no puede «quedarse pegado» en la mitad.\nLa entrada y la salida de datos son representadas con romboides, que en la figura de arriba están pintados de verde.\nLos diamantes representan condiciones en las que el algoritmo sigue uno de dos caminos. que están etiquetados con sí o no, dependiendo si la condición es verdadera o falsa.\nTambién puede haber ciclos, representados por flechas que regresan a bloques anteriores. En este ejemplo, no hay ciclos.\nOtras sentencias van dentro de rectángulos, que en la figura están pintados de azul. En este ejemplo, las sentencias son asignaciones, representadas en la forma nombre = valor.\nLos diagramas de flujo no son usados en la práctica para programar, pero son útiles para ilustrar cómo funcionan algoritmos sencillos.\nPseudocódigo\nEl pseudocódigo es una descripción estructurada de un algoritmo basada en ciertas convenciones notacionales. Si bien es muy parecido al código que finalmente se escribirá en el computador, el pseudocódigo está pensado para ser leído por humanos.\nUna manera de escribir el algoritmo para la ecuación cuadrática en pseudocódigo es la siguiente:\nleer a\nleer b\nleer c\n\ndiscriminante = b² - 4ac\n\nsi discriminante &lt; 0:\n    escribir 'La ecuación no tiene soluciones reales'\n\no si no, si discriminante = 0:\n    x = -b / 2a\n    escribir 'La solución única es', x\n\no si no:\n    x1 = (-b - √discriminante) / 2a\n    x2 = (-b + √discriminante) / 2a\n    escribir 'Las dos soluciones reales son:'\n    escribir x1\n    escribir x2\nLas líneas que comienzan con leer y escribir denotan, respectivamente, la entrada y la salida del programa. Los diferentes casos son representados usando sentencias si y o si no. Las asignaciones siguen la misma notación que en el caso de los diagramas de flujo.\nLa notación de pseudocódigo es bien liberal. Uno puede mezclar notación de matemáticas con frases en español, siempre que quede absolutamente claro para el lector qué representa cada una de las líneas del algoritmo.\nCódigo\nEl producto final de la programación siempre debe ser código que pueda ser ejecutado en el computador. Esto requiere describir los algoritmos en un lenguaje de programación. Los lenguajes de programación definen un conjunto limitado de conceptos básicos, en función de los cuales uno puede expresar cualquier algoritmo.\nEn esta asignatura, usaremos el lenguaje de programación Python para escribir nuestros programas.\nEl código en Python para resolver la ecuación cuadrática es el siguiente:\na = float(raw_input('Ingrese a: '))\nb = float(raw_input('Ingrese b: '))\nc = float(raw_input('Ingrese c: '))\n\ndiscriminante = b ** 2 - 4 * a * c\nif discriminante &lt; 0:\n    print 'La ecuacion no tiene soluciones reales'\nelif discriminante == 0:\n    x = -b / (2 * a)\n    print 'La solucion unica es x =', x\nelse:\n    x1 = (-b - (discriminante ** 0.5)) / (2 * a)\n    x2 = (-b + (discriminante ** 0.5)) / (2 * a)\n    print 'Las dos soluciones reales son:'\n    print 'x1 =', x1\n    print 'x2 =', x2\n\nraw_input()\nA partir de ahora, usted aprenderá a entender, escribir y ejecutar códigos como éste.",
+    "objectID": "prefacio/intro_progra.html#algoritmos",
+    "href": "prefacio/intro_progra.html#algoritmos",
+    "title": "💻 Sobre Programación",
+    "section": "Algoritmos",
+    "text": "Algoritmos\n\n\n\n\n“La informática se trata de computadores tanto como la astronomía se trata de telescopios.” – Edsger Dijkstra\n\nAl diseñar un programa, el desafío principal es crear y describir un procedimiento que esté completamente bien definido, sin ambigüedades, y que efectivamente resuelva el problema.\nPor tanto, la programación no se centra tanto en los computadores como en resolver problemas de manera estructurada. Su objeto de estudio principal son los algoritmos.\nUn algoritmo es un procedimiento bien definido para resolver un problema. Todos utilizamos algoritmos a diario, incluso sin darnos cuenta:\na) Receta de cocina\nUna receta de cocina es un ejemplo de algoritmo; aunque algunos pasos puedan parecer ambiguos (¿cuánto es «una pizca de sal»? ¿qué significa «agregar a gusto»?), en general las instrucciones están lo suficientemente bien definidas para seguirlas sin problemas.\nLa entrada de una receta son los ingredientes y ciertos datos como: ¿para cuántas personas se está cocinando? El proceso es la serie de pasos para manipular los ingredientes. La salida es el plato terminado.\nEn principio, si una receta está suficientemente bien explicada, cualquiera podría preparar el plato incluso sin conocimientos previos de cocina.\nb) Método de multiplicación\nEl método para multiplicar números a mano que aprendemos en la escuela es otro ejemplo de algoritmo. Siguiendo paso a paso el procedimiento, siempre obtendremos el producto.\nLa entrada del algoritmo de multiplicación son los dos factores. El proceso consiste en una secuencia de pasos donde los dígitos se multiplican, las reservas se suman, y los productos intermedios se suman finalmente. La salida del algoritmo es el producto obtenido.\n\nComponentes de un algoritmo\nConceptualmente, un algoritmo consta de tres elementos principales:\n\nEntrada: Representa los datos iniciales o inputs que el algoritmo utilizará para llevar a cabo su tarea.\nProceso: Consiste en la serie de pasos lógicos y operaciones que el algoritmo realiza utilizando la entrada para producir un resultado.\nSalida: Es el resultado final o output que proporciona el algoritmo después de ejecutar el proceso.\n\nEl proceso se describe mediante una secuencia ordenada de instrucciones. Además, puede incluir estructuras como ciclos, que repiten un conjunto de instrucciones un número determinado de veces, y condicionales, que determinan qué conjunto de instrucciones se ejecutarán según ciertas condiciones.\n\n\nCómo describir un algoritmo\nConsideremos un ejemplo sencillo: un algoritmo para resolver ecuaciones cuadráticas.\nUna ecuación cuadrática es una ecuación de la forma \\(ax^2+bx+c=0\\), donde \\(a, b\\) y \\(c\\) son datos dados, con \\(a\\neq0\\), y \\(x\\) es la incógnita cuyo valor que se desea determinar.\nPor ejemplo, \\(2x^2−5x+2=0\\) es una ecuación cuadrática con \\(a=2\\), \\(b=−5\\) y \\(c=2\\). Sus soluciones son \\(x_1=1/2\\) y \\(x_2=2\\), como se puede comprobar fácilmente al reemplazar estos valores en la ecuación. El problema es cómo obtener estos valores en primer lugar.\nEl problema computacional de resolver una ecuación cuadrática puede ser planteado así:\n\nDados \\(a, b\\) y \\(c\\), entontrar los valores reales de \\(x\\) que satisfacen \\(ax^2+bx+c=0\\).\n\nLa entrada del algoritmo, pues, son los valores \\(a, b\\) y \\(c\\), y la salida son las raíces reales \\(x\\) (que pueden ser cero, una o dos) de la ecuación. En un programa computacional, los valores de \\(a, b\\) y \\(c\\) deberían ser ingresados usando el teclado, y las soluciones \\(x\\) deberían ser mostradas a continuación en la pantalla.\nAl estudiar álgebra aprendemos un algoritmo para resolver este problema. Es lo suficientemente detallado para que pueda usarlo cualquier persona, incluso sin saber qué es una ecuación cuadrática, o para que lo pueda hacer un computador. A continuación veremos algunas maneras de describir el procedimiento.\nLenguaje natural\nDurante el proceso mental de diseñar un algoritmo, es común pensar y describir los pasos en la misma manera en que hablamos a diario. Por ejemplo:\n\nTeniendo los valores de \\(a, b\\) y \\(c\\), calcular el discriminante \\(D=b^2−4ac\\). Si es discriminante es negativo, entonces la ecuación no tiene soluciones reales. Si es discriminante es igual a cero, entonces la ecuación tiene una única solución real, que es \\(x=−b/2a\\). Si el discriminante es positivo, entonces la ecuación tiene dos soluciones reales, que son \\(x_1=(−b−\\sqrt{D})/2a\\) y \\(x_2=(−b+\\sqrt{D})/2a\\).\n\nEsta manera de expresar un algoritmo no es ideal, ya que el lenguaje natural es:\n\nimpreciso: puede tener ambigüedades;\nno universal: personas distintas describirán el proceso de maneras distintas; y\nno estructurado: la descripción no está expresada en función de componentes simples.\n\nAún así, es posible identificar los pasos del algoritmo. Por ejemplo, hay que evaluar la expresión \\(b^2−4ac\\), y ponerle el nombre \\(D\\) a su resultado. Esto se llama asignación, y es un tipo de instrucción que aparece en casi todos los algoritmos. Después de eso, el algoritmo puede usar el nombre \\(D\\) para referirse al valor calculado.\nDiagrama de flujo Un diagrama de flujo es una representación gráfica de un algoritmo. Los pasos son representados por varios tipos de bloques, y el flujo de ejecución es indicado por flechas que conectan los bloques:\n\n\n\nEl inicio y el final del algoritmo son representados con bloques circulares. El algoritmo siempre debe ser capaz llegar desde uno hasta el otro, sin importar por qué camino lo hace. Un algoritmo no puede «quedarse pegado» en la mitad.\nLa entrada y la salida de datos son representadas con romboides, que en la figura de arriba están pintados de verde.\nLos diamantes representan condiciones en las que el algoritmo sigue uno de dos caminos. que están etiquetados con sí o no, dependiendo si la condición es verdadera o falsa.\nTambién puede haber ciclos, representados por flechas que regresan a bloques anteriores. En este ejemplo, no hay ciclos.\nOtras sentencias van dentro de rectángulos, que en la figura están pintados de azul. En este ejemplo, las sentencias son asignaciones, representadas en la forma nombre = valor.\nLos diagramas de flujo no son usados en la práctica para programar, pero son útiles para ilustrar cómo funcionan algoritmos sencillos.\nPseudocódigo\nEl pseudocódigo es una descripción estructurada de un algoritmo basada en ciertas convenciones notacionales. Si bien es muy parecido al código que finalmente se escribirá en el computador, el pseudocódigo está pensado para ser leído por humanos.\nUna manera de escribir el algoritmo para la ecuación cuadrática en pseudocódigo es la siguiente:\nleer a\nleer b\nleer c\n\ndiscriminante = b² - 4ac\n\nsi discriminante &lt; 0:\n    escribir 'La ecuación no tiene soluciones reales'\n\no si no, si discriminante = 0:\n    x = -b / 2a\n    escribir 'La solución única es', x\n\no si no:\n    x1 = (-b - √discriminante) / 2a\n    x2 = (-b + √discriminante) / 2a\n    escribir 'Las dos soluciones reales son:'\n    escribir x1\n    escribir x2\nLas líneas que comienzan con leer y escribir denotan, respectivamente, la entrada y la salida del programa. Los diferentes casos son representados usando sentencias si y o si no. Las asignaciones siguen la misma notación que en el caso de los diagramas de flujo.\nLa notación de pseudocódigo es bien liberal. Uno puede mezclar notación de matemáticas con frases en español, siempre que quede absolutamente claro para el lector qué representa cada una de las líneas del algoritmo.\nCódigo\nEl producto final de la programación siempre debe ser código que pueda ser ejecutado en el computador. Esto requiere describir los algoritmos en un lenguaje de programación. Los lenguajes de programación definen un conjunto limitado de conceptos básicos, en función de los cuales uno puede expresar cualquier algoritmo.\nEn esta asignatura, usaremos el lenguaje de programación Python para escribir nuestros programas.\nEl código en Python para resolver la ecuación cuadrática es el siguiente:\na = float(raw_input('Ingrese a: '))\nb = float(raw_input('Ingrese b: '))\nc = float(raw_input('Ingrese c: '))\n\ndiscriminante = b ** 2 - 4 * a * c\nif discriminante &lt; 0:\n    print 'La ecuacion no tiene soluciones reales'\nelif discriminante == 0:\n    x = -b / (2 * a)\n    print 'La solucion unica es x =', x\nelse:\n    x1 = (-b - (discriminante ** 0.5)) / (2 * a)\n    x2 = (-b + (discriminante ** 0.5)) / (2 * a)\n    print 'Las dos soluciones reales son:'\n    print 'x1 =', x1\n    print 'x2 =', x2\n\nraw_input()\nA partir de ahora, usted aprenderá a entender, escribir y ejecutar códigos como éste.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sobre Programación</span>"
+      "Prefacio",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
     ]
   },
   {
-    "objectID": "talleres/intro_progra.html#referencias",
-    "href": "talleres/intro_progra.html#referencias",
-    "title": "2  Sobre Programación",
-    "section": "2.3 Referencias",
-    "text": "2.3 Referencias\n\nProgramación - USM",
+    "objectID": "prefacio/intro_progra.html#referencias",
+    "href": "prefacio/intro_progra.html#referencias",
+    "title": "💻 Sobre Programación",
+    "section": "Referencias",
+    "text": "Referencias\n\nProgramación - USM",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sobre Programación</span>"
+      "Prefacio",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html",
-    "href": "talleres/taller_1/taller_1.html",
-    "title": "3  Sobre Python",
+    "objectID": "prefacio/intro_python.html",
+    "href": "prefacio/intro_python.html",
+    "title": "🐍 Sobre Python",
     "section": "",
-    "text": "3.1 introducción\nPython es un lenguaje de programación interpretado, de alto nivel y con una sintaxis clara y legible. Es conocido por su simplicidad y facilidad de uso, lo que lo hace ideal tanto para principiantes como para desarrolladores experimentados. Python es un lenguaje multiparadigma, lo que significa que admite la programación orientada a objetos, la programación imperativa y, en menor medida, la programación funcional.\nCaracterísticas de Python",
+    "text": "Popularidad\nPython es uno de los lenguajes de programación más populares y ampliamente utilizados en la actualidad. Según los índices de popularidad de lenguajes de programación, Python ha estado en constante aumento en popularidad en los últimos años.\nEl índice TIOBE, que mide la popularidad de los lenguajes de programación según la frecuencia con la que se buscan en los motores de búsqueda, ha situado a Python entre los tres lenguajes de programación más populares en los últimos años, después de Java y C.\nAdemás, según la encuesta anual Stack Overflow Developer Survey 2023, Python se ubicó entre los cinco lenguajes de programación más populares. Este lenguaje también ha ganado una notable popularidad en campos como la ciencia de datos y el aprendizaje automático, consolidándose como una herramienta indispensable para profesionales y entusiastas de estas áreas.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
+      "Prefacio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html#introducción",
-    "href": "talleres/taller_1/taller_1.html#introducción",
-    "title": "3  Sobre Python",
+    "objectID": "prefacio/intro_python.html#popularidad",
+    "href": "prefacio/intro_python.html#popularidad",
+    "title": "🐍 Sobre Python",
     "section": "",
-    "text": "Sintaxis Sencilla: Python se centra en la legibilidad del código, lo que facilita su aprendizaje y comprensión.\nGran Comunidad: Python cuenta con una amplia comunidad de usuarios y desarrolladores que contribuyen con bibliotecas, frameworks y herramientas.\nVersatilidad: Se utiliza en una variedad de campos, incluyendo desarrollo web, ciencia de datos, inteligencia artificial, automatización y más.\nPortabilidad: Python es multiplataforma, lo que significa que el código escrito en Python puede ejecutarse en diferentes sistemas operativos sin cambios significativos.",
+    "text": "¿Es buena la popularidad de Python?\nSí, la popularidad de Python es una señal de su relevancia en el mundo de la programación y puede tener varias ventajas para los usuarios y la comunidad en general.\nEn primer lugar, una mayor popularidad significa que hay una amplia comunidad de desarrolladores y usuarios de Python en todo el mundo, lo que hace que sea más fácil encontrar recursos, soporte y ayuda en línea. Además, una gran comunidad de usuarios también implica que hay una gran cantidad de bibliotecas y módulos disponibles, lo que permite a los usuarios aprovechar el código existente y acelerar el desarrollo.\nEn segundo lugar, la popularidad de Python lo convierte en una habilidad valiosa en el mercado laboral, con una amplia gama de oportunidades de carrera en diferentes sectores, incluyendo la ciencia de datos, la inteligencia artificial, el desarrollo web, la automatización y la programación de sistemas.\nPor último, la popularidad de Python también puede significar que hay una gran inversión en su desarrollo y mejora continua, lo que resulta en una mayor calidad y eficiencia del lenguaje de programación.\nEn general, la popularidad de Python es una buena señal y es una de las razones por las que se ha convertido en un lenguaje de programación tan popular y utilizado en todo el mundo.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
+      "Prefacio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html#nomenclatura",
-    "href": "talleres/taller_1/taller_1.html#nomenclatura",
-    "title": "3  Sobre Python",
-    "section": "3.2 Nomenclatura",
-    "text": "3.2 Nomenclatura\nLa nomenclatura en Python es fundamental para escribir código claro y comprensible. Aquí se cubren las convenciones más importantes.\n\n3.2.1 Variables y Funciones\n\nVariables: se utilizan nombres en minúsculas con palabras separadas por guiones bajos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nFunciones: se siguen las mismas reglas que para las variables.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n3.2.2 Clases\n\nClases: se utiliza la notación CamelCase.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n3.2.3 Constantes\n\nConstantes: se escriben en mayúsculas con palabras separadas por guiones bajos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "prefacio/intro_python.html#librerías-y-frameworks",
+    "href": "prefacio/intro_python.html#librerías-y-frameworks",
+    "title": "🐍 Sobre Python",
+    "section": "Librerías y frameworks",
+    "text": "Librerías y frameworks\n\n\n\nUna gran ventaja de Python es la amplia selección de librerías y frameworks que ofrece.\nHay librerías para distintos tópicos:\n\nManipulación de datos\nVisualización de datos\nAprendizaje automático\nCiencia de los datos\nProcesamiento natural del lenguaje\nBig Data\n\nLo mismo es cierto para los frameworks, que ayudan a despegar su proyecto y le ahorran tiempo y esfuerzo. Hay una variedad de marcos para elegir, dependiendo de sus necesidades, por ejemplo, para el desarrollo web tenemos:\n\nDjango: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web. Ofrece una arquitectura de modelo-vista-controlador (MVC) y herramientas para la administración de bases de datos, la autenticación y la seguridad.\nFlask: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web de menor escala y más simples. Ofrece una amplia gama de herramientas y extensiones para la creación de aplicaciones web.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
+      "Prefacio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html#control-de-flujo",
-    "href": "talleres/taller_1/taller_1.html#control-de-flujo",
-    "title": "3  Sobre Python",
-    "section": "3.3 4. Control de Flujo",
-    "text": "3.3 4. Control de Flujo\nEl control de flujo permite dirigir la ejecución del programa según condiciones y bucles.\n\n3.3.1 Condicionales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.3.2 Bucles\n\n3.3.2.1 Bucle for\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.3.2.2 Bucle while\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "prefacio/intro_python.html#performance",
+    "href": "prefacio/intro_python.html#performance",
+    "title": "🐍 Sobre Python",
+    "section": "Performance",
+    "text": "Performance\nPython es un lenguaje de programación interpretado de alto nivel, lo que significa que su rendimiento puede ser más lento que otros lenguajes de programación de menor nivel, como C o C++. Sin embargo, Python ofrece varias técnicas y herramientas para mejorar el rendimiento y la eficiencia de sus programas. Aquí hay algunas de ellas:\n\nCompilación JIT: Python ofrece la opción de utilizar un compilador Just-In-Time (JIT), como PyPy, que puede mejorar significativamente el rendimiento de los programas al compilar el código en tiempo de ejecución.\nCPython: Python también se puede ejecutar en una implementación de C llamada CPython, lo que puede mejorar el rendimiento de algunos programas.\nUso de bibliotecas nativas: Python ofrece la capacidad de usar bibliotecas nativas, como NumPy, que están escritas en lenguajes de bajo nivel como C y Fortran para realizar operaciones numéricas de manera más eficiente.\nUso de estructuras de datos eficientes: Python ofrece varias estructuras de datos, como las listas y los diccionarios, que se pueden usar de manera eficiente para mejorar el rendimiento de los programas.\nUso de algoritmos eficientes: El uso de algoritmos eficientes también puede mejorar significativamente el rendimiento de los programas en Python.\n\nEn general, Python puede ofrecer un buen rendimiento en comparación con otros lenguajes de programación interpretados, y hay varias técnicas y herramientas disponibles para mejorar aún más su rendimiento y eficiencia. Sin embargo, es importante recordar que el rendimiento dependerá en gran medida del uso que se le dé al lenguaje y de cómo se escriban los programas.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
+      "Prefacio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html#estructura-de-datos",
-    "href": "talleres/taller_1/taller_1.html#estructura-de-datos",
-    "title": "3  Sobre Python",
-    "section": "3.4 5. Estructura de Datos",
-    "text": "3.4 5. Estructura de Datos\nPython proporciona varias estructuras de datos incorporadas.\n\n3.4.1 Listas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.4.2 Tuplas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.4.3 Conjuntos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.4.4 Diccionarios\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "prefacio/intro_python.html#referencia",
+    "href": "prefacio/intro_python.html#referencia",
+    "title": "🐍 Sobre Python",
+    "section": "Referencia",
+    "text": "Referencia\n\nTutorial de Python 3.8 documentation",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
+      "Prefacio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1/taller_1.html#funciones",
-    "href": "talleres/taller_1/taller_1.html#funciones",
-    "title": "3  Sobre Python",
-    "section": "3.5 6. Funciones",
-    "text": "3.5 6. Funciones\nLas funciones son bloques de código reutilizables que realizan una tarea específica.\n\n3.5.1 Definición de una Función\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.5.2 Parámetros y Retorno\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.5.3 Funciones Lambda\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_1/taller_1.html#excepciones",
-    "href": "talleres/taller_1/taller_1.html#excepciones",
-    "title": "3  Sobre Python",
-    "section": "3.6 7. Excepciones",
-    "text": "3.6 7. Excepciones\nEl manejo de excepciones permite gestionar errores en el código de manera controlada.\n\n3.6.1 Try, Except\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n3.6.2 Finally\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_1/taller_1.html#buenas-prácticas",
-    "href": "talleres/taller_1/taller_1.html#buenas-prácticas",
-    "title": "3  Sobre Python",
-    "section": "3.7 8. Buenas Prácticas",
-    "text": "3.7 8. Buenas Prácticas\nSeguir buenas prácticas mejora la mantenibilidad y legibilidad del código.\n\n3.7.1 Comentarios\n\nUsa comentarios para explicar el “por qué” del código.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n3.7.2 Documentación\n\nDocumenta tus funciones usando docstrings.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n3.7.3 Formato de Código\n\nSigue las guías de estilo como PEP 8.\n\nUsa indentación de 4 espacios.\nMantén las líneas debajo de 79 caracteres.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n3.7.4 Evitar Código Duplicado\n\nUsa funciones y clases para evitar repetir código.\n\n\n\n3.7.5 Nombres Significativos\n\nUsa nombres de variables y funciones que sean descriptivos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nEste artículo proporciona una visión general de las prácticas recomendadas y conceptos fundamentales en Python, junto con ejemplos claros y prácticos. Siguiendo estas directrices, puedes escribir código Python que sea eficiente, legible y fácil de mantener.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_2A/taller_2A.html",
-    "href": "talleres/taller_2A/taller_2A.html",
-    "title": "4  Ciencia tradicional",
+    "objectID": "talleres/intro.html",
+    "href": "talleres/intro.html",
+    "title": "Talleres",
     "section": "",
-    "text": "4.1 Matemática\nPython es una herramienta poderosa para resolver problemas matemáticos, desde cálculos básicos hasta análisis complejos.",
+    "text": "🎯 Objetivos de los Talleres\n¡Prepárate para una experiencia de aprendizaje dinámica y enriquecedora! 🚀✨",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+      "Talleres"
     ]
   },
   {
-    "objectID": "talleres/taller_2A/taller_2A.html#matemática",
-    "href": "talleres/taller_2A/taller_2A.html#matemática",
-    "title": "4  Ciencia tradicional",
+    "objectID": "talleres/intro.html#objetivos-de-los-talleres",
+    "href": "talleres/intro.html#objetivos-de-los-talleres",
+    "title": "Talleres",
     "section": "",
-    "text": "4.1.1 Cálculos Básicos\nPyodide-enabled code cell, usando {pyodide-python}: Esto permite código completamente ejecutable - ¡el usuario puede modificar el código y ejecutarlo!\nCódigo directo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n4.1.2 Álgebra Lineal\nUsando la biblioteca numpy:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "🧠 Fundamentos de Python: Comenzaremos con los conceptos básicos, incluyendo la aritmética elemental y las estructuras de control de flujo. Estos fundamentos son esenciales para desarrollar una base sólida en programación.\n🔍 Aplicaciones Prácticas: A medida que avancemos, abordaremos problemas reales de diversas disciplinas científicas. Esto incluye ejemplos del mundo real que demuestran cómo Python puede ser utilizado para resolver problemas prácticos.\n📊 Ciencia de Datos: Una parte importante de estos talleres estará dedicada a la ciencia de datos. Exploraremos cómo Python es utilizado para analizar datos, visualizar información y construir modelos predictivos.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+      "Talleres"
     ]
   },
   {
-    "objectID": "talleres/taller_2A/taller_2A.html#física",
-    "href": "talleres/taller_2A/taller_2A.html#física",
-    "title": "4  Ciencia tradicional",
-    "section": "4.2 Física",
-    "text": "4.2 Física\nPython se usa ampliamente en la física para simular sistemas y analizar datos experimentales.\n\n4.2.1 Simulación de Movimiento\nSimulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca matplotlib para la visualización:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia tradicional</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_2A/taller_2A.html#estadística",
-    "href": "talleres/taller_2A/taller_2A.html#estadística",
-    "title": "4  Ciencia tradicional",
-    "section": "4.3 Estadística",
-    "text": "4.3 Estadística\nPython proporciona herramientas robustas para análisis estadístico, utilizando bibliotecas como pandas y scipy.\n\n4.3.1 Descripción de Datos\nUsando pandas para analizar un conjunto de datos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n4.3.2 Pruebas de Hipótesis\nUsando scipy para realizar una prueba t de muestras independientes:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia tradicional</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_2C/taller_2C.html",
-    "href": "talleres/taller_2C/taller_2C.html",
-    "title": "5  Ciencia de Datos",
+    "objectID": "talleres/taller_1.html",
+    "href": "talleres/taller_1.html",
+    "title": "🚀 Taller 01: Introducción a Python",
     "section": "",
-    "text": "5.1 Exploración de Datos",
+    "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2C/taller_2C.html#exploración-de-datos",
-    "href": "talleres/taller_2C/taller_2C.html#exploración-de-datos",
-    "title": "5  Ciencia de Datos",
+    "objectID": "talleres/taller_1.html#hola-mundo",
+    "href": "talleres/taller_1.html#hola-mundo",
+    "title": "🚀 Taller 01: Introducción a Python",
     "section": "",
-    "text": "5.1.1 Carga de Datos\nUsando pandas para cargar y explorar un conjunto de datos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n5.1.2 Estadísticas Descriptivas\nCalcular estadísticas descriptivas básicas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2C/taller_2C.html#visualización-de-datos",
-    "href": "talleres/taller_2C/taller_2C.html#visualización-de-datos",
-    "title": "5  Ciencia de Datos",
-    "section": "5.2 Visualización de Datos",
-    "text": "5.2 Visualización de Datos\n\n5.2.1 Gráficos Básicos\nUsando matplotlib y seaborn para visualizar datos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n5.2.2 Gráficos de Dispersión\nVisualizar la relación entre dos variables:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "talleres/taller_1.html#calculadora-básica",
+    "href": "talleres/taller_1.html#calculadora-básica",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "2. 🧮 Calculadora Básica",
+    "text": "2. 🧮 Calculadora Básica\nUna simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2C/taller_2C.html#preprocesamiento-de-datos",
-    "href": "talleres/taller_2C/taller_2C.html#preprocesamiento-de-datos",
-    "title": "5  Ciencia de Datos",
-    "section": "5.3 Preprocesamiento de Datos",
-    "text": "5.3 Preprocesamiento de Datos\n\n5.3.1 Manejo de Valores Nulos\nIdentificar y manejar valores nulos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n5.3.2 Codificación de Variables Categóricas\nConvertir variables categóricas en variables numéricas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "talleres/taller_1.html#verificación-de-año-bisiesto",
+    "href": "talleres/taller_1.html#verificación-de-año-bisiesto",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "3. 📅 Verificación de Año Bisiesto",
+    "text": "3. 📅 Verificación de Año Bisiesto\nUn programa para determinar si un año es bisiesto.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2C/taller_2C.html#modelado-de-datos",
-    "href": "talleres/taller_2C/taller_2C.html#modelado-de-datos",
-    "title": "5  Ciencia de Datos",
-    "section": "5.4 Modelado de Datos",
-    "text": "5.4 Modelado de Datos\n\n5.4.1 Regresión Lineal\nUsando scikit-learn para ajustar un modelo de regresión lineal:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n5.4.2 Clasificación\nUsando scikit-learn para ajustar un modelo de clasificación:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "talleres/taller_1.html#adivina-el-número",
+    "href": "talleres/taller_1.html#adivina-el-número",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "4. 🔢 Adivina el Número",
+    "text": "4. 🔢 Adivina el Número\nUn juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#conjetura-de-collatz",
+    "href": "talleres/taller_1.html#conjetura-de-collatz",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "5. 📜 Conjetura de Collatz",
+    "text": "5. 📜 Conjetura de Collatz\nUn programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#ejercicios-de-aritmética",
+    "href": "talleres/taller_1.html#ejercicios-de-aritmética",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "6. ➕ Ejercicios de Aritmética",
+    "text": "6. ➕ Ejercicios de Aritmética\n\nSuma de Números\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nFactorial de un Número\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#ejemplos-adicionales",
+    "href": "talleres/taller_1.html#ejemplos-adicionales",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "7. 📚 Ejemplos Adicionales",
+    "text": "7. 📚 Ejemplos Adicionales\n\nConversión de Temperatura\nUn programa para convertir grados Celsius a Fahrenheit.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCálculo del Índice de Masa Corporal (IMC)\nUn programa para calcular el IMC de una persona.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nNúmero Primo\nUn programa para verificar si un número es primo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_2.html",
+    "href": "talleres/taller_2.html",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "section": "",
+    "text": "1. 🔬 Física\nPython se usa ampliamente en la física para simular sistemas y analizar datos experimentales.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_2.html#física",
+    "href": "talleres/taller_2.html#física",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "section": "",
+    "text": "Simulación de Movimiento\nSimulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca matplotlib para la visualización:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSimulación de Movimiento Armónico Simple\nSimulación del movimiento de un oscilador armónico simple:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLey de Coulomb\nCálculo de la fuerza entre dos cargas usando la ley de Coulomb:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_2.html#estadística-y-probabilidad",
+    "href": "talleres/taller_2.html#estadística-y-probabilidad",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "section": "2. 📈 Estadística y Probabilidad",
+    "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nHistograma de Alturas\nCrear un histograma de las alturas de una clase de estudiantes:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
     ]
   }
 ]
