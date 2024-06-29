@@ -17,6 +17,7 @@ book:
       chapters:
         - talleres/taller_1.qmd
         - talleres/taller_2.qmd
+        - talleres/taller_3.qmd
 
 index:
   qmd:

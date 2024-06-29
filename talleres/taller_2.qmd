@@ -1,4 +1,4 @@
-# 🚀 Taller 02: Python en la Ciencia Tradicional
+### 🚀 Taller 02: Python en la Ciencia Tradicional
 
 Python ha demostrado ser una herramienta invaluable en diversas ramas de la ciencia tradicional. Su simplicidad, combinada con su potencia, permite a los científicos y profesionales abordar problemas complejos de manera eficiente. Desde cálculos matemáticos y simulaciones físicas hasta análisis estadísticos, Python proporciona un conjunto robusto de bibliotecas y herramientas que facilitan estas tareas.
 
@@ -29,6 +29,7 @@ x = vx * t
 y = vy * t - 0.5 * g * t**2
 
 # Gráfica de la trayectoria
+plt.figure(figsize=(10, 6))
 plt.plot(x, y)
 plt.title('Trayectoria de un proyectil')
 plt.xlabel('Distancia horizontal (m)')
@@ -56,6 +57,7 @@ t = np.linspace(0, 10, num=500)  # tiempo (s)
 x = A * np.cos(omega * t)
 
 # Gráfica de la posición
+plt.figure(figsize=(10, 6))
 plt.plot(t, x)
 plt.title('Movimiento Armónico Simple')
 plt.xlabel('Tiempo (s)')
@@ -158,22 +160,3 @@ P_B_dado_A = 0.5  # Probabilidad de elegir una bola azul dado que ya se eligió 
 P_A_dado_B = (P_B_dado_A * P_A) / P_B
 print(f"La probabilidad de elegir una bola roja dado que se eligió una azul es: {P_A_dado_B}")
 ```
-
-### Histograma de Alturas
-
-Crear un histograma de las alturas de una clase de estudiantes:
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-
-# Datos de altura de los estudiantes en centímetros
-alturas = [150, 160, 165, 170, 155, 180, 175, 160, 165, 170]
-
-# Crear el histograma
-plt.hist(alturas, bins=5, edgecolor='black')
-plt.title('Histograma de Alturas')
-plt.xlabel('Altura (cm)')
-plt.ylabel('Frecuencia')
-plt.show()
-```
-
