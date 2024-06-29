@@ -293,10 +293,54 @@
     "href": "talleres/taller_2.html#estadística-y-probabilidad",
     "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
     "section": "2. 📈 Estadística y Probabilidad",
-    "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nHistograma de Alturas\nCrear un histograma de las alturas de una clase de estudiantes:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html",
+    "href": "talleres/taller_3.html",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "",
+    "text": "📊 Exploración y Visualización de Datos\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "href": "talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "",
+    "text": "Cargar el Conjunto de Datos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\nObtener una visión general de las estadísticas del conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "href": "talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "📈 Análisis y Visualización de Datos",
+    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\nVeamos cuántos Pokémon de cada tipo hay en el conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\nComparar las estadísticas de ataque y defensa de los Pokémon.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\nCalcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\nExplorar la relación entre el peso y la altura de los Pokémon (utilizando las estadísticas de Weight y Height si estuvieran disponibles).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "href": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "📊 Tablas y Gráficos Interactivos",
+    "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\nMostrar los 10 Pokémon con la mayor estadística de ataque.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\nMostrar los 10 Pokémon con la mayor estadística de defensa.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
     ]
   }
 ]

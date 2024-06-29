@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>🐍 PySchool - 🚀 Taller 01: Introducción a Python</title>
+<title>🐍 PySchool - 🚀 Taller 03: Python en la Ciencia Datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../talleres/taller_2.html" rel="next">
-<link href="../talleres/intro.html" rel="prev">
+<link href="../talleres/taller_2.html" rel="prev">
 <link href="../images/pc.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -231,7 +230,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"print(\"Hola, Mundo\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":1},{"code":"def calculadora(operacion, num1, num2):\n    if operacion == '+':\n        return f\"Resultado: {num1 + num2}\"\n    elif operacion == '-':\n        return f\"Resultado: {num1 - num2}\"\n    elif operacion == '*':\n        return f\"Resultado: {num1 * num2}\"\n    elif operacion == '/':\n        if num2 != 0:\n            return f\"Resultado: {num1 / num2}\"\n        else:\n            return \"Error: División por cero\"\n    else:\n        return \"Operación no válida\"\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(resultado)","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":2},{"code":"def es_bisiesto(anio):\n    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):\n        return True\n    else:\n        return False\n\n# Ejemplo de uso\nanio = 2024\nif es_bisiesto(anio):\n    print(f\"{anio} es un año bisiesto\")\nelse:\n    print(f\"{anio} no es un año bisiesto\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":3},{"code":"import random\n\ndef adivina_el_numero(numero_secreto, intentos_usuario):\n    intentos = 0\n    adivinado = False\n\n    for intento in intentos_usuario:\n        intentos += 1\n        if intento < numero_secreto:\n            print(\"Muy bajo\")\n        elif intento > numero_secreto:\n            print(\"Muy alto\")\n        else:\n            print(f\"¡Correcto! Adivinaste el número en {intentos} intentos.\")\n            adivinado = True\n            break\n\n    if not adivinado:\n        print(f\"No adivinaste el número en {len(intentos_usuario)} intentos. El número era {numero_secreto}.\")\n\n# Ejemplo de uso\nnumero_secreto = random.randint(1, 100)\nintentos_usuario = [50, 25, 75, 60, 90]\nadivina_el_numero(numero_secreto, intentos_usuario)","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":4},{"code":"def conjetura_de_collatz(n):\n    resultado = []\n    while n != 1:\n        resultado.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    resultado.append(n)\n    return resultado\n\n# Ejemplo de uso\nnumero = 6\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":5},{"code":"def suma_numeros(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma += i\n    return suma\n\n# Ejemplo de uso\nn = 10\nprint(f\"La suma de los números de 1 a {n} es: {suma_numeros(n)}\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":6},{"code":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n# Ejemplo de uso\nn = 5\nprint(f\"El factorial de {n} es: {factorial(n)}\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":7},{"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":8},{"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"El IMC es: {calcular_imc(peso, altura):.2f}\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":9},{"code":"def es_primo(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\n# Ejemplo de uso\nnumero = 29\nif es_primo(numero):\n    print(f\"{numero} es un número primo\")\nelse:\n    print(f\"{numero} no es un número primo\")","options":{"classes":"","read-only":"false","out-width":"700px","results":"markup","autorun":"","output":"true","label":"","dpi":72,"warning":"true","out-height":"","context":"interactive","message":"true","comment":"","fig-height":5,"fig-width":7,"fig-cap":""},"id":10}];
+globalThis.qpyodideCellDetails = [{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"import pandas as pd\n\n# Cargar el conjunto de datos de Pokémon\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\n\n# Mostrar las primeras filas del conjunto de datos\npokemon_data.head()","id":1},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Mostrar la descripción estadística del conjunto de datos\npokemon_data.describe()","id":2},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"import matplotlib.pyplot as plt\n\n# Contar la cantidad de Pokémon por tipo\npokemon_por_tipo = pokemon_data['Type 1'].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(12, 6))\npokemon_por_tipo.plot(kind='bar', color='skyblue')\nplt.title('Cantidad de Pokémon por Tipo')\nplt.xlabel('Tipo')\nplt.ylabel('Cantidad')\nplt.show()","id":3},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Crear un gráfico de dispersión de ataque vs defensa\nplt.figure(figsize=(12, 6))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='purple', alpha=0.5)\nplt.title('Ataque vs Defensa de Pokémon')\nplt.xlabel('Ataque')\nplt.ylabel('Defensa')\nplt.show()","id":4},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Calcular el promedio de estadísticas por tipo\npromedio_estadisticas = pokemon_data.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean()\n\n# Crear un gráfico de barras apiladas\npromedio_estadisticas.plot(kind='bar', stacked=True, figsize=(12, 8), color=['red', 'blue', 'green', 'orange'])\nplt.title('Promedio de Estadísticas por Tipo de Pokémon')\nplt.xlabel('Tipo')\nplt.ylabel('Promedio de Estadísticas')\nplt.legend(title='Estadísticas')\nplt.show()","id":5},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Nota: Este conjunto de datos no tiene 'Weight' y 'Height', así que simularemos datos\nimport numpy as np\n\n# Agregar columnas de peso y altura simuladas\npokemon_data['Weight'] = np.random.uniform(5, 150, len(pokemon_data))  # Peso en kg\npokemon_data['Height'] = np.random.uniform(0.3, 2.5, len(pokemon_data))  # Altura en m\n\n# Crear un gráfico de dispersión de peso vs altura\nplt.figure(figsize=(12, 6))\nplt.scatter(pokemon_data['Weight'], pokemon_data['Height'], color='green', alpha=0.5)\nplt.title('Peso vs Altura de Pokémon')\nplt.xlabel('Peso (kg)')\nplt.ylabel('Altura (m)')\nplt.show()","id":6},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Obtener los 10 Pokémon con mayor ataque\ntop_ataque = pokemon_data.nlargest(10, 'Attack')[['Name', 'Type 1', 'Attack', 'Defense', 'HP']]\n\n# Mostrar la tabla\ntop_ataque","id":7},{"options":{"comment":"","out-width":"700px","results":"markup","warning":"true","context":"interactive","output":"true","fig-width":7,"dpi":72,"fig-cap":"","out-height":"","label":"","fig-height":5,"read-only":"false","classes":"","message":"true","autorun":""},"code":"# Obtener los 10 Pokémon con mayor defensa\ntop_defensa = pokemon_data.nlargest(10, 'Defense')[['Name', 'Type 1', 'Defense', 'Attack', 'HP']]\n\n# Mostrar la tabla\ntop_defensa","id":8}];
 
 
 </script>
@@ -434,7 +433,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talleres/intro.html">Talleres</a></li><li class="breadcrumb-item"><a href="../talleres/taller_1.html"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talleres/intro.html">Talleres</a></li><li class="breadcrumb-item"><a href="../talleres/taller_3.html"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -496,7 +495,7 @@ globalThis._qpyodideGetInstance = function() {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../talleres/taller_1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></a>
+  <a href="../talleres/taller_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -506,7 +505,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../talleres/taller_3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></a>
+  <a href="../talleres/taller_3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></a>
   </div>
 </li>
       </ul>
@@ -521,21 +520,22 @@ globalThis._qpyodideGetInstance = function() {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#hola-mundo" id="toc-hola-mundo" class="nav-link active" data-scroll-target="#hola-mundo">1. 👋 Hola Mundo</a></li>
-  <li><a href="#calculadora-básica" id="toc-calculadora-básica" class="nav-link" data-scroll-target="#calculadora-básica">2. 🧮 Calculadora Básica</a></li>
-  <li><a href="#verificación-de-año-bisiesto" id="toc-verificación-de-año-bisiesto" class="nav-link" data-scroll-target="#verificación-de-año-bisiesto">3. 📅 Verificación de Año Bisiesto</a></li>
-  <li><a href="#adivina-el-número" id="toc-adivina-el-número" class="nav-link" data-scroll-target="#adivina-el-número">4. 🔢 Adivina el Número</a></li>
-  <li><a href="#conjetura-de-collatz" id="toc-conjetura-de-collatz" class="nav-link" data-scroll-target="#conjetura-de-collatz">5. 📜 Conjetura de Collatz</a></li>
-  <li><a href="#ejercicios-de-aritmética" id="toc-ejercicios-de-aritmética" class="nav-link" data-scroll-target="#ejercicios-de-aritmética">6. ➕ Ejercicios de Aritmética</a>
+  <li><a href="#exploración-y-visualización-de-datos" id="toc-exploración-y-visualización-de-datos" class="nav-link active" data-scroll-target="#exploración-y-visualización-de-datos">📊 Exploración y Visualización de Datos</a>
   <ul class="collapse">
-  <li><a href="#suma-de-números" id="toc-suma-de-números" class="nav-link" data-scroll-target="#suma-de-números">Suma de Números</a></li>
-  <li><a href="#factorial-de-un-número" id="toc-factorial-de-un-número" class="nav-link" data-scroll-target="#factorial-de-un-número">Factorial de un Número</a></li>
+  <li><a href="#cargar-el-conjunto-de-datos" id="toc-cargar-el-conjunto-de-datos" class="nav-link" data-scroll-target="#cargar-el-conjunto-de-datos">Cargar el Conjunto de Datos</a></li>
+  <li><a href="#descripción-del-conjunto-de-datos" id="toc-descripción-del-conjunto-de-datos" class="nav-link" data-scroll-target="#descripción-del-conjunto-de-datos">Descripción del Conjunto de Datos</a></li>
   </ul></li>
-  <li><a href="#ejemplos-adicionales" id="toc-ejemplos-adicionales" class="nav-link" data-scroll-target="#ejemplos-adicionales">7. 📚 Ejemplos Adicionales</a>
+  <li><a href="#análisis-y-visualización-de-datos" id="toc-análisis-y-visualización-de-datos" class="nav-link" data-scroll-target="#análisis-y-visualización-de-datos">📈 Análisis y Visualización de Datos</a>
   <ul class="collapse">
-  <li><a href="#conversión-de-temperatura" id="toc-conversión-de-temperatura" class="nav-link" data-scroll-target="#conversión-de-temperatura">Conversión de Temperatura</a></li>
-  <li><a href="#cálculo-del-índice-de-masa-corporal-imc" id="toc-cálculo-del-índice-de-masa-corporal-imc" class="nav-link" data-scroll-target="#cálculo-del-índice-de-masa-corporal-imc">Cálculo del Índice de Masa Corporal (IMC)</a></li>
-  <li><a href="#número-primo" id="toc-número-primo" class="nav-link" data-scroll-target="#número-primo">Número Primo</a></li>
+  <li><a href="#tipos-de-pokémon" id="toc-tipos-de-pokémon" class="nav-link" data-scroll-target="#tipos-de-pokémon">Tipos de Pokémon</a></li>
+  <li><a href="#estadísticas-de-ataque-y-defensa" id="toc-estadísticas-de-ataque-y-defensa" class="nav-link" data-scroll-target="#estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</a></li>
+  <li><a href="#promedio-de-estadísticas-por-tipo" id="toc-promedio-de-estadísticas-por-tipo" class="nav-link" data-scroll-target="#promedio-de-estadísticas-por-tipo">Promedio de Estadísticas por Tipo</a></li>
+  <li><a href="#peso-y-altura-de-los-pokémon" id="toc-peso-y-altura-de-los-pokémon" class="nav-link" data-scroll-target="#peso-y-altura-de-los-pokémon">Peso y Altura de los Pokémon</a></li>
+  </ul></li>
+  <li><a href="#tablas-y-gráficos-interactivos" id="toc-tablas-y-gráficos-interactivos" class="nav-link" data-scroll-target="#tablas-y-gráficos-interactivos">📊 Tablas y Gráficos Interactivos</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-pokémon-con-mayor-ataque" id="toc-tabla-de-pokémon-con-mayor-ataque" class="nav-link" data-scroll-target="#tabla-de-pokémon-con-mayor-ataque">Tabla de Pokémon con Mayor Ataque</a></li>
+  <li><a href="#tabla-de-pokémon-con-mayor-defensa" id="toc-tabla-de-pokémon-con-mayor-defensa" class="nav-link" data-scroll-target="#tabla-de-pokémon-con-mayor-defensa">Tabla de Pokémon con Mayor Defensa</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -553,9 +553,9 @@ globalThis._qpyodideGetInstance = function() {
   });
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talleres/intro.html">Talleres</a></li><li class="breadcrumb-item"><a href="../talleres/taller_1.html"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talleres/intro.html">Talleres</a></li><li class="breadcrumb-item"><a href="../talleres/taller_3.html"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></h1>
+<h1 class="title"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></h1>
 </div>
 
 
@@ -572,68 +572,61 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>En este taller, nos enfocaremos en aprender los conceptos básicos de Python de una manera divertida e interactiva. Resolveremos problemas entretenidos y prácticos que te permitirán familiarizarte con la sintaxis y funcionalidad de Python. Utilizaremos <code>Quarto-Pyodide</code> para experimentar con el código directamente en nuestro navegador.</p>
-<section id="hola-mundo" class="level2">
-<h2 class="anchored" data-anchor-id="hola-mundo">1. 👋 Hola Mundo</h2>
-<p>El clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.</p>
+<p>En este taller, utilizaremos Python para explorar y analizar un conjunto de datos de Pokémon. Los estudiantes de secundaria podrán ver cómo se utiliza la ciencia de datos para obtener información interesante y aprender a visualizar datos de manera efectiva.</p>
+<section id="exploración-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="exploración-y-visualización-de-datos">📊 Exploración y Visualización de Datos</h2>
+<p>Primero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon.</p>
+<section id="cargar-el-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="cargar-el-conjunto-de-datos">Cargar el Conjunto de Datos</h3>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="calculadora-básica" class="level2">
-<h2 class="anchored" data-anchor-id="calculadora-básica">2. 🧮 Calculadora Básica</h2>
-<p>Una simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.</p>
+<section id="descripción-del-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="descripción-del-conjunto-de-datos">Descripción del Conjunto de Datos</h3>
+<p>Obtener una visión general de las estadísticas del conjunto de datos.</p>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="verificación-de-año-bisiesto" class="level2">
-<h2 class="anchored" data-anchor-id="verificación-de-año-bisiesto">3. 📅 Verificación de Año Bisiesto</h2>
-<p>Un programa para determinar si un año es bisiesto.</p>
+</section>
+<section id="análisis-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos">📈 Análisis y Visualización de Datos</h2>
+<section id="tipos-de-pokémon" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-de-pokémon">Tipos de Pokémon</h3>
+<p>Veamos cuántos Pokémon de cada tipo hay en el conjunto de datos.</p>
 <div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="adivina-el-número" class="level2">
-<h2 class="anchored" data-anchor-id="adivina-el-número">4. 🔢 Adivina el Número</h2>
-<p>Un juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.</p>
+<section id="estadísticas-de-ataque-y-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</h3>
+<p>Comparar las estadísticas de ataque y defensa de los Pokémon.</p>
 <div id="qpyodide-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="conjetura-de-collatz" class="level2">
-<h2 class="anchored" data-anchor-id="conjetura-de-collatz">5. 📜 Conjetura de Collatz</h2>
-<p>Un programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.</p>
+<section id="promedio-de-estadísticas-por-tipo" class="level3">
+<h3 class="anchored" data-anchor-id="promedio-de-estadísticas-por-tipo">Promedio de Estadísticas por Tipo</h3>
+<p>Calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo.</p>
 <div id="qpyodide-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="ejercicios-de-aritmética" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios-de-aritmética">6. ➕ Ejercicios de Aritmética</h2>
-<section id="suma-de-números" class="level3">
-<h3 class="anchored" data-anchor-id="suma-de-números">Suma de Números</h3>
+<section id="peso-y-altura-de-los-pokémon" class="level3">
+<h3 class="anchored" data-anchor-id="peso-y-altura-de-los-pokémon">Peso y Altura de los Pokémon</h3>
+<p>Explorar la relación entre el peso y la altura de los Pokémon (utilizando las estadísticas de <code>Weight</code> y <code>Height</code> si estuvieran disponibles).</p>
 <div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="factorial-de-un-número" class="level3">
-<h3 class="anchored" data-anchor-id="factorial-de-un-número">Factorial de un Número</h3>
+</section>
+<section id="tablas-y-gráficos-interactivos" class="level2">
+<h2 class="anchored" data-anchor-id="tablas-y-gráficos-interactivos">📊 Tablas y Gráficos Interactivos</h2>
+<section id="tabla-de-pokémon-con-mayor-ataque" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-ataque">Tabla de Pokémon con Mayor Ataque</h3>
+<p>Mostrar los 10 Pokémon con la mayor estadística de ataque.</p>
 <div id="qpyodide-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-</section>
-<section id="ejemplos-adicionales" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos-adicionales">7. 📚 Ejemplos Adicionales</h2>
-<section id="conversión-de-temperatura" class="level3">
-<h3 class="anchored" data-anchor-id="conversión-de-temperatura">Conversión de Temperatura</h3>
-<p>Un programa para convertir grados Celsius a Fahrenheit.</p>
+<section id="tabla-de-pokémon-con-mayor-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-defensa">Tabla de Pokémon con Mayor Defensa</h3>
+<p>Mostrar los 10 Pokémon con la mayor estadística de defensa.</p>
 <div id="qpyodide-insertion-location-8"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="cálculo-del-índice-de-masa-corporal-imc" class="level3">
-<h3 class="anchored" data-anchor-id="cálculo-del-índice-de-masa-corporal-imc">Cálculo del Índice de Masa Corporal (IMC)</h3>
-<p>Un programa para calcular el IMC de una persona.</p>
-<div id="qpyodide-insertion-location-9"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="número-primo" class="level3">
-<h3 class="anchored" data-anchor-id="número-primo">Número Primo</h3>
-<p>Un programa para verificar si un número es primo.</p>
-<div id="qpyodide-insertion-location-10"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
@@ -1052,14 +1045,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../talleres/intro.html" class="pagination-link" aria-label="Talleres">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Talleres</span>
+      <a href="../talleres/taller_2.html" class="pagination-link" aria-label="🚀 Taller 02: Python en la Ciencia Tradicional">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">🚀 Taller 02: Python en la Ciencia Tradicional</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../talleres/taller_2.html" class="pagination-link" aria-label="🚀 Taller 02: Python en la Ciencia Tradicional">
-        <span class="nav-page-text"><span class="chapter-title">🚀 Taller 02: Python en la Ciencia Tradicional</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
