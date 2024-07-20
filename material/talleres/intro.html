@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"print(\"Hola, Mundo\")","id":1,"options":{"classes":"","out-height":"","warning":"true","context":"interactive","message":"true","fig-height":5,"comment":"","label":"","results":"markup","autorun":"","output":"true","fig-cap":"","out-width":"700px","dpi":72,"fig-width":7,"read-only":"false"}},{"code":"saludo = \"Hola \"\nnombre = \"Chile\"\nprint(saludo + nombre)","id":2,"options":{"classes":"","out-height":"","warning":"true","context":"interactive","message":"true","fig-height":5,"comment":"","label":"","results":"markup","autorun":"","output":"true","fig-cap":"","out-width":"700px","dpi":72,"fig-width":7,"read-only":"false"}},{"code":"saludo = \"Hola \"\nnombre = \"DUOC\"\nprint(saludo + nombre)\nsaludo = \"Que tal \"\nnombre = \"Valparaíso\"\nprint(saludo + nombre)\nsaludo = \"Saludos \"\nnombre = \"Chile\"\nprint(saludo + nombre)","id":3,"options":{"classes":"","out-height":"","warning":"true","context":"interactive","message":"true","fig-height":5,"comment":"","label":"","results":"markup","autorun":"","output":"true","fig-cap":"","out-width":"700px","dpi":72,"fig-width":7,"read-only":"false"}},{"code":"# Comentario: esta es la función imprimir_saludo\ndef imprimir_saludo(saludo, nombre):\n    print(saludo + \" \" + nombre)\n\nimprimir_saludo(\"Hola\", \"DUOC\")\nimprimir_saludo(\"Que tal\", \"Valparaíso\")\nimprimir_saludo(\"Saludos\", \"Chile\")","id":4,"options":{"classes":"","out-height":"","warning":"true","context":"interactive","message":"true","fig-height":5,"comment":"","label":"","results":"markup","autorun":"","output":"true","fig-cap":"","out-width":"700px","dpi":72,"fig-width":7,"read-only":"false"}},{"code":"mi_string = \"¿HoLa Ke HaCe?\"\n#print(mi_string)\n#print(mi_string.upper())\n#print(mi_string.lower())\n#print(mi_string.title())\n#print(mi_string.capitalize())\n#print(mi_string.swapcase())\n#print(mi_string.split())","id":5,"options":{"classes":"","out-height":"","warning":"true","context":"interactive","message":"true","fig-height":5,"comment":"","label":"","results":"markup","autorun":"","output":"true","fig-cap":"","out-width":"700px","dpi":72,"fig-width":7,"read-only":"false"}}];
+globalThis.qpyodideCellDetails = [{"options":{"fig-cap":"","dpi":72,"output":"true","warning":"true","comment":"","out-height":"","context":"interactive","results":"markup","read-only":"false","message":"true","out-width":"700px","fig-width":7,"autorun":"","fig-height":5,"classes":"","label":""},"code":"print(\"Hola, Mundo\")","id":1},{"options":{"fig-cap":"","dpi":72,"output":"true","warning":"true","comment":"","out-height":"","context":"interactive","results":"markup","read-only":"false","message":"true","out-width":"700px","fig-width":7,"autorun":"","fig-height":5,"classes":"","label":""},"code":"saludo = \"Hola \"\nnombre = \"Chile\"\nprint(saludo + nombre)","id":2},{"options":{"fig-cap":"","dpi":72,"output":"true","warning":"true","comment":"","out-height":"","context":"interactive","results":"markup","read-only":"false","message":"true","out-width":"700px","fig-width":7,"autorun":"","fig-height":5,"classes":"","label":""},"code":"# Comentario: esta es la función imprimir_saludo\ndef imprimir_saludo(saludo, nombre):\n    print(saludo + \" \" + nombre)\n\nimprimir_saludo(\"Hola\", \"DUOC\")\nimprimir_saludo(\"Que tal\", \"Valparaíso\")\nimprimir_saludo(\"Saludos\", \"Chile\")","id":3},{"options":{"fig-cap":"","dpi":72,"output":"true","warning":"true","comment":"","out-height":"","context":"interactive","results":"markup","read-only":"false","message":"true","out-width":"700px","fig-width":7,"autorun":"","fig-height":5,"classes":"","label":""},"code":"mi_string = \"¿HoLa Ke HaCe?\"\n#print(mi_string)\n#print(mi_string.upper())\n#print(mi_string.lower())\n#print(mi_string.title())\n#print(mi_string.capitalize())\n#print(mi_string.swapcase())\n#print(mi_string.split())","id":4}];
 
 
 </script>
@@ -569,40 +569,47 @@ globalThis._qpyodideGetInstance = function() {
 
 <section id="programación" class="level2">
 <h2 class="anchored" data-anchor-id="programación">Programación</h2>
-<p>Si tuviéramos que resumir el propósito de la programación en una frase, sería:</p>
+<p>Podríamos definir la esencia de la <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n">programación</a> en una frase sencilla:</p>
 <blockquote class="blockquote">
-<p>“Automatizar tareas para que la computadora las realice por nosotros.</p>
+<p>“Automatizar tareas para que sean ejecutadas por la computadora.”</p>
 </blockquote>
-<p>Cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.</p>
+<p>La programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.</p>
 <blockquote class="blockquote">
-<p>“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth</p>
+<p>“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” — Donald Knuth</p>
 </blockquote>
-<p>La programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!</p>
+<p>Mediante la programación, comunicamos a la computadora instrucciones detalladas de las operaciones que deseamos que realice. Si la computadora no actúa como esperábamos, usualmente significa que no hemos especificado nuestras instrucciones con la claridad necesaria.</p>
+<p>La programación es tanto un arte como una ciencia, una práctica mediante la cual traducimos ideas complejas en comandos que las máquinas puedan seguir eficientemente.</p>
 </section>
 <section id="python" class="level2">
 <h2 class="anchored" data-anchor-id="python">Python</h2>
-<p>Python es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:</p>
+<p><a href="https://es.wikipedia.org/wiki/Python">Python</a> se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:</p>
 <ol type="1">
-<li>Es fácil de entender: un programa bien escrito se parece mucho al inglés.</li>
-<li>Posee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)</li>
-<li>Es extensible:</li>
+<li><p><strong>Claridad y simplicidad:</strong> Los programas escritos en Python suelen ser fáciles de leer y entender, ya que su sintaxis se asemeja mucho al inglés. Esto hace que sea accesible tanto para principiantes como para expertos.</p></li>
+<li><p><strong>Rico ecosistema de librerías:</strong> Python viene equipado con una extensa biblioteca estándar que cubre una amplia variedad de necesidades, desde operaciones matemáticas hasta manejo del sistema operativo, pasando por funciones de tiempo y fecha, entre otras.</p></li>
+<li><p><strong>Extensibilidad:</strong> Python permite a los usuarios ampliar sus capacidades integrando otros lenguajes de programación. Esto es posible gracias a que se pueden escribir módulos en lenguajes como C o C++, los cuales pueden ser utilizados dentro de programas de Python, potenciando así su eficiencia y flexibilidad.</p></li>
 </ol>
+<p>Esta combinación de facilidad de uso, riqueza funcional y adaptabilidad hace que Python sea una herramienta poderosa para una variedad de aplicaciones en ciencia de datos, desarrollo web, automatización, y más.</p>
 </section>
-<section id="ejecutándo-código-python" class="level2">
-<h2 class="anchored" data-anchor-id="ejecutándo-código-python">Ejecutándo código Python</h2>
-<p>Para utilizar Python en una computadora, es necesario: 1. Tener instalada alguna versión de Python 2. Escribir tu programa en un archivo (por ejemplo “mi_programa.py”) 3. Ejecutar el programa con Python (“python mi_programa.py”)</p>
-<p>A medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).</p>
-<p>Por simplicidad, en la PySchool utilizaremos una tecnología reciente que permite <em>emular</em> la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.</p>
-<p>Existen 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.</p>
+<section id="ejecutando-código-python" class="level2">
+<h2 class="anchored" data-anchor-id="ejecutando-código-python">Ejecutando código Python</h2>
+<p>Para trabajar con Python en una computadora, debes seguir estos pasos:</p>
+<ol type="1">
+<li><strong>Instalación de Python:</strong> Asegúrate de tener alguna versión de Python instalada en tu equipo.</li>
+<li><strong>Creación de un programa:</strong> Escribe tu código en un archivo, como “mi_programa.py”.</li>
+<li><strong>Ejecución del programa:</strong> Utiliza Python para ejecutar el archivo, mediante el comando <code>python mi_programa.py</code> en la terminal.</li>
+</ol>
+<p>Con el aumento de la popularidad de Python, surgieron plataformas alternativas para su uso, como los notebooks (Jupyter Notebooks, Google Colab y otros), que ofrecen entornos interactivos y versátiles.</p>
+<p>En PySchool, optamos por una tecnología innovadora que <em>emula</em> la ejecución de Python directamente en una página web. Esta opción no requiere instalaciones y puede usarse desde cualquier dispositivo con conexión a internet, aunque es importante reconocer que sigue siendo un ambiente simulado.</p>
+<p>El entorno incluye tres botones en la parte superior del contenedor de código que permiten ejecutar el código, reiniciar el código a su estado inicial y copiar el código al portapapeles. A continuación, se muestra una imagen que ilustra estos botones:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../images/botones.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Descripción de la imagen"></p>
+<p><img src="../../images/botones.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Botones de ejecutar, reiniciar y copiar en un entorno de código Python."></p>
 </figure>
 </div>
 </section>
 <section id="ejemplo-hola-mundo" class="level2">
 <h2 class="anchored" data-anchor-id="ejemplo-hola-mundo">Ejemplo: 👋 Hola Mundo</h2>
-<p>Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase “Hola, Mundo” (o “Hello World”) en la pantalla.</p>
+<p>En el mundo de la programación, es una tradición comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).</p>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
@@ -617,11 +624,11 @@ Desafío:
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?</p>
+<p>Intenta modificar el código anterior para que, en lugar de “Hola, Mundo”, el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?</p>
 </div>
 </div>
 </div>
-<p>Podemos mejorar el código anterior utilizando <strong>variables</strong> que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.</p>
+<p>Para hacer nuestro código más flexible y reutilizable, podemos introducir <strong>variables</strong>. Piensa en una variable como una caja con nombre donde puedes almacenar cosas como números, texto o cualquier tipo de dato. Utilizas un nombre para referirte a esta caja, permitiéndote acceder a su contenido más adelante en tu código. Además, puedes cambiar su contenido en cualquier momento simplemente almacenando algo nuevo en ella.</p>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
@@ -636,21 +643,18 @@ Desafío:
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>¿Qué significa el signo <code>+</code> en el ejemplo anterior? ¿Qué significan los simbolos <code>"</code>?</p>
+<p>¿Qué hace el signo <code>+</code> en el ejemplo anterior? ¿Qué representan los símbolos <code>"</code>?</p>
 </div>
 </div>
 </div>
-<p>Un principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo. Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende “empaquetarlas” en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.</p>
-<p>Así por ejemplo podemos reducir el código desde</p>
+<p>La programación eficiente busca minimizar el trabajo repetitivo. Si una línea de código se utiliza varias veces, es práctico “empaquetarla” en una función. Esto hace el código más compacto y reduce la necesidad de múltiples modificaciones.</p>
+<p>Observa cómo se puede simplificar el código utilizando una función:</p>
 <div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>al siguiente código</p>
+<p>En este ejemplo, hemos explorado la función <code>print</code>, cadenas de caracteres (strings), variables y funciones en Python. Además, Python ofrece <a href="https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str">varias funciones adicionales para manipular strings</a>. ¿Qué hacen las siguientes funciones?</p>
 <div id="qpyodide-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>En este ejemplo hemos revisado la función <code>print</code>, strings (cadenas de carácteres), variables y funciones. Python proporciona muchas <a href="https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str">funciones adicionales para manipular strings</a>. ¿Que hacen las siguientes funciones?</p>
-<div id="qpyodide-insertion-location-5"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>Debes borrar el carácter <code>#</code> para que la línea deje de ser un comentario y se ejecute.</p>
+<p>Recuerda eliminar el carácter <code>#</code> para que la línea se ejecute y deje de ser un comentario.</p>
 
 
 </section>
