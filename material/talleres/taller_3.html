@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":1,"code":"import pandas as pd\n\n# Cargar el conjunto de datos de Pokémon\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\n\n# Mostrar las primeras filas del conjunto de datos\npokemon_data.head()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":2,"code":"# Mostrar la descripción estadística del conjunto de datos\npokemon_data.describe()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":3,"code":"import matplotlib.pyplot as plt\n\n# Contar la cantidad de Pokémon por tipo\npokemon_por_tipo = pokemon_data['Type 1'].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(12, 6))\npokemon_por_tipo.plot(kind='bar', color='skyblue')\nplt.title('Cantidad de Pokémon por Tipo')\nplt.xlabel('Tipo')\nplt.ylabel('Cantidad')\nplt.show()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":4,"code":"# Crear un gráfico de dispersión de ataque vs defensa\nplt.figure(figsize=(12, 6))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='purple', alpha=0.5)\nplt.title('Ataque vs Defensa de Pokémon')\nplt.xlabel('Ataque')\nplt.ylabel('Defensa')\nplt.show()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":5,"code":"# Calcular el promedio de estadísticas por tipo\npromedio_estadisticas = pokemon_data.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean()\n\n# Crear un gráfico de barras apiladas\npromedio_estadisticas.plot(kind='bar', stacked=True, figsize=(12, 8), color=['red', 'blue', 'green', 'orange'])\nplt.title('Promedio de Estadísticas por Tipo de Pokémon')\nplt.xlabel('Tipo')\nplt.ylabel('Promedio de Estadísticas')\nplt.legend(title='Estadísticas')\nplt.show()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":6,"code":"# Nota: Este conjunto de datos no tiene 'Weight' y 'Height', así que simularemos datos\nimport numpy as np\n\n# Agregar columnas de peso y altura simuladas\npokemon_data['Weight'] = np.random.uniform(5, 150, len(pokemon_data))  # Peso en kg\npokemon_data['Height'] = np.random.uniform(0.3, 2.5, len(pokemon_data))  # Altura en m\n\n# Crear un gráfico de dispersión de peso vs altura\nplt.figure(figsize=(12, 6))\nplt.scatter(pokemon_data['Weight'], pokemon_data['Height'], color='green', alpha=0.5)\nplt.title('Peso vs Altura de Pokémon')\nplt.xlabel('Peso (kg)')\nplt.ylabel('Altura (m)')\nplt.show()"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":7,"code":"# Obtener los 10 Pokémon con mayor ataque\ntop_ataque = pokemon_data.nlargest(10, 'Attack')[['Name', 'Type 1', 'Attack', 'Defense', 'HP']]\n\n# Mostrar la tabla\ntop_ataque"},{"options":{"read-only":"false","out-width":"700px","warning":"true","autorun":"","classes":"","fig-cap":"","output":"true","comment":"","out-height":"","message":"true","fig-height":5,"label":"","context":"interactive","fig-width":7,"dpi":72,"results":"markup"},"id":8,"code":"# Obtener los 10 Pokémon con mayor defensa\ntop_defensa = pokemon_data.nlargest(10, 'Defense')[['Name', 'Type 1', 'Defense', 'Attack', 'HP']]\n\n# Mostrar la tabla\ntop_defensa"}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"import pandas as pd\n\n# Cargar el conjunto de datos de Pokémon\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\n\n# Mostrar las primeras filas del conjunto de datos\npokemon_data.head()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":2,"code":"# Mostrar la descripción estadística del conjunto de datos\npokemon_data.describe()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":3,"code":"import matplotlib.pyplot as plt\n\n# Contar la cantidad de Pokémon por tipo\npokemon_por_tipo = pokemon_data['Type 1'].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(11, 6))\npokemon_por_tipo.plot(kind='bar', color='#66c2a5')\nplt.title('Cantidad de Pokémon por Tipo', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Cantidad', fontsize=12)\nplt.xticks(rotation=45)\nplt.grid(axis='y', linestyle='--', alpha=0.7)\nplt.show()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":4,"code":"# Calcular el promedio de estadísticas por tipo\npromedio_estadisticas = pokemon_data.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean()\n\n# Crear un gráfico de barras apiladas\ncolors = ['#fc8d62', '#66c2a5', '#8da0cb', '#e78ac3']\npromedio_estadisticas.plot(kind='bar', stacked=True, figsize=(11, 6), color=colors)\nplt.title('Promedio de Estadísticas por Tipo de Pokémon', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Promedio de Estadísticas', fontsize=12)\nplt.legend(title='Estadísticas', loc='upper left')\nplt.grid(axis='y', linestyle='--', alpha=0.7)\nplt.show()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":5,"code":"# Crear un gráfico de dispersión de ataque vs defensa\nplt.figure(figsize=(11, 6))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='#8da0cb', alpha=0.7, edgecolor='k', linewidth=0.5)\nplt.title('Ataque vs Defensa de Pokémon', fontsize=14)\nplt.xlabel('Ataque', fontsize=12)\nplt.ylabel('Defensa', fontsize=12)\nplt.grid(True, linestyle='--', alpha=0.7)\nplt.show()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":6,"code":"import numpy as np\n\n# Agregar columnas de peso y altura simuladas\npokemon_data['Weight'] = np.random.uniform(5, 150, len(pokemon_data))  # Peso en kg\npokemon_data['Height'] = np.random.uniform(0.3, 2.5, len(pokemon_data))  # Altura en m\n\n# Crear un gráfico de dispersión de peso vs altura\nplt.figure(figsize=(11, 6))\nplt.scatter(pokemon_data['Weight'], pokemon_data['Height'], color='#66c2a5', alpha=0.7, edgecolor='k', linewidth=0.5)\nplt.title('Peso vs Altura de Pokémon', fontsize=14)\nplt.xlabel('Peso (kg)', fontsize=12)\nplt.ylabel('Altura (m)', fontsize=12)\nplt.grid(True, linestyle='--', alpha=0.7)\nplt.show()","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":7,"code":"# Obtener los 10 Pokémon con mayor ataque\ntop_ataque = pokemon_data.nlargest(10, 'Attack')[['Name', 'Type 1', 'Attack', 'Defense', 'HP']]\n\n# Mostrar la tabla\ntop_ataque","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}},{"id":8,"code":"# Obtener los 10 Pokémon con mayor defensa\ntop_defensa = pokemon_data.nlargest(10, 'Defense')[['Name', 'Type 1', 'Defense', 'Attack', 'HP']]\n\n# Mostrar la tabla\ntop_defensa","options":{"results":"markup","dpi":72,"warning":"true","message":"true","fig-height":5,"output":"true","out-width":"700px","classes":"","out-height":"","read-only":"false","fig-width":7,"label":"","context":"interactive","autorun":"","comment":"","fig-cap":""}}];
 
 
 </script>
@@ -579,13 +579,51 @@ globalThis._qpyodideGetInstance = function() {
 <p>Primero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon. Este ejercicio es excelente para practicar la manipulación de datos y la visualización con las bibliotecas <code>pandas</code> y <code>matplotlib</code>.</p>
 <section id="cargar-el-conjunto-de-datos" class="level3">
 <h3 class="anchored" data-anchor-id="cargar-el-conjunto-de-datos">Cargar el Conjunto de Datos</h3>
-<p>En esta sección, cargaremos un conjunto de datos de Pokémon desde una URL y mostraremos las primeras filas para obtener una vista previa de los datos.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Importar bibliotecas</strong>: Usar <code>pandas</code> para manipulación de datos.</li>
+<li><strong>Cargar datos</strong>: Leer el conjunto de datos desde una URL.</li>
+<li><strong>Mostrar datos</strong>: Mostrar las primeras filas del conjunto de datos.</li>
+</ol>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="descripción-del-conjunto-de-datos" class="level3">
 <h3 class="anchored" data-anchor-id="descripción-del-conjunto-de-datos">Descripción del Conjunto de Datos</h3>
-<p>Obtenemos una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Descripción estadística</strong>: Usar <code>describe</code> para obtener estadísticas básicas del conjunto de datos.</li>
+</ol>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
@@ -594,25 +632,100 @@ globalThis._qpyodideGetInstance = function() {
 <h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos">📈 Análisis y Visualización de Datos</h2>
 <section id="tipos-de-pokémon" class="level3">
 <h3 class="anchored" data-anchor-id="tipos-de-pokémon">Tipos de Pokémon</h3>
-<p>Vamos a contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizaremos estos datos en un gráfico de barras.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Contar Pokémon por tipo</strong>: Usar <code>value_counts</code> para contar los Pokémon por tipo.</li>
+<li><strong>Crear gráfico de barras</strong>: Usar <code>matplotlib</code> para visualizar la cantidad de Pokémon por tipo.</li>
+</ol>
 <div id="qpyodide-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="estadísticas-de-ataque-y-defensa" class="level3">
-<h3 class="anchored" data-anchor-id="estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</h3>
-<p>Compararemos las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.</p>
-<div id="qpyodide-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="promedio-de-estadísticas-por-tipo" class="level3">
 <h3 class="anchored" data-anchor-id="promedio-de-estadísticas-por-tipo">Promedio de Estadísticas por Tipo</h3>
-<p>Calcularemos y visualizaremos el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Calcular promedios</strong>: Usar <code>groupby</code> y <code>mean</code> para calcular el promedio de estadísticas por tipo.</li>
+<li><strong>Gráfico de barras apiladas</strong>: Usar <code>plot</code> para visualizar los promedios.</li>
+</ol>
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="estadísticas-de-ataque-y-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Gráfico de dispersión</strong>: Usar <code>scatter</code> para visualizar la relación entre ataque y defensa.</li>
+</ol>
 <div id="qpyodide-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="peso-y-altura-de-los-pokémon" class="level3">
 <h3 class="anchored" data-anchor-id="peso-y-altura-de-los-pokémon">Peso y Altura de los Pokémon</h3>
-<p>Exploraremos la relación entre el peso y la altura de los Pokémon utilizando las estadísticas simuladas de <code>Weight</code> y <code>Height</code>.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es explorar la relación entre el peso y la altura de los Pokémon utilizando estadísticas simuladas.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Simular datos</strong>: Crear columnas de peso y altura simuladas.</li>
+<li><strong>Gráfico de dispersión</strong>: Usar <code>scatter</code> para visualizar la relación entre peso y altura.</li>
+</ol>
 <div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
@@ -621,47 +734,53 @@ globalThis._qpyodideGetInstance = function() {
 <h2 class="anchored" data-anchor-id="tablas-y-gráficos-interactivos">📊 Tablas y Gráficos Interactivos</h2>
 <section id="tabla-de-pokémon-con-mayor-ataque" class="level3">
 <h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-ataque">Tabla de Pokémon con Mayor Ataque</h3>
-<p>Mostraremos los 10 Pokémon con la mayor estadística de ataque.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de ataque.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Top 10 en ataque</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor ataque.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
 <div id="qpyodide-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="tabla-de-pokémon-con-mayor-defensa" class="level3">
 <h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-defensa">Tabla de Pokémon con Mayor Defensa</h3>
-<p>Mostraremos los 10 Pokémon con la mayor estadística de defensa.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de defensa.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Top 10 en defensa</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor defensa.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
 <div id="qpyodide-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="explicación-del-código" class="level3">
-<h3 class="anchored" data-anchor-id="explicación-del-código">Explicación del Código</h3>
-<ol type="1">
-<li><strong>Importar Bibliotecas</strong>:
-<ul>
-<li><code>pandas</code>: Utilizado para la manipulación de datos.</li>
-<li><code>matplotlib.pyplot</code>: Utilizado para la visualización de datos.</li>
-<li><code>numpy</code>: Utilizado para operaciones matemáticas y generación de datos aleatorios.</li>
-</ul></li>
-<li><strong>Cargar el Conjunto de Datos</strong>:
-<ul>
-<li>Usamos <code>pd.read_csv</code> para cargar los datos desde una URL.</li>
-<li><code>pokemon_data.head()</code> muestra las primeras filas del conjunto de datos para obtener una vista previa.</li>
-</ul></li>
-<li><strong>Descripción del Conjunto de Datos</strong>:
-<ul>
-<li><code>pokemon_data.describe()</code> proporciona estadísticas descriptivas de las columnas numéricas del conjunto de datos.</li>
-</ul></li>
-<li><strong>Visualización de Datos</strong>:
-<ul>
-<li><strong>Tipos de Pokémon</strong>: Contamos los Pokémon por tipo y creamos un gráfico de barras para visualizar las cantidades.</li>
-<li><strong>Estadísticas de Ataque y Defensa</strong>: Creamos un gráfico de dispersión para comparar las estadísticas de ataque y defensa.</li>
-<li><strong>Promedio de Estadísticas por Tipo</strong>: Calculamos el promedio de las estadísticas principales por tipo y creamos un gráfico de barras apiladas.</li>
-<li><strong>Peso y Altura</strong>: Simulamos datos de peso y altura y creamos un gráfico de dispersión para explorar la relación entre estas variables.</li>
-</ul></li>
-<li><strong>Tablas Interactivas</strong>:
-<ul>
-<li>Mostramos tablas con los 10 Pokémon con las mayores estadísticas de ataque y defensa utilizando <code>nlargest</code>.</li>
-</ul></li>
-</ol>
-<p>Este ejercicio proporciona una excelente oportunidad para practicar la manipulación y visualización de datos en Python, aplicando conceptos de análisis de datos para explorar y entender un conjunto de datos real.</p>
 
 
 </section>
