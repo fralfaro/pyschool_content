@@ -10,7 +10,6 @@
 
 # 1. 🔬 Física
 
-
 ## Simulación de Movimiento
 
 En este ejercicio, vamos a simular el movimiento de un objeto bajo la influencia de la gravedad y visualizar la trayectoria usando la biblioteca `matplotlib`. Este ejercicio es excelente para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python.
@@ -22,19 +21,20 @@ La simulación de movimientos es una aplicación común en física y matemática
 ### Objetivos del Ejercicio
 
 ::: {.callout-tip collapse="false" title="Desafío:"}
-El objetivo de este ejercicio es escribir un programa en Python que simule el movimiento de un proyectil bajo la influencia de la gravedad y visualice la trayectoria utilizando `matplotlib`.
+El objetivo de este ejercicio es escribir una función en Python que simule el movimiento de un proyectil bajo la influencia de la gravedad, visualizando la trayectoria con `matplotlib`.
 :::
 
-1. **Importar bibliotecas**: Usaremos `numpy` para las operaciones matemáticas y `matplotlib` para la visualización.
-2. **Definir parámetros de la simulación**: Estableceremos los parámetros como la aceleración debida a la gravedad, el tiempo, la velocidad inicial y el ángulo de lanzamiento.
-3. **Calcular la trayectoria**: Usaremos las ecuaciones del movimiento para calcular las posiciones horizontales y verticales del proyectil en diferentes momentos.
-4. **Visualizar la trayectoria**: Crearemos una gráfica de la trayectoria del proyectil utilizando `matplotlib`.
+1. **Definir los parámetros de la simulación**: Establecer valores para la gravedad, el tiempo, la velocidad inicial y el ángulo de lanzamiento.
+2. **Calcular la trayectoria del proyectil**: Usar las ecuaciones del movimiento para determinar las posiciones `x` y `y` del proyectil en función del tiempo.
+3. **Visualizar la trayectoria**: Crear una gráfica que muestre la trayectoria del proyectil, añadiendo efectos visuales para mejorar la presentación.
+4. **Probar la simulación**: Ajustar los parámetros para ver cómo afectan la trayectoria del proyectil.
 
 ### Código para la Simulación de Movimiento
 
 ```{pyodide-python}
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Circle, Wedge
 
 # Parámetros de la simulación
 g = 9.8  # aceleración debido a la gravedad (m/s^2)
@@ -50,52 +50,107 @@ vy = v0 * np.sin(theta)
 x = vx * t
 y = vy * t - 0.5 * g * t**2
 
-# Gráfica de la trayectoria
-plt.figure(figsize=(10, 6))
-plt.plot(x, y)
-plt.title('Trayectoria de un proyectil')
-plt.xlabel('Distancia horizontal (m)')
-plt.ylabel('Altura (m)')
-plt.ylim(bottom=0)
+# Punto más alto
+max_height_index = np.argmax(y)
+max_height_x = x[max_height_index]
+max_height_y = y[max_height_index]
+
+# Crear la figura y los ejes
+fig, ax = plt.subplots(figsize=(11, 7))
+ax.plot(x, y, label='Trayectoria', color='blue', lw=2)
+
+# Agregar un color degradado
+for i in range(len(x)-1):
+    ax.plot(x[i:i+2], y[i:i+2], color=plt.cm.viridis(i / len(x)))
+
+# Anotar el punto más alto
+ax.plot(max_height_x, max_height_y, 'ro')  # punto más alto en rojo
+ax.annotate(f'Punto más alto\n({max_height_x:.2f}, {max_height_y:.2f}) m',
+            xy=(max_height_x, max_height_y), xytext=(max_height_x+5, max_height_y+5),
+            arrowprops=dict(facecolor='black', shrink=0.05),
+            fontsize=12, color='red', fontweight='bold')
+
+# Agregar un fondo personalizado
+ax.set_facecolor('#f0f0f0')
+fig.patch.set_facecolor('#e0e0e0')
+
+# Añadir el sol y el suelo
+sun_center = (max(x) + 10, max(y) + 10)
+sun_radius = 3
+
+# Dibujar el círculo central del sol
+sun = Circle(sun_center, sun_radius, color='yellow', alpha=0.8, zorder=10)
+ax.add_patch(sun)
+
+# Dibujar los rayos del sol
+for angle in np.linspace(0, 360, 12, endpoint=False):
+    wedge = Wedge(sun_center, sun_radius + 2, angle, angle + 15, color='gold', alpha=0.8, zorder=9)
+    ax.add_patch(wedge)
+
+ax.fill_between(x, 0, -10, color='green', alpha=0.5)
+
+# Configurar la gráfica
+ax.set_title('Trayectoria de un proyectil', fontsize=16, fontweight='bold')
+ax.set_xlabel('Distancia horizontal (m)', fontsize=14)
+ax.set_ylabel('Altura (m)', fontsize=14)
+ax.set_ylim(bottom=0)
+ax.legend()
+
+# Mostrar la gráfica
 plt.show()
 ```
 
 ### Explicación del Código
 
-1. **Importar Bibliotecas**:
-    - `numpy`: Utilizado para operaciones matemáticas y manejo de arrays.
-    - `matplotlib.pyplot`: Utilizado para crear gráficos.
+Este código define la simulación de movimiento de un proyectil y realiza lo siguiente:
 
-2. **Definir Parámetros de la Simulación**:
-    - `g`: Aceleración debido a la gravedad (9.8 m/s²).
-    - `t`: Array de tiempo desde 0 hasta 5 segundos, con 100 puntos.
-    - `v0`: Velocidad inicial del proyectil (20 m/s).
-    - `theta`: Ángulo de lanzamiento convertido a radianes (45 grados).
+1. **Parámetros de Entrada**:
+    - `g`: Aceleración debido a la gravedad (m/s²).
+    - `t`: Tiempo en segundos, generando 100 puntos entre 0 y 5 segundos.
+    - `v0`: Velocidad inicial del proyectil (m/s).
+    - `theta`: Ángulo de lanzamiento convertido a radianes.
 
-3. **Componentes de la Velocidad Inicial**:
-    - `vx`: Componente horizontal de la velocidad inicial (\( v0 \times \cos(\theta) \)).
-    - `vy`: Componente vertical de la velocidad inicial (\( v0 \times \sin(\theta) \)).
+2. **Componentes de la Velocidad Inicial**:
+    - `vx`: Componente horizontal de la velocidad inicial.
+    - `vy`: Componente vertical de la velocidad inicial.
 
-4. **Calcular la Trayectoria**:
-    - `x`: Posición horizontal en función del tiempo (\( vx \times t \)).
-    - `y`: Posición vertical en función del tiempo (\( vy \times t - 0.5 \times g \times t^2 \)).
+3. **Trayectoria**:
+    - `x`: Posición horizontal en función del tiempo.
+    - `y`: Posición vertical en función del tiempo considerando la gravedad.
 
-5. **Visualizar la Trayectoria**:
-    - Crear una figura con `plt.figure` y definir el tamaño.
-    - Usar `plt.plot` para graficar `x` versus `y`.
-    - Añadir título y etiquetas a los ejes con `plt.title`, `plt.xlabel` y `plt.ylabel`.
-    - Ajustar el límite inferior del eje y con `plt.ylim(bottom=0)` para asegurarse de que la gráfica no muestre valores negativos en la altura.
-    - Mostrar la gráfica con `plt.show()`.
+4. **Punto Más Alto**:
+    - Calcula y anota el punto más alto de la trayectoria del proyectil.
+
+5. **Visualización**:
+    - Configura la visualización de la trayectoria usando `matplotlib`, añadiendo efectos visuales como un color degradado, un fondo personalizado, y un sol con rayos.
 
 ### Ejemplo de Uso
 
-El código de ejemplo simula la trayectoria de un proyectil lanzado con una velocidad inicial de 20 m/s y un ángulo de 45 grados. La gráfica resultante muestra cómo el proyectil se mueve a lo largo del tiempo bajo la influencia de la gravedad.
+El código de ejemplo muestra cómo usar los parámetros definidos para simular la trayectoria de un proyectil con una velocidad inicial de 20 m/s y un ángulo de lanzamiento de 45 grados.
 
 ### Prueba y Modificación
 
-Los estudiantes pueden modificar los parámetros de la simulación, como la velocidad inicial `v0`, el ángulo de lanzamiento `theta` y el intervalo de tiempo `t` para observar cómo cambian la trayectoria del proyectil. Por ejemplo, pueden cambiar `v0` a 30 m/s, `theta` a 30 grados, o ajustar el rango de `t` para ver diferentes comportamientos en la gráfica.
+Para hacer el ejemplo más entretenido, los estudiantes pueden cambiar los siguientes parámetros y observar cómo afectan la trayectoria del proyectil:
 
-Este ejercicio proporciona una excelente oportunidad para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python, aplicando conceptos de física para simular y visualizar el movimiento de un objeto bajo la influencia de la gravedad.
+1. **Velocidad Inicial (`v0`)**:
+    - Cambiar `v0` a diferentes valores como 10, 30 o 50 m/s para ver cómo la velocidad inicial afecta la distancia y altura máxima alcanzada.
+    ```{pyodide-python}
+    v0 = 30  # Cambiar a diferentes valores
+    ```
+
+2. **Ángulo de Lanzamiento (`theta`)**:
+    - Cambiar `theta` a diferentes ángulos como 30, 60 o 75 grados para ver cómo el ángulo de lanzamiento afecta la trayectoria.
+    ```{pyodide-python}
+    theta = np.radians(60)  # Cambiar a diferentes valores
+    ```
+
+3. **Tiempo (`t`)**:
+    - Cambiar el rango de tiempo y la cantidad de puntos en el tiempo para observar trayectorias más largas o más cortas.
+    ```{pyodide-python}
+    t = np.linspace(0, 10, num=200)  # Cambiar el rango de tiempo
+    ```
+
+Estos cambios permiten a los estudiantes experimentar con diferentes escenarios y entender mejor cómo las variables iniciales afectan el movimiento de un proyectil, haciendo el ejercicio más interactivo y entretenido.
 
 
 ## Simulación de Movimiento Armónico Simple
@@ -109,7 +164,7 @@ El movimiento armónico simple es un tipo de oscilación que se describe con la 
 ### Objetivos del Ejercicio
 
 ::: {.callout-tip collapse="false" title="Desafío:"}
-El objetivo de este ejercicio es escribir un programa en Python que simule el movimiento de un oscilador armónico simple y visualice la posición del oscilador en función del tiempo utilizando `matplotlib`.
+El objetivo de este ejercicio es escribir una función en Python que simule el movimiento de un oscilador armónico simple y visualice la posición del oscilador en función del tiempo usando `matplotlib`.
 :::
 
 1. **Importar bibliotecas**: Usaremos `numpy` para las operaciones matemáticas y `matplotlib` para la visualización.
@@ -124,56 +179,104 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parámetros del oscilador
-m = 1.0  # masa (kg)
+m = 5.0  # masa (kg)
 k = 10.0  # constante de resorte (N/m)
 omega = np.sqrt(k / m)  # frecuencia angular (rad/s)
-A = 1.0  # amplitud (m)
+A = 25  # amplitud (m)
 t = np.linspace(0, 10, num=500)  # tiempo (s)
 
 # Posición como función del tiempo
 x = A * np.cos(omega * t)
 
-# Gráfica de la posición
-plt.figure(figsize=(10, 6))
-plt.plot(t, x)
-plt.title('Movimiento Armónico Simple')
-plt.xlabel('Tiempo (s)')
-plt.ylabel('Posición (m)')
+# Crear la figura y los ejes
+fig, ax = plt.subplots(figsize=(11, 6))
+
+# Añadir un color degradado a la curva
+colors = plt.cm.viridis(np.linspace(0, 1, len(t)))
+for i in range(len(t)-1):
+    ax.plot(t[i:i+2], x[i:i+2], color=colors[i])
+
+# Anotar puntos de interés
+ax.annotate('Amplitud máxima', xy=(0, A), xytext=(1, A + 5),
+            arrowprops=dict(facecolor='black', shrink=0.05),
+            fontsize=12, color='red', fontweight='bold')
+
+# Configurar el fondo y estilo de la gráfica
+ax.set_facecolor('#f0f0f0')
+fig.patch.set_facecolor('#e0e0e0')
+
+# Añadir elementos visuales adicionales (como un resorte estilizado)
+spring_x = np.linspace(0, t[-1], 1000)
+spring_y = A * np.cos(omega * spring_x) / 5
+ax.plot(spring_x, spring_y, color='gray', linestyle='--', lw=0.5, alpha=0.7)
+
+# Configurar la gráfica
+ax.set_title('Movimiento Armónico Simple', fontsize=16, fontweight='bold')
+ax.set_xlabel('Tiempo (s)', fontsize=14)
+ax.set_ylabel('Posición (m)', fontsize=14)
+ax.grid(True)
+
+# Fijar los límites de los ejes
+ax.set_xlim(0, 10)
+ax.set_ylim(-100, 100)
+
+# Mostrar la gráfica
 plt.show()
 ```
 
 ### Explicación del Código
 
-1. **Importar Bibliotecas**:
-    - `numpy`: Utilizado para operaciones matemáticas y manejo de arrays.
-    - `matplotlib.pyplot`: Utilizado para crear gráficos.
+Este código define la simulación del movimiento de un oscilador armónico simple y realiza lo siguiente:
 
-2. **Definir Parámetros del Oscilador**:
-    - `m`: Masa del oscilador (1.0 kg).
-    - `k`: Constante del resorte (10.0 N/m).
-    - `omega`: Frecuencia angular calculada como \(\sqrt{k / m}\) (rad/s).
-    - `A`: Amplitud del movimiento (1.0 m).
-    - `t`: Array de tiempo desde 0 hasta 10 segundos, con 500 puntos.
+1. **Parámetros de Entrada**:
+    - `m`: Masa del oscilador (kg).
+    - `k`: Constante del resorte (N/m).
+    - `omega`: Frecuencia angular (rad/s), calculada a partir de `m` y `k`.
+    - `A`: Amplitud del movimiento (m).
+    - `t`: Tiempo en segundos, generando 500 puntos entre 0 y 10 segundos.
 
-3. **Calcular la Posición**:
-    - `x`: Posición del oscilador en función del tiempo calculada como \(A \cdot \cos(\omega \cdot t)\).
+2. **Posición como Función del Tiempo**:
+    - `x`: Posición del oscilador en función del tiempo usando la fórmula del movimiento armónico simple \( x = A \cos(\omega t) \).
 
-4. **Visualizar la Posición**:
-    - Crear una figura con `plt.figure` y definir el tamaño.
-    - Usar `plt.plot` para graficar `t` versus `x`.
-    - Añadir título y etiquetas a los ejes con `plt.title`, `plt.xlabel` y `plt.ylabel`.
-    - Mostrar la gráfica con `plt.show()`.
+3. **Visualización**:
+    - Configura la visualización de la posición del oscilador usando `matplotlib`, añadiendo efectos visuales como un color degradado y un fondo personalizado.
+    - Anota puntos de interés como la amplitud máxima.
 
 ### Ejemplo de Uso
 
-El código de ejemplo simula el movimiento de un oscilador armónico simple con una masa de 1 kg, una constante de resorte de 10 N/m, y una amplitud de 1 m. La gráfica resultante muestra cómo la posición del oscilador varía a lo largo del tiempo.
+El código de ejemplo muestra cómo usar los parámetros definidos para simular la posición de un oscilador con una masa de 5 kg, una constante del resorte de 10 N/m, una amplitud de 25 m y una frecuencia angular calculada.
 
 ### Prueba y Modificación
 
-Los estudiantes pueden modificar los parámetros del oscilador, como la masa `m`, la constante del resorte `k`, la amplitud `A` y el intervalo de tiempo `t` para observar cómo cambian las oscilaciones del oscilador. Por ejemplo, pueden cambiar `m` a 2.0 kg, `k` a 20.0 N/m, o ajustar el rango de `t` para ver diferentes comportamientos en la gráfica.
+Para hacer el ejemplo más entretenido, los estudiantes pueden cambiar los siguientes parámetros y observar cómo afectan la posición del oscilador:
 
-Este ejercicio proporciona una excelente oportunidad para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python, aplicando conceptos de física para simular y visualizar el movimiento de un oscilador armónico simple.
+1. **Masa del Oscilador (`m`)**:
+    - Cambiar `m` a diferentes valores como 2.0, 8.0 o 10.0 kg para ver cómo la masa afecta la frecuencia angular y el movimiento.
+    ```{pyodide-python}
+    m = 2.0  # Cambiar a diferentes valores
+    omega = np.sqrt(k / m)
+    ```
 
+2. **Constante del Resorte (`k`)**:
+    - Cambiar `k` a diferentes valores como 5.0, 20.0 o 50.0 N/m para ver cómo la constante del resorte afecta la frecuencia angular y el movimiento.
+    ```{pyodide-python}
+    k = 20.0  # Cambiar a diferentes valores
+    omega = np.sqrt(k / m)
+    ```
+
+3. **Amplitud (`A`)**:
+    - Cambiar `A` a diferentes valores como 10, 50 o 75 m para ver cómo la amplitud afecta la posición del oscilador.
+    ```{pyodide-python}
+    A = 50  # Cambiar a diferentes valores
+    ```
+
+4. **Tiempo (`t`)**:
+    - Cambiar el rango de tiempo y la cantidad de puntos en el tiempo para observar oscilaciones más largas o más cortas.
+    ```{pyodide-python}
+    t = np.linspace(0, 20, num=1000)  # Cambiar el rango de tiempo
+    ```
+
+Estos cambios permiten a los estudiantes experimentar con diferentes escenarios y entender mejor cómo las variables iniciales afectan el movimiento del oscilador armónico simple, haciendo el ejercicio más interactivo y entretenido.
 
 
 
@@ -203,57 +306,93 @@ El objetivo de este ejercicio es escribir un programa en Python que simule el la
 
 ```{pyodide-python}
 import numpy as np
+import matplotlib.pyplot as plt
 
-# Simular 100 lanzamientos de una moneda
-lanzamientos = np.random.choice(['Cara', 'Cruz'], 100)
+# Número de lanzamientos
+n_lanzamientos = 100
+
+# Simular lanzamientos de una moneda
+lanzamientos = np.random.choice(['Cara', 'Cruz'], n_lanzamientos)
 
 # Calcular la frecuencia de cada resultado
 caras = np.sum(lanzamientos == 'Cara')
 cruces = np.sum(lanzamientos == 'Cruz')
 
 # Calcular las probabilidades
-prob_cara = caras / 100
-prob_cruz = cruces / 100
+prob_cara = caras / n_lanzamientos
+prob_cruz = cruces / n_lanzamientos
 
 print(f"Caras: {caras}, Cruces: {cruces}")
-print(f"Probabilidad de Cara: {prob_cara}")
-print(f"Probabilidad de Cruz: {prob_cruz}")
+print(f"Probabilidad de Cara: {prob_cara:.2f}")
+print(f"Probabilidad de Cruz: {prob_cruz:.2f}")
+
+# Crear un gráfico de barras para la frecuencia de cada resultado
+plt.figure(figsize=(11, 5))
+
+plt.subplot(1, 2, 1)
+plt.bar(['Caras', 'Cruces'], [caras, cruces], color=['lightblue', 'cyan'], edgecolor='black')
+plt.title('Frecuencia de Caras y Cruces')
+plt.ylabel('Frecuencia')
+plt.ylim(0, n_lanzamientos)
+plt.grid()
+
+# Calcular probabilidades acumuladas
+prob_cara_acumulada = np.cumsum(lanzamientos == 'Cara') / np.arange(1, n_lanzamientos + 1)
+prob_cruz_acumulada = np.cumsum(lanzamientos == 'Cruz') / np.arange(1, n_lanzamientos + 1)
+
+# Crear un gráfico de líneas para las probabilidades acumuladas
+plt.subplot(1, 2, 2)
+plt.plot(prob_cara_acumulada, label='Probabilidad de Cara', color='lightblue')
+plt.plot(prob_cruz_acumulada, label='Probabilidad de Cruz', color='cyan')
+plt.title('Probabilidades Acumuladas')
+plt.xlabel('Número de Lanzamientos')
+plt.ylabel('Probabilidad')
+plt.legend()
+plt.ylim(0, 1)
+plt.grid()
+
+# Ajustar el diseño de los gráficos
+plt.subplots_adjust(wspace=0.3)
+plt.show()
 ```
 
 ### Explicación del Código
 
-1. **Importar Biblioteca**:
-    - `numpy`: Utilizado para generar lanzamientos aleatorios y realizar cálculos estadísticos.
+Este código simula el lanzamiento de una moneda y realiza lo siguiente:
 
-2. **Simular Lanzamientos**:
-    - `lanzamientos = np.random.choice(['Cara', 'Cruz'], 100)`: Utiliza `numpy.random.choice` para simular 100 lanzamientos de una moneda, eligiendo aleatoriamente entre 'Cara' y 'Cruz'.
+1. **Número de Lanzamientos**:
+    - `n_lanzamientos`: Define el número de lanzamientos a simular.
 
-3. **Calcular Frecuencias**:
-    - `caras = np.sum(lanzamientos == 'Cara')`: Cuenta cuántas veces apareció 'Cara' en los lanzamientos.
-    - `cruces = np.sum(lanzamientos == 'Cruz')`: Cuenta cuántas veces apareció 'Cruz' en los lanzamientos.
+2. **Simulación de Lanzamientos**:
+    - `lanzamientos`: Utiliza `np.random.choice` para generar una secuencia de 'Cara' y 'Cruz'.
 
-4. **Calcular Probabilidades**:
-    - `prob_cara = caras / 100`: Calcula la probabilidad de obtener 'Cara' dividiendo el número de caras por el número total de lanzamientos.
-    - `prob_cruz = cruces / 100`: Calcula la probabilidad de obtener 'Cruz' dividiendo el número de cruces por el número total de lanzamientos.
+3. **Cálculo de Frecuencias**:
+    - `caras`: Cuenta el número de veces que aparece 'Cara'.
+    - `cruces`: Cuenta el número de veces que aparece 'Cruz'.
 
-5. **Mostrar Resultados**:
-    - `print(f"Caras: {caras}, Cruces: {cruces}")`: Imprime la cantidad de caras y cruces obtenidas.
-    - `print(f"Probabilidad de Cara: {prob_cara}")`: Imprime la probabilidad de obtener 'Cara'.
-    - `print(f"Probabilidad de Cruz: {prob_cruz}")`: Imprime la probabilidad de obtener 'Cruz'.
+4. **Cálculo de Probabilidades**:
+    - `prob_cara`: Calcula la probabilidad de obtener 'Cara'.
+    - `prob_cruz`: Calcula la probabilidad de obtener 'Cruz'.
 
-### Ejemplo de Salida
+5. **Visualización**:
+    - Gráfico de barras para mostrar la frecuencia de cada resultado.
+    - Gráfico de líneas para mostrar las probabilidades acumuladas de cada resultado a lo largo de los lanzamientos.
 
-```
-Caras: 48, Cruces: 52
-Probabilidad de Cara: 0.48
-Probabilidad de Cruz: 0.52
-```
+### Ejemplo de Uso
+
+El código de ejemplo muestra cómo simular 100 lanzamientos de una moneda y calcular las probabilidades de obtener cara o cruz. Los resultados se muestran en gráficos para facilitar la visualización.
 
 ### Prueba y Modificación
 
-Los estudiantes pueden modificar el número de lanzamientos para ver cómo afecta a las probabilidades calculadas. Por ejemplo, pueden cambiar el número de lanzamientos a 1000 o 10000 para obtener una mejor estimación de las probabilidades. Además, pueden repetir la simulación varias veces para observar la variabilidad en los resultados.
+Para hacer el ejemplo más entretenido, los estudiantes pueden cambiar los siguientes parámetros y observar cómo afectan los resultados:
 
-Este ejercicio proporciona una excelente oportunidad para practicar el uso de arrays y funciones estadísticas en Python, aplicando conceptos de probabilidad para simular y analizar experimentos aleatorios.
+1. **Número de Lanzamientos (`n_lanzamientos`)**:
+    - Cambiar `n_lanzamientos` a diferentes valores como 200, 500 o 1000 para ver cómo el número de lanzamientos afecta la precisión de las probabilidades calculadas.
+    ```{pyodide-python}
+    n_lanzamientos = 500  # Cambiar a diferentes valores
+    ```
+
+Estos cambios permiten a los estudiantes experimentar con diferentes escenarios y entender mejor cómo las variables iniciales afectan los resultados de la simulación, haciendo el ejercicio más interactivo y entretenido.
 
 
 ## Lanzamiento de Dados
@@ -274,66 +413,85 @@ El objetivo de este ejercicio es escribir un programa en Python que simule el la
 2. **Simular lanzamientos**: Generaremos un número específico de lanzamientos de dos dados utilizando `numpy.random.randint`.
 3. **Calcular sumas**: Calcularemos las sumas de los resultados de los dos dados.
 4. **Calcular frecuencias**: Contaremos las ocurrencias de cada suma posible usando un diccionario.
-5. **Mostrar los resultados**: Imprimiremos la frecuencia de cada suma calculada.
+5. **Mostrar los resultados**: Imprimiremos la frecuencia de cada suma calculada y visualizaremos los resultados con gráficos.
 
 ### Código para el Lanzamiento de Dados
 
 ```{pyodide-python}
 import numpy as np
+import matplotlib.pyplot as plt
 
-# Simular 100 lanzamientos de dos dados
-dados1 = np.random.randint(1, 7, 100)
-dados2 = np.random.randint(1, 7, 100)
-sumas = dados1 + dados2
+# Número de lanzamientos
+n_lanzamientos = 100
+
+# Simular lanzamientos de dos dados
+np.random.seed(42)  # para reproducibilidad
+dado1 = np.random.randint(1, 7, n_lanzamientos)
+dado2 = np.random.randint(1, 7, n_lanzamientos)
+sumas = dado1 + dado2
 
 # Calcular la frecuencia de cada suma
 frecuencias = {suma: np.sum(sumas == suma) for suma in range(2, 13)}
 
+# Mostrar las frecuencias en la consola
 print("Frecuencia de cada suma:")
 for suma, frecuencia in frecuencias.items():
     print(f"Suma {suma}: {frecuencia}")
+
+# Crear un gráfico de barras para las frecuencias
+fig, ax = plt.subplots(figsize=(11, 6))
+
+sums = list(frecuencias.keys())
+counts = list(frecuencias.values())
+
+bars = ax.bar(sums, counts, color=plt.cm.viridis(np.linspace(0, 1, len(sums))))
+
+# Crear un histograma para la distribución de las sumas
+fig, ax3 = plt.subplots(figsize=(11, 6))
+ax3.hist(sumas, bins=np.arange(2, 14) - 0.5, edgecolor='black', color='lightblue', alpha=0.7)
+ax3.set_title('Distribución de las Sumas de Dos Dados', fontsize=16, fontweight='bold')
+ax3.set_xlabel('Suma', fontsize=14)
+ax3.set_ylabel('Frecuencia', fontsize=14)
+ax3.set_xticks(sums)
+ax3.set_xticklabels(sums)
+ax3.set_xlim(1.5, 12.5)
+ax3.grid(True)
+
+# Mostrar los gráficos
+plt.show()
 ```
 
 ### Explicación del Código
 
-1. **Importar Biblioteca**:
-    - `numpy`: Utilizado para generar lanzamientos aleatorios y realizar cálculos estadísticos.
+Este código simula el lanzamiento de dos dados y realiza lo siguiente:
 
-2. **Simular Lanzamientos**:
-    - `dados1 = np.random.randint(1, 7, 100)`: Genera 100 lanzamientos del primer dado, eligiendo un número aleatorio entre 1 y 6 para cada lanzamiento.
-    - `dados2 = np.random.randint(1, 7, 100)`: Genera 100 lanzamientos del segundo dado, eligiendo un número aleatorio entre 1 y 6 para cada lanzamiento.
+1. **Número de Lanzamientos**:
+    - `n_lanzamientos`: Define el número de lanzamientos a simular.
 
-3. **Calcular Sumas**:
-    - `sumas = dados1 + dados2`: Calcula la suma de los resultados de los dos dados para cada lanzamiento.
+2. **Simulación de Lanzamientos**:
+    - `dado1` y `dado2`: Utiliza `np.random.randint` para generar los resultados de los lanzamientos de los dos dados.
+    - `sumas`: Calcula las sumas de los resultados de los dos dados.
 
-4. **Calcular Frecuencias**:
-    - `frecuencias = {suma: np.sum(sumas == suma) for suma in range(2, 13)}`: Utiliza un diccionario para contar las ocurrencias de cada suma posible (desde 2 hasta 12). Para cada suma en el rango, cuenta cuántas veces aparece esa suma en el array `sumas`.
+3. **Cálculo de Frecuencias**:
+    - `frecuencias`: Cuenta las ocurrencias de cada suma posible usando un diccionario.
 
-5. **Mostrar Resultados**:
-    - `print("Frecuencia de cada suma:")`: Imprime un encabezado para los resultados.
-    - `for suma, frecuencia in frecuencias.items():`: Itera sobre el diccionario de frecuencias e imprime cada suma y su frecuencia.
+4. **Visualización**:
+    - Gráfico de barras para mostrar la frecuencia de cada suma.
+    - Gráfico de líneas para mostrar la frecuencia acumulada de las sumas.
+    - Histograma para mostrar la distribución de las sumas.
 
-### Ejemplo de Salida
+### Ejemplo de Uso
 
-```
-Frecuencia de cada suma:
-Suma 2: 2
-Suma 3: 5
-Suma 4: 8
-Suma 5: 10
-Suma 6: 18
-Suma 7: 16
-Suma 8: 12
-Suma 9: 10
-Suma 10: 9
-Suma 11: 6
-Suma 12: 4
-```
+El código de ejemplo muestra cómo simular 100 lanzamientos de dos dados y calcular la frecuencia de cada suma posible. Los resultados se muestran en gráficos para facilitar la visualización.
 
 ### Prueba y Modificación
 
-Los estudiantes pueden modificar el número de lanzamientos para ver cómo afecta a la distribución de las sumas. Por ejemplo, pueden cambiar el número de lanzamientos a 1000 o 10000 para obtener una mejor estimación de las frecuencias. Además, pueden repetir la simulación varias veces para observar la variabilidad en los resultados.
+Para hacer el ejemplo más entretenido, los estudiantes pueden cambiar los siguientes parámetros y observar cómo afectan los resultados:
 
-Este ejercicio proporciona una excelente oportunidad para practicar el uso de arrays, funciones estadísticas y diccionarios en Python, aplicando conceptos de probabilidad para simular y analizar experimentos aleatorios.
+1. **Número de Lanzamientos (`n_lanzamientos`)**:
+    - Cambiar `n_lanzamientos` a diferentes valores como 200, 500 o 1000 para ver cómo el número de lanzamientos afecta la precisión de las frecuencias calculadas.
+    ```{pyodide-python}
+    n_lanzamientos = 500  # Cambiar a diferentes valores
+    ```
 
-
+Estos cambios permiten a los estudiantes experimentar con diferentes escenarios y entender mejor cómo las variables iniciales afectan los resultados de la simulación, haciendo el ejercicio más interactivo y entretenido.
