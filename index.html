@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.557">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,14 +24,14 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./prefacio/intro.html" rel="next">
+<link href="./material/talleres/intro.html" rel="next">
 <link href="./images/pc.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,6 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 </head>
@@ -79,25 +82,28 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">🏠 Home</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">🐍 PySchool</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/fralfaro/pyschool_content" title="Ejecutar el código" class="quarto-navigation-tool px-1" aria-label="Ejecutar el código"><i class="bi bi-github"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -114,47 +120,62 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./prefacio/intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prefacio</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">🚀 Talleres</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./prefacio/intro_progra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">💻 Sobre Programación</span></a>
+  <a href="./material/talleres/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Primeros Pasos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./prefacio/intro_python.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🐍 Sobre Python</span></a>
+  <a href="./material/talleres/taller_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a Python</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./material/talleres/taller_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Python en Ciencia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./material/talleres/taller_3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Python en Ciencia de Datos</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./talleres/intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Talleres</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar sección">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">📜 Anexos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talleres/taller_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🚀 Taller 01: Introducción a Python</span></a>
+  <a href="./material/anexos/aprendizaje.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Seguir aprendiendo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talleres/taller_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🚀 Taller 02: Python en la Ciencia Tradicional</span></a>
+  <a href="./material/anexos/tecnologia.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sobre la página</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talleres/taller_3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🚀 Taller 03: Python en la Ciencia Datos</span></a>
+  <a href="./material/anexos/autoria.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Autoría</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./material/anexos/colaborar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Colaborar</span></a>
   </div>
 </li>
       </ul>
@@ -164,29 +185,9 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">🏠 Home</a>
-  <ul class="collapse">
-  <li><a href="#cómo-usar-esta-página" id="toc-cómo-usar-esta-página" class="nav-link" data-scroll-target="#cómo-usar-esta-página">💡 Cómo usar esta página</a></li>
-  <li><a href="#autoría" id="toc-autoría" class="nav-link" data-scroll-target="#autoría">📜 Autoría</a>
-  <ul class="collapse">
-  <li><a href="#reconocimientos-adicionales" id="toc-reconocimientos-adicionales" class="nav-link" data-scroll-target="#reconocimientos-adicionales">Reconocimientos Adicionales</a></li>
-  </ul></li>
-  <li><a href="#recursos" id="toc-recursos" class="nav-link" data-scroll-target="#recursos">📚 Recursos</a>
-  <ul class="collapse">
-  <li><a href="#dónde-aprender-en-serio" id="toc-dónde-aprender-en-serio" class="nav-link" data-scroll-target="#dónde-aprender-en-serio">¿Dónde aprender “en serio”?</a></li>
-  <li><a href="#consejos-para-aprender-python" id="toc-consejos-para-aprender-python" class="nav-link" data-scroll-target="#consejos-para-aprender-python">Consejos para Aprender Python</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -195,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
@@ -207,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">20 de agosto de 2024</p>
+      <p class="date">2 de agosto de 2024</p>
     </div>
   </div>
   
@@ -221,91 +222,126 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="home" class="level1">
 <h1>🏠 Home</h1>
+<p>Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.</p>
 <center>
-<img src="images/cover.png" width="250">
+<img src="./images/cover.png" width="300">
 </center>
-<p>Este espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.</p>
-<p><a href="http://www.pyschool.cl">PySchool</a> es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.</p>
-<p>Te invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!</p>
-<section id="cómo-usar-esta-página" class="level2">
-<h2 class="anchored" data-anchor-id="cómo-usar-esta-página">💡 Cómo usar esta página</h2>
-<p>¡Mira un ejemplo del filtro <code>quarto-pyodide</code> en acción!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://i.imgur.com/gzAyV8H.gif" class="img-fluid figure-img"></p>
-<figcaption>Filtro <code>quarto-pyodide</code> en acción</figcaption>
-</figure>
+<p>PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.</p>
+<center>
+<img src="./images/pythonchile.png" width="270"> <img src="./images/DUOC_1.png" width="300">
+</center>
+<p>La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.</p>
+<section id="cronograma" class="level2">
+<h2 class="anchored" data-anchor-id="cronograma">📅 Cronograma</h2>
+<div id="75334e53" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+<div id="qsnxejwvlf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#qsnxejwvlf table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#qsnxejwvlf thead, tbody, tfoot, tr, td, th { border-style: none; }
+ tr { background-color: transparent; }
+#qsnxejwvlf p { margin: 0; padding: 0; }
+ #qsnxejwvlf .gt_table { display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; }
+ #qsnxejwvlf .gt_caption { padding-top: 4px; padding-bottom: 4px; }
+ #qsnxejwvlf .gt_title { color: #333333; font-size: 125%; font-weight: initial; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; border-bottom-color: #FFFFFF; border-bottom-width: 0; }
+ #qsnxejwvlf .gt_subtitle { color: #333333; font-size: 85%; font-weight: initial; padding-top: 3px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-color: #FFFFFF; border-top-width: 0; }
+ #qsnxejwvlf .gt_heading { background-color: #FFFFFF; text-align: center; border-bottom-color: #FFFFFF; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #qsnxejwvlf .gt_bottom_border { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; }
+ #qsnxejwvlf .gt_col_headings { border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; }
+ #qsnxejwvlf .gt_col_heading { color: #FFFFFF; background-color: #004D80; font-size: 100%; font-weight: normal; text-transform: inherit; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; overflow-x: hidden; }
+ #qsnxejwvlf .gt_column_spanner_outer { color: #FFFFFF; background-color: #004D80; font-size: 100%; font-weight: normal; text-transform: inherit; padding-top: 0; padding-bottom: 0; padding-left: 4px; padding-right: 4px; }
+ #qsnxejwvlf .gt_column_spanner_outer:first-child { padding-left: 0; }
+ #qsnxejwvlf .gt_column_spanner_outer:last-child { padding-right: 0; }
+ #qsnxejwvlf .gt_column_spanner { border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; vertical-align: bottom; padding-top: 5px; padding-bottom: 5px; overflow-x: hidden; display: inline-block; width: 100%; }
+ #qsnxejwvlf .gt_spanner_row { border-bottom-style: hidden; }
+ #qsnxejwvlf .gt_group_heading { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; text-align: left; }
+ #qsnxejwvlf .gt_empty_group_heading { padding: 0.5px; color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; vertical-align: middle; }
+ #qsnxejwvlf .gt_from_md> :first-child { margin-top: 0; }
+ #qsnxejwvlf .gt_from_md> :last-child { margin-bottom: 0; }
+ #qsnxejwvlf .gt_row { padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #89D3FE; border-left-style: solid; border-left-width: 1px; border-left-color: #89D3FE; border-right-style: solid; border-right-width: 1px; border-right-color: #89D3FE; vertical-align: middle; overflow-x: hidden; }
+ #qsnxejwvlf .gt_stub { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #5F5F5F; padding-left: 5px; padding-right: 5px; }
+ #qsnxejwvlf .gt_stub_row_group { color: #333333; background-color: #FFFFFF; font-size: 100%; font-weight: initial; text-transform: inherit; border-right-style: solid; border-right-width: 2px; border-right-color: #D3D3D3; padding-left: 5px; padding-right: 5px; vertical-align: top; }
+ #qsnxejwvlf .gt_row_group_first td { border-top-width: 2px; }
+ #qsnxejwvlf .gt_row_group_first th { border-top-width: 2px; }
+ #qsnxejwvlf .gt_table_body { border-top-style: solid; border-top-width: 2px; border-top-color: #D5D5D5; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D5D5D5; }
+ #qsnxejwvlf .gt_sourcenotes { color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; }
+ #qsnxejwvlf .gt_sourcenote { font-size: 90%; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; text-align: left; }
+ #qsnxejwvlf .gt_left { text-align: left; }
+ #qsnxejwvlf .gt_center { text-align: center; }
+ #qsnxejwvlf .gt_right { text-align: right; font-variant-numeric: tabular-nums; }
+ #qsnxejwvlf .gt_font_normal { font-weight: normal; }
+ #qsnxejwvlf .gt_font_bold { font-weight: bold; }
+ #qsnxejwvlf .gt_font_italic { font-style: italic; }
+ #qsnxejwvlf .gt_super { font-size: 65%; }
+ #qsnxejwvlf .gt_footnote_marks { font-size: 75%; vertical-align: 0.4em; position: initial; }
+ #qsnxejwvlf .gt_asterisk { font-size: 100%; vertical-align: 0; }
+ 
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead class="gt_header">
+<tr class="header">
+<th colspan="3" class="gt_heading gt_title gt_font_normal" data-quarto-table-cell-role="th">Programa de actividades</th>
+</tr>
+<tr class="odd">
+<th colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" data-quarto-table-cell-role="th">Horario de eventos del día</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd gt_col_headings">
+<td id="Inicio" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Inicio</td>
+<td id="Término" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Término</td>
+<td id="Actividad" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Actividad</td>
+</tr>
+</tbody>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right">9:00</td>
+<td class="gt_row gt_right">9:30</td>
+<td class="gt_row gt_left">Acreditación</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right">9:30</td>
+<td class="gt_row gt_right">10:15</td>
+<td class="gt_row gt_left">Bienvenida y panel pythonistas</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right">10:30</td>
+<td class="gt_row gt_right">11:30</td>
+<td class="gt_row gt_left">Taller 1</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right">12:00</td>
+<td class="gt_row gt_right">13:00</td>
+<td class="gt_row gt_left">Taller 2</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right">13:00</td>
+<td class="gt_row gt_right">1:30</td>
+<td class="gt_row gt_left">Cierre</td>
+</tr>
+</tbody>
+</table>
+
+
 </div>
-<p>Puedes ver el ejemplo completo de la extensión en acción <a href="https://quarto.thecoatlessprofessor.com/pyodide/examples/readme">aquí</a>.</p>
-</section>
-<section id="autoría" class="level2">
-<h2 class="anchored" data-anchor-id="autoría">📜 Autoría</h2>
-<p>Este proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.</p>
-<section id="reconocimientos-adicionales" class="level3">
-<h3 class="anchored" data-anchor-id="reconocimientos-adicionales">Reconocimientos Adicionales</h3>
-<p>Además, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.</p>
-<p>Si deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la <a href="https://pythonchile.cl">página oficial de Python Chile</a>. ¡Gracias por apoyar y ser parte de nuestra comunidad!</p>
-</section>
-</section>
-<section id="recursos" class="level2">
-<h2 class="anchored" data-anchor-id="recursos">📚 Recursos</h2>
-<section id="dónde-aprender-en-serio" class="level3">
-<h3 class="anchored" data-anchor-id="dónde-aprender-en-serio">¿Dónde aprender “en serio”?</h3>
-<p>Para quienes desean profundizar en sus conocimientos de Python, aquí hay algunos recursos recomendados:</p>
-<ol type="1">
-<li><strong>Cursos en Línea</strong>
+        
+</div>
+</div>
+<p><br></p>
+<p><strong>Taller 1:</strong> Común para todos los participantes: <a href="./talleres/taller_1.html">Introducción a Python</a>.</p>
+<p><strong>Taller 2:</strong> Opcional, según la elección de cada participante:</p>
 <ul>
-<li><a href="https://www.coursera.org/">Coursera</a>: Cursos como “Python for Everybody” de la Universidad de Míchigan.</li>
-<li><a href="https://www.edx.org/">edX</a>: Programas de certificación profesional como “Programming for Everybody” del MIT.</li>
-<li><a href="https://www.udemy.com/">Udemy</a>: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.</li>
-</ul></li>
-<li><strong>Plataformas Interactivas</strong>
-<ul>
-<li><a href="https://www.codecademy.com/learn/learn-python-3">Codecademy</a>: Curso interactivo de Python para principiantes.</li>
-<li><a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp</a>: Cursos especializados en Python para ciencia de datos.</li>
-</ul></li>
-<li><strong>Documentación Oficial y Recursos Comunitarios</strong>
-<ul>
-<li><a href="https://docs.python.org/3/">Documentación de Python</a>: La fuente más confiable y detallada para aprender Python.</li>
-<li><a href="https://stackoverflow.com/questions/tagged/python">Stack Overflow</a>: Comunidad activa para resolver dudas.</li>
-<li><a href="https://github.com/">GitHub</a>: Repositorios de proyectos de código abierto en Python.</li>
-</ul></li>
-<li><strong>Libros Recomendados</strong>
-<ul>
-<li><a href="https://automatetheboringstuff.com/">“Automate the Boring Stuff with Python”</a> de Al Sweigart.</li>
-<li><a href="https://nostarch.com/pythoncrashcourse2e">“Python Crash Course”</a> de Eric Matthes.</li>
-<li><a href="https://www.oreilly.com/library/view/fluent-python/9781491946237/">“Fluent Python”</a> de Luciano Ramalho.</li>
-</ul></li>
-</ol>
-</section>
-<section id="consejos-para-aprender-python" class="level3">
-<h3 class="anchored" data-anchor-id="consejos-para-aprender-python">Consejos para Aprender Python</h3>
-<ol type="1">
-<li><strong>Practicar Regularmente</strong>
-<ul>
-<li>Escribe código todos los días, incluso si es por poco tiempo.</li>
-</ul></li>
-<li><strong>Participar en Proyectos Reales</strong>
-<ul>
-<li>Contribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.</li>
-</ul></li>
-<li><strong>Resolver Ejercicios y Retos</strong>
-<ul>
-<li>Plataformas como <a href="https://leetcode.com/">LeetCode</a>, <a href="https://www.hackerrank.com/">HackerRank</a>, y <a href="https://www.codewars.com/">CodeWars</a> ofrecen retos de programación.</li>
-</ul></li>
-<li><strong>Unirse a Comunidades</strong>
-<ul>
-<li>Participa en comunidades como <a href="https://www.reddit.com/r/learnpython/">r/learnpython</a> en Reddit y <a href="https://pythondiscord.com/">Python Discord</a>.</li>
-</ul></li>
-<li><strong>Mantenerse Actualizado</strong>
-<ul>
-<li>Sigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.</li>
-</ul></li>
-</ol>
-<p>Con estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.</p>
+<li><a href="./talleres/taller_2.html">Python en Ciencias</a></li>
+<li><a href="./talleres/taller_3.qmd.html">Python en Ciencia de Datos</a></li>
+</ul>
 
 
-</section>
 </section>
 </section>
 
@@ -345,18 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -388,7 +413,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -396,7 +443,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -719,12 +766,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./prefacio/intro.html" class="pagination-link" aria-label="Prefacio">
-        <span class="nav-page-text">Prefacio</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./material/talleres/intro.html" class="pagination-link" aria-label="Primeros Pasos">
+        <span class="nav-page-text"><span class="chapter-title">Primeros Pasos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

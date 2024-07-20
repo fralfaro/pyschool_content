@@ -4,343 +4,338 @@
     "href": "index.html",
     "title": "🐍 PySchool",
     "section": "",
-    "text": "🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa del equipo de Python Chile, creada en 2024. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nTe invitamos a explorar los ejemplos, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en PySchool!",
+    "text": "🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
   },
   {
-    "objectID": "index.html#cómo-usar-esta-página",
-    "href": "index.html#cómo-usar-esta-página",
+    "objectID": "index.html#cronograma",
+    "href": "index.html#cronograma",
     "title": "🐍 PySchool",
-    "section": "💡 Cómo usar esta página",
-    "text": "💡 Cómo usar esta página\n¡Mira un ejemplo del filtro quarto-pyodide en acción!\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
+    "section": "📅 Cronograma",
+    "text": "📅 Cronograma\n\n\n\n\n\n\n\n\nPrograma de actividades\n\n\nHorario de eventos del día\n\n\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre\n\n\n\n\n\n\n        \n\n\n\nTaller 1: Común para todos los participantes: Introducción a Python.\nTaller 2: Opcional, según la elección de cada participante:\n\nPython en Ciencias\nPython en Ciencia de Datos",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
   },
   {
-    "objectID": "index.html#autoría",
-    "href": "index.html#autoría",
-    "title": "🐍 PySchool",
-    "section": "📜 Autoría",
-    "text": "📜 Autoría\nEste proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.\n\nReconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#recursos",
-    "href": "index.html#recursos",
-    "title": "🐍 PySchool",
-    "section": "📚 Recursos",
-    "text": "📚 Recursos\n\n¿Dónde aprender “en serio”?\nPara quienes desean profundizar en sus conocimientos de Python, aquí hay algunos recursos recomendados:\n\nCursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.\n\n\n\n\nConsejos para Aprender Python\n\nPracticar Regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en Proyectos Reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver Ejercicios y Retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a Comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro.html",
-    "href": "prefacio/intro.html",
-    "title": "Prefacio",
+    "objectID": "material/talleres/intro.html",
+    "href": "material/talleres/intro.html",
+    "title": "Primeros Pasos",
     "section": "",
-    "text": "💻 Sobre Programación\nLa programación es la base sobre la cual se construyen todas las aplicaciones y sistemas que usamos en nuestra vida diaria. Es el proceso de diseñar y construir un conjunto de instrucciones que una computadora puede seguir para realizar una tarea específica. A través de la programación, podemos resolver problemas, automatizar procesos y crear soluciones innovadoras que mejoran nuestra eficiencia y productividad. En este apartado, introduciremos los conceptos básicos de la programación, sus principios fundamentales y las mejores prácticas para escribir código limpio y efectivo.",
+    "text": "Programación\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nCualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!",
     "crumbs": [
-      "Prefacio"
+      "🚀 Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
     ]
   },
   {
-    "objectID": "prefacio/intro.html#sobre-python",
-    "href": "prefacio/intro.html#sobre-python",
-    "title": "Prefacio",
-    "section": "🐍 Sobre Python",
-    "text": "🐍 Sobre Python\nPython es uno de los lenguajes de programación más populares y versátiles en la actualidad. Con una sintaxis sencilla y clara, es ideal tanto para principiantes como para programadores experimentados. Python se utiliza en una amplia variedad de aplicaciones, desde desarrollo web y análisis de datos hasta inteligencia artificial y automatización de tareas. En esta sección, nos adentraremos en las características que hacen de Python una herramienta poderosa y accesible, proporcionando ejemplos prácticos y ejercicios para que puedas empezar a escribir tus propios programas.",
-    "crumbs": [
-      "Prefacio"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_progra.html",
-    "href": "prefacio/intro_progra.html",
-    "title": "💻 Sobre Programación",
+    "objectID": "material/talleres/intro.html#programación",
+    "href": "material/talleres/intro.html#programación",
+    "title": "Primeros Pasos",
     "section": "",
-    "text": "Introducción\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nLas computadoras son expertas en llevar a cabo tareas rutinarias. Idealmente, cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es el proceso de traducir un enfoque para resolver problemas en términos comprensibles para la computadora.\nAdemás, la programación abarca una amplia gama de lenguajes y paradigmas, cada uno con sus propias características y aplicaciones. Desde los clásicos como C y Java hasta los modernos como Python y JavaScript, cada lenguaje tiene sus fortalezas y debilidades, y la elección del lenguaje adecuado depende del contexto y los requisitos del proyecto.\nLa programación no se limita solo a escribir código. También implica planificación, diseño y depuración de software. Los programadores deben comprender los requisitos del usuario, diseñar soluciones eficientes y depurar errores para garantizar que el software funcione correctamente.",
+    "text": "“Automatizar tareas para que la computadora las realice por nosotros.\n\n\n\n“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth",
     "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
     ]
   },
   {
-    "objectID": "prefacio/intro_progra.html#introducción",
-    "href": "prefacio/intro_progra.html#introducción",
-    "title": "💻 Sobre Programación",
+    "objectID": "material/talleres/intro.html#python",
+    "href": "material/talleres/intro.html#python",
+    "title": "Primeros Pasos",
+    "section": "Python",
+    "text": "Python\nPython es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:\n\nEs fácil de entender: un programa bien escrito se parece mucho al inglés.\nPosee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)\nEs extensible:",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/intro.html#ejecutándo-código-python",
+    "href": "material/talleres/intro.html#ejecutándo-código-python",
+    "title": "Primeros Pasos",
+    "section": "Ejecutándo código Python",
+    "text": "Ejecutándo código Python\nPara utilizar Python en una computadora, es necesario: 1. Tener instalada alguna versión de Python 2. Escribir tu programa en un archivo (por ejemplo “mi_programa.py”) 3. Ejecutar el programa con Python (“python mi_programa.py”)\nA medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).\nPor simplicidad, en la PySchool utilizaremos una tecnología reciente que permite emular la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.\nExisten 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/intro.html#ejemplo-hola-mundo",
+    "href": "material/talleres/intro.html#ejemplo-hola-mundo",
+    "title": "Primeros Pasos",
+    "section": "Ejemplo: 👋 Hola Mundo",
+    "text": "Ejemplo: 👋 Hola Mundo\nEs tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase “Hola, Mundo” (o “Hello World”) en la pantalla.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?\n\n\n\nPodemos mejorar el código anterior utilizando variables que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Qué significa el signo + en el ejemplo anterior? ¿Qué significan los simbolos \"?\n\n\n\nUn principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo. Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende “empaquetarlas” en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.\nAsí por ejemplo podemos reducir el código desde\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nal siguiente código\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nEn este ejemplo hemos revisado la función print, strings (cadenas de carácteres), variables y funciones. Python proporciona muchas funciones adicionales para manipular strings. ¿Que hacen las siguientes funciones?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nDebes borrar el carácter # para que la línea deje de ser un comentario y se ejecute.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros Pasos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_1.html",
+    "href": "material/talleres/taller_1.html",
+    "title": "Introducción a Python",
     "section": "",
-    "text": "“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth\n\n\n\n“Automatizar tareas para que la computadora las realice por nosotros.",
+    "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Este ejercicio es una excelente manera de introducirse en el mundo de la programación, independientemente del lenguaje que se esté utilizando. En este caso, utilizaremos Python para imprimir “Hola, Mundo” en la pantalla. Este simple programa ayuda a los principiantes a familiarizarse con la sintaxis básica del lenguaje y el entorno de desarrollo.",
     "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "prefacio/intro_progra.html#algoritmos",
-    "href": "prefacio/intro_progra.html#algoritmos",
-    "title": "💻 Sobre Programación",
-    "section": "Algoritmos",
-    "text": "Algoritmos\n\n\n\n\n“La informática se trata de computadores tanto como la astronomía se trata de telescopios.” – Edsger Dijkstra\n\nAl diseñar un programa, el desafío principal es crear y describir un procedimiento que esté completamente bien definido, sin ambigüedades, y que efectivamente resuelva el problema.\nPor tanto, la programación no se centra tanto en los computadores como en resolver problemas de manera estructurada. Su objeto de estudio principal son los algoritmos.\nUn algoritmo es un procedimiento bien definido para resolver un problema. Todos utilizamos algoritmos a diario, incluso sin darnos cuenta:\na) Receta de cocina\nUna receta de cocina es un ejemplo de algoritmo; aunque algunos pasos puedan parecer ambiguos (¿cuánto es «una pizca de sal»? ¿qué significa «agregar a gusto»?), en general las instrucciones están lo suficientemente bien definidas para seguirlas sin problemas.\nLa entrada de una receta son los ingredientes y ciertos datos como: ¿para cuántas personas se está cocinando? El proceso es la serie de pasos para manipular los ingredientes. La salida es el plato terminado.\nEn principio, si una receta está suficientemente bien explicada, cualquiera podría preparar el plato incluso sin conocimientos previos de cocina.\nb) Método de multiplicación\nEl método para multiplicar números a mano que aprendemos en la escuela es otro ejemplo de algoritmo. Siguiendo paso a paso el procedimiento, siempre obtendremos el producto.\nLa entrada del algoritmo de multiplicación son los dos factores. El proceso consiste en una secuencia de pasos donde los dígitos se multiplican, las reservas se suman, y los productos intermedios se suman finalmente. La salida del algoritmo es el producto obtenido.\n\nComponentes de un algoritmo\nConceptualmente, un algoritmo consta de tres elementos principales:\n\nEntrada: Representa los datos iniciales o inputs que el algoritmo utilizará para llevar a cabo su tarea.\nProceso: Consiste en la serie de pasos lógicos y operaciones que el algoritmo realiza utilizando la entrada para producir un resultado.\nSalida: Es el resultado final o output que proporciona el algoritmo después de ejecutar el proceso.\n\nEl proceso se describe mediante una secuencia ordenada de instrucciones. Además, puede incluir estructuras como ciclos, que repiten un conjunto de instrucciones un número determinado de veces, y condicionales, que determinan qué conjunto de instrucciones se ejecutarán según ciertas condiciones.\n\n\nCómo describir un algoritmo\nConsideremos un ejemplo sencillo: un algoritmo para resolver ecuaciones cuadráticas.\nUna ecuación cuadrática es una ecuación de la forma \\(ax^2+bx+c=0\\), donde \\(a, b\\) y \\(c\\) son datos dados, con \\(a\\neq0\\), y \\(x\\) es la incógnita cuyo valor que se desea determinar.\nPor ejemplo, \\(2x^2−5x+2=0\\) es una ecuación cuadrática con \\(a=2\\), \\(b=−5\\) y \\(c=2\\). Sus soluciones son \\(x_1=1/2\\) y \\(x_2=2\\), como se puede comprobar fácilmente al reemplazar estos valores en la ecuación. El problema es cómo obtener estos valores en primer lugar.\nEl problema computacional de resolver una ecuación cuadrática puede ser planteado así:\n\nDados \\(a, b\\) y \\(c\\), entontrar los valores reales de \\(x\\) que satisfacen \\(ax^2+bx+c=0\\).\n\nLa entrada del algoritmo, pues, son los valores \\(a, b\\) y \\(c\\), y la salida son las raíces reales \\(x\\) (que pueden ser cero, una o dos) de la ecuación. En un programa computacional, los valores de \\(a, b\\) y \\(c\\) deberían ser ingresados usando el teclado, y las soluciones \\(x\\) deberían ser mostradas a continuación en la pantalla.\nAl estudiar álgebra aprendemos un algoritmo para resolver este problema. Es lo suficientemente detallado para que pueda usarlo cualquier persona, incluso sin saber qué es una ecuación cuadrática, o para que lo pueda hacer un computador. A continuación veremos algunas maneras de describir el procedimiento.\nLenguaje natural\nDurante el proceso mental de diseñar un algoritmo, es común pensar y describir los pasos en la misma manera en que hablamos a diario. Por ejemplo:\n\nTeniendo los valores de \\(a, b\\) y \\(c\\), calcular el discriminante \\(D=b^2−4ac\\). Si es discriminante es negativo, entonces la ecuación no tiene soluciones reales. Si es discriminante es igual a cero, entonces la ecuación tiene una única solución real, que es \\(x=−b/2a\\). Si el discriminante es positivo, entonces la ecuación tiene dos soluciones reales, que son \\(x_1=(−b−\\sqrt{D})/2a\\) y \\(x_2=(−b+\\sqrt{D})/2a\\).\n\nEsta manera de expresar un algoritmo no es ideal, ya que el lenguaje natural es:\n\nimpreciso: puede tener ambigüedades;\nno universal: personas distintas describirán el proceso de maneras distintas; y\nno estructurado: la descripción no está expresada en función de componentes simples.\n\nAún así, es posible identificar los pasos del algoritmo. Por ejemplo, hay que evaluar la expresión \\(b^2−4ac\\), y ponerle el nombre \\(D\\) a su resultado. Esto se llama asignación, y es un tipo de instrucción que aparece en casi todos los algoritmos. Después de eso, el algoritmo puede usar el nombre \\(D\\) para referirse al valor calculado.\nDiagrama de flujo Un diagrama de flujo es una representación gráfica de un algoritmo. Los pasos son representados por varios tipos de bloques, y el flujo de ejecución es indicado por flechas que conectan los bloques:\n\n\n\nEl inicio y el final del algoritmo son representados con bloques circulares. El algoritmo siempre debe ser capaz llegar desde uno hasta el otro, sin importar por qué camino lo hace. Un algoritmo no puede «quedarse pegado» en la mitad.\nLa entrada y la salida de datos son representadas con romboides, que en la figura de arriba están pintados de verde.\nLos diamantes representan condiciones en las que el algoritmo sigue uno de dos caminos. que están etiquetados con sí o no, dependiendo si la condición es verdadera o falsa.\nTambién puede haber ciclos, representados por flechas que regresan a bloques anteriores. En este ejemplo, no hay ciclos.\nOtras sentencias van dentro de rectángulos, que en la figura están pintados de azul. En este ejemplo, las sentencias son asignaciones, representadas en la forma nombre = valor.\nLos diagramas de flujo no son usados en la práctica para programar, pero son útiles para ilustrar cómo funcionan algoritmos sencillos.\nPseudocódigo\nEl pseudocódigo es una descripción estructurada de un algoritmo basada en ciertas convenciones notacionales. Si bien es muy parecido al código que finalmente se escribirá en el computador, el pseudocódigo está pensado para ser leído por humanos.\nUna manera de escribir el algoritmo para la ecuación cuadrática en pseudocódigo es la siguiente:\nleer a\nleer b\nleer c\n\ndiscriminante = b² - 4ac\n\nsi discriminante &lt; 0:\n    escribir 'La ecuación no tiene soluciones reales'\n\no si no, si discriminante = 0:\n    x = -b / 2a\n    escribir 'La solución única es', x\n\no si no:\n    x1 = (-b - √discriminante) / 2a\n    x2 = (-b + √discriminante) / 2a\n    escribir 'Las dos soluciones reales son:'\n    escribir x1\n    escribir x2\nLas líneas que comienzan con leer y escribir denotan, respectivamente, la entrada y la salida del programa. Los diferentes casos son representados usando sentencias si y o si no. Las asignaciones siguen la misma notación que en el caso de los diagramas de flujo.\nLa notación de pseudocódigo es bien liberal. Uno puede mezclar notación de matemáticas con frases en español, siempre que quede absolutamente claro para el lector qué representa cada una de las líneas del algoritmo.\nCódigo\nEl producto final de la programación siempre debe ser código que pueda ser ejecutado en el computador. Esto requiere describir los algoritmos en un lenguaje de programación. Los lenguajes de programación definen un conjunto limitado de conceptos básicos, en función de los cuales uno puede expresar cualquier algoritmo.\nEn esta asignatura, usaremos el lenguaje de programación Python para escribir nuestros programas.\nEl código en Python para resolver la ecuación cuadrática es el siguiente:\na = float(raw_input('Ingrese a: '))\nb = float(raw_input('Ingrese b: '))\nc = float(raw_input('Ingrese c: '))\n\ndiscriminante = b ** 2 - 4 * a * c\nif discriminante &lt; 0:\n    print 'La ecuacion no tiene soluciones reales'\nelif discriminante == 0:\n    x = -b / (2 * a)\n    print 'La solucion unica es x =', x\nelse:\n    x1 = (-b - (discriminante ** 0.5)) / (2 * a)\n    x2 = (-b + (discriminante ** 0.5)) / (2 * a)\n    print 'Las dos soluciones reales son:'\n    print 'x1 =', x1\n    print 'x2 =', x2\n\nraw_input()\nA partir de ahora, usted aprenderá a entender, escribir y ejecutar códigos como éste.",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_progra.html#referencias",
-    "href": "prefacio/intro_progra.html#referencias",
-    "title": "💻 Sobre Programación",
-    "section": "Referencias",
-    "text": "Referencias\n\nProgramación - USM",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_python.html",
-    "href": "prefacio/intro_python.html",
-    "title": "🐍 Sobre Python",
+    "objectID": "material/talleres/taller_1.html#hola-mundo",
+    "href": "material/talleres/taller_1.html#hola-mundo",
+    "title": "Introducción a Python",
     "section": "",
-    "text": "Popularidad\nPython es uno de los lenguajes de programación más populares y ampliamente utilizados en la actualidad. Según los índices de popularidad de lenguajes de programación, Python ha estado en constante aumento en popularidad en los últimos años.\nEl índice TIOBE, que mide la popularidad de los lenguajes de programación según la frecuencia con la que se buscan en los motores de búsqueda, ha situado a Python entre los tres lenguajes de programación más populares en los últimos años, después de Java y C.\nAdemás, según la encuesta anual Stack Overflow Developer Survey 2023, Python se ubicó entre los cinco lenguajes de programación más populares. Este lenguaje también ha ganado una notable popularidad en campos como la ciencia de datos y el aprendizaje automático, consolidándose como una herramienta indispensable para profesionales y entusiastas de estas áreas.",
+    "text": "Contexto\nEl programa “Hola Mundo” es tradicionalmente el primer programa que los programadores escriben cuando están aprendiendo un nuevo lenguaje de programación. Es una manera sencilla y efectiva de familiarizarse con la sintaxis del lenguaje, asegurarse de que el entorno de desarrollo está correctamente configurado y comprobar que el código se puede ejecutar correctamente. En Python, escribir un programa “Hola Mundo” es tan simple como usar la función print.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es asegurarse de que tu entorno de desarrollo esté configurado correctamente y que puedes ejecutar un programa básico en Python.\n\n\n\n\nConfiguración del entorno: Asegurarse de que Python está instalado y configurado correctamente en tu sistema.\nEscribir el código: Escribir un programa sencillo que imprima “Hola, Mundo” en la pantalla.\nEjecutar el programa: Ejecutar el programa para ver el resultado y asegurarse de que todo funciona correctamente.\n\n\n\nCódigo para “Hola Mundo”\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código usa la función print para imprimir el texto “Hola, Mundo” en la pantalla. Aquí hay una breve explicación de los elementos clave:\n\nprint: print es una función incorporada en Python que se utiliza para mostrar texto en la pantalla.\n“Hola, Mundo”: El texto que queremos imprimir se coloca entre comillas dobles. En Python, las comillas dobles y simples se pueden usar indistintamente para definir cadenas de texto.\n\n\n\nEjemplo de Uso\nCuando ejecutas este código en tu entorno de desarrollo, deberías ver la salida siguiente en la pantalla:\nHola, Mundo\n\n\nPrueba y Modificación\nUna vez que has ejecutado el programa y confirmado que funciona, puedes intentar modificar el texto para imprimir diferentes mensajes. Por ejemplo, puedes cambiar el texto a “¡Bienvenido a Python!” y ejecutar el programa de nuevo para ver el nuevo mensaje en la pantalla.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nEste ejercicio proporciona una base sólida para entender cómo funciona la función print en Python y es un paso fundamental hacia la construcción de programas más complejos. Además, garantiza que tu entorno de desarrollo está configurado correctamente para ejecutar programas en Python.",
     "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "prefacio/intro_python.html#popularidad",
-    "href": "prefacio/intro_python.html#popularidad",
-    "title": "🐍 Sobre Python",
-    "section": "",
-    "text": "¿Es buena la popularidad de Python?\nSí, la popularidad de Python es una señal de su relevancia en el mundo de la programación y puede tener varias ventajas para los usuarios y la comunidad en general.\nEn primer lugar, una mayor popularidad significa que hay una amplia comunidad de desarrolladores y usuarios de Python en todo el mundo, lo que hace que sea más fácil encontrar recursos, soporte y ayuda en línea. Además, una gran comunidad de usuarios también implica que hay una gran cantidad de bibliotecas y módulos disponibles, lo que permite a los usuarios aprovechar el código existente y acelerar el desarrollo.\nEn segundo lugar, la popularidad de Python lo convierte en una habilidad valiosa en el mercado laboral, con una amplia gama de oportunidades de carrera en diferentes sectores, incluyendo la ciencia de datos, la inteligencia artificial, el desarrollo web, la automatización y la programación de sistemas.\nPor último, la popularidad de Python también puede significar que hay una gran inversión en su desarrollo y mejora continua, lo que resulta en una mayor calidad y eficiencia del lenguaje de programación.\nEn general, la popularidad de Python es una buena señal y es una de las razones por las que se ha convertido en un lenguaje de programación tan popular y utilizado en todo el mundo.",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_python.html#librerías-y-frameworks",
-    "href": "prefacio/intro_python.html#librerías-y-frameworks",
-    "title": "🐍 Sobre Python",
-    "section": "Librerías y frameworks",
-    "text": "Librerías y frameworks\n\n\n\nUna gran ventaja de Python es la amplia selección de librerías y frameworks que ofrece.\nHay librerías para distintos tópicos:\n\nManipulación de datos\nVisualización de datos\nAprendizaje automático\nCiencia de los datos\nProcesamiento natural del lenguaje\nBig Data\n\nLo mismo es cierto para los frameworks, que ayudan a despegar su proyecto y le ahorran tiempo y esfuerzo. Hay una variedad de marcos para elegir, dependiendo de sus necesidades, por ejemplo, para el desarrollo web tenemos:\n\nDjango: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web. Ofrece una arquitectura de modelo-vista-controlador (MVC) y herramientas para la administración de bases de datos, la autenticación y la seguridad.\nFlask: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web de menor escala y más simples. Ofrece una amplia gama de herramientas y extensiones para la creación de aplicaciones web.",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_python.html#performance",
-    "href": "prefacio/intro_python.html#performance",
-    "title": "🐍 Sobre Python",
-    "section": "Performance",
-    "text": "Performance\nPython es un lenguaje de programación interpretado de alto nivel, lo que significa que su rendimiento puede ser más lento que otros lenguajes de programación de menor nivel, como C o C++. Sin embargo, Python ofrece varias técnicas y herramientas para mejorar el rendimiento y la eficiencia de sus programas. Aquí hay algunas de ellas:\n\nCompilación JIT: Python ofrece la opción de utilizar un compilador Just-In-Time (JIT), como PyPy, que puede mejorar significativamente el rendimiento de los programas al compilar el código en tiempo de ejecución.\nCPython: Python también se puede ejecutar en una implementación de C llamada CPython, lo que puede mejorar el rendimiento de algunos programas.\nUso de bibliotecas nativas: Python ofrece la capacidad de usar bibliotecas nativas, como NumPy, que están escritas en lenguajes de bajo nivel como C y Fortran para realizar operaciones numéricas de manera más eficiente.\nUso de estructuras de datos eficientes: Python ofrece varias estructuras de datos, como las listas y los diccionarios, que se pueden usar de manera eficiente para mejorar el rendimiento de los programas.\nUso de algoritmos eficientes: El uso de algoritmos eficientes también puede mejorar significativamente el rendimiento de los programas en Python.\n\nEn general, Python puede ofrecer un buen rendimiento en comparación con otros lenguajes de programación interpretados, y hay varias técnicas y herramientas disponibles para mejorar aún más su rendimiento y eficiencia. Sin embargo, es importante recordar que el rendimiento dependerá en gran medida del uso que se le dé al lenguaje y de cómo se escriban los programas.",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio/intro_python.html#referencia",
-    "href": "prefacio/intro_python.html#referencia",
-    "title": "🐍 Sobre Python",
-    "section": "Referencia",
-    "text": "Referencia\n\nTutorial de Python 3.8 documentation",
-    "crumbs": [
-      "Prefacio",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/intro.html",
-    "href": "talleres/intro.html",
-    "title": "Talleres",
-    "section": "",
-    "text": "🎯 Objetivos de los Talleres\n¡Prepárate para una experiencia de aprendizaje dinámica y enriquecedora! 🚀✨",
-    "crumbs": [
-      "Talleres"
-    ]
-  },
-  {
-    "objectID": "talleres/intro.html#objetivos-de-los-talleres",
-    "href": "talleres/intro.html#objetivos-de-los-talleres",
-    "title": "Talleres",
-    "section": "",
-    "text": "🧠 Fundamentos de Python: Comenzaremos con los conceptos básicos, incluyendo la aritmética elemental y las estructuras de control de flujo. Estos fundamentos son esenciales para desarrollar una base sólida en programación.\n🔍 Aplicaciones Prácticas: A medida que avancemos, abordaremos problemas reales de diversas disciplinas científicas. Esto incluye ejemplos del mundo real que demuestran cómo Python puede ser utilizado para resolver problemas prácticos.\n📊 Ciencia de Datos: Una parte importante de estos talleres estará dedicada a la ciencia de datos. Exploraremos cómo Python es utilizado para analizar datos, visualizar información y construir modelos predictivos.",
-    "crumbs": [
-      "Talleres"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_1.html",
-    "href": "talleres/taller_1.html",
-    "title": "🚀 Taller 01: Introducción a Python",
-    "section": "",
-    "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.",
-    "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_1.html#hola-mundo",
-    "href": "talleres/taller_1.html#hola-mundo",
-    "title": "🚀 Taller 01: Introducción a Python",
-    "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_1.html#calculadora-básica",
-    "href": "talleres/taller_1.html#calculadora-básica",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "objectID": "material/talleres/taller_1.html#calculadora-básica",
+    "href": "material/talleres/taller_1.html#calculadora-básica",
+    "title": "Introducción a Python",
     "section": "2. 🧮 Calculadora Básica",
-    "text": "2. 🧮 Calculadora Básica\nUna simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "2. 🧮 Calculadora Básica\nEn este ejercicio, vamos a crear una simple calculadora que puede realizar operaciones básicas como suma, resta, multiplicación y división. Esta actividad es ideal para que los principiantes practiquen el uso de funciones, operadores aritméticos y estructuras condicionales en Python.\n\nContexto\nUna calculadora es una herramienta fundamental que permite realizar cálculos matemáticos básicos y complejos. En este ejercicio, nos centraremos en construir una calculadora que pueda manejar cuatro operaciones básicas: suma (+), resta (-), multiplicación (*) y división (/). Además, nos aseguraremos de manejar casos especiales como la división por cero, que no es una operación válida en matemáticas y debe ser tratada con cuidado en nuestro código.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que pueda realizar las operaciones básicas de una calculadora y manejar casos especiales como la división por cero.\n\n\n\n\nDefinir una función: Crearemos una función llamada calculadora que tome tres parámetros: la operación a realizar (operacion) y dos números (num1 y num2).\nImplementar las operaciones: Usaremos estructuras condicionales (if, elif, else) para definir las operaciones aritméticas básicas.\nManejo de errores: Incluiremos una verificación para la división por cero y devolveremos un mensaje de error apropiado.\nProbar la función: Probaremos la función con diferentes operaciones y valores para asegurarnos de que funcione correctamente.\n\n\n\nCódigo de la Calculadora\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada calculadora que realiza lo siguiente:\n\nParámetros de Entrada:\n\noperacion: Un string que indica la operación a realizar (+, -, *, /).\nnum1: El primer número para la operación.\nnum2: El segundo número para la operación.\n\nEstructura Condicional:\n\nUsa if, elif, y else para verificar qué operación se debe realizar.\nRealiza la operación correspondiente y devuelve el resultado en un formato de cadena que incluye el texto “Resultado:”.\n\nManejo de Errores:\n\nPara la operación de división (/), verifica si num2 es diferente de cero antes de realizar la división. Si num2 es cero, devuelve un mensaje de error “Error: División por cero”.\nSi se proporciona una operación no válida, devuelve “Operación no válida”.\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo muestra cómo usar la función calculadora con una operación de suma (+), y los números 10 y 5. Al ejecutar este ejemplo, se imprimirá Resultado: 15.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar los valores de operacion, num1, y num2 para probar diferentes cálculos y explorar cómo funciona la función. Por ejemplo, pueden cambiar operacion a '-', '*', o '/' y ajustar los valores de num1 y num2 para ver diferentes resultados.\nEste ejercicio proporciona una base sólida para entender cómo funcionan las funciones, los operadores aritméticos y las estructuras condicionales en Python, y es un paso fundamental hacia la construcción de programas más complejos.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1.html#verificación-de-año-bisiesto",
-    "href": "talleres/taller_1.html#verificación-de-año-bisiesto",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "objectID": "material/talleres/taller_1.html#verificación-de-año-bisiesto",
+    "href": "material/talleres/taller_1.html#verificación-de-año-bisiesto",
+    "title": "Introducción a Python",
     "section": "3. 📅 Verificación de Año Bisiesto",
-    "text": "3. 📅 Verificación de Año Bisiesto\nUn programa para determinar si un año es bisiesto.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "3. 📅 Verificación de Año Bisiesto\nEn este ejercicio, vamos a crear un programa que determine si un año es bisiesto. Este ejercicio es excelente para practicar el uso de operadores lógicos y condicionales en Python.\n\nContexto\nUn año bisiesto es un año que tiene 366 días en lugar de los 365 días habituales. Este día adicional se añade en febrero, que tiene 29 días en lugar de 28. Las reglas para determinar si un año es bisiesto son las siguientes:\n\nUn año es bisiesto si es divisible por 4.\nSin embargo, si el año es divisible por 100, no es un año bisiesto a menos que también sea divisible por 400.\n\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que determine si un año es bisiesto o no, utilizando las reglas mencionadas anteriormente.\n\n\n\n\nDefinir una función: Crearemos una función llamada es_bisiesto que tome un parámetro: el año (anio) a verificar.\nImplementar la lógica: Usaremos operadores lógicos (and, or) y estructuras condicionales (if, else) para determinar si el año es bisiesto.\nProbar la función: Probaremos la función con diferentes años para asegurarnos de que funcione correctamente.\n\n\n\nCódigo para Verificación de Año Bisiesto\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada es_bisiesto que realiza lo siguiente:\n\nParámetro de Entrada:\n\nanio: Un entero que representa el año a verificar.\n\nLógica para Determinar Año Bisiesto:\n\nUtiliza operadores lógicos y condicionales para verificar las reglas de un año bisiesto.\nRegla 1: (anio % 4 == 0 and anio % 100 != 0) - Un año es bisiesto si es divisible por 4 y no es divisible por 100.\nRegla 2: (anio % 400 == 0) - Un año es bisiesto si es divisible por 400.\nSi alguna de las reglas es verdadera, la función devuelve True, indicando que el año es bisiesto. De lo contrario, devuelve False.\n\nEjemplo de Uso:\n\nEl código de ejemplo muestra cómo usar la función es_bisiesto para verificar si el año 2024 es bisiesto.\nUsa una estructura condicional if para imprimir un mensaje indicando si el año es bisiesto o no.\n\n\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el valor de anio para probar diferentes años y explorar cómo funciona la función. Por ejemplo, pueden cambiar anio a 1900, 2000, 2023, etc., y observar los resultados.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de operadores lógicos y condicionales en Python, y es una forma efectiva de entender cómo aplicar reglas matemáticas para resolver problemas del mundo real.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1.html#adivina-el-número",
-    "href": "talleres/taller_1.html#adivina-el-número",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "objectID": "material/talleres/taller_1.html#adivina-el-número",
+    "href": "material/talleres/taller_1.html#adivina-el-número",
+    "title": "Introducción a Python",
     "section": "4. 🔢 Adivina el Número",
-    "text": "4. 🔢 Adivina el Número\nUn juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "4. 🔢 Adivina el Número\nEn este ejercicio, vamos a crear un juego en el que la computadora elige un número al azar y el usuario intenta adivinarlo. Este ejercicio es ideal para practicar el uso de bucles, la generación de números aleatorios y las estructuras condicionales en Python.\n\nContexto\nEl juego de “Adivina el Número” es un clásico juego de programación en el que la computadora selecciona un número al azar dentro de un rango específico, y el jugador tiene que adivinar cuál es ese número. La computadora proporciona pistas sobre si la conjetura del jugador es demasiado alta o baja, y el juego continúa hasta que el jugador adivina el número o se queda sin intentos.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que implemente el juego de “Adivina el Número”, manejando los intentos del usuario y proporcionando retroalimentación sobre cada conjetura.\n\n\n\n\nImportar Módulos: Usaremos el módulo random para generar el número secreto.\nDefinir una función: Crearemos una función llamada adivina_el_numero que tome dos parámetros: el número secreto (numero_secreto) y una lista de intentos del usuario (intentos_usuario).\nImplementar la lógica del juego: Usaremos un bucle para procesar los intentos del usuario, proporcionando retroalimentación sobre cada conjetura.\nProbar la función: Probaremos la función con un conjunto de intentos y un número secreto generado aleatoriamente.\n\n\n\nCódigo para el Juego de Adivina el Número\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada adivina_el_numero que realiza lo siguiente:\n\nParámetros de Entrada:\n\nnumero_secreto: Un entero que representa el número que el usuario debe adivinar.\nintentos_usuario: Una lista de enteros que representa las conjeturas del usuario.\n\nVariables de Control:\n\nintentos: Un contador que lleva el registro del número de intentos realizados.\nadivinado: Un booleano que indica si el número ha sido adivinado o no.\n\nLógica del Bucle:\n\nUsa un bucle for para iterar sobre los intentos del usuario.\nIncrementa el contador de intentos en cada iteración.\nCompara cada intento con el numero_secreto:\n\nSi el intento es menor que el número secreto, imprime “Muy bajo”.\nSi el intento es mayor que el número secreto, imprime “Muy alto”.\nSi el intento es igual al número secreto, imprime un mensaje de éxito y termina el bucle.\n\n\nManejo de Resultados:\n\nSi el usuario no adivina el número después de todos los intentos, imprime un mensaje indicando el número secreto.\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo muestra cómo usar la función adivina_el_numero con un número secreto generado aleatoriamente entre 1 y 100, y una lista de intentos del usuario. Al ejecutar este ejemplo, el programa proporcionará retroalimentación sobre cada conjetura y determinará si el usuario ha adivinado el número.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar la lista de intentos_usuario para probar diferentes secuencias de conjeturas y explorar cómo funciona el juego. Por ejemplo, pueden ajustar los valores en la lista para ver cómo el programa responde a conjeturas altas, bajas y correctas.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de bucles, la generación de números aleatorios y las estructuras condicionales en Python, y es una forma divertida de aplicar conceptos de programación en un juego interactivo.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1.html#conjetura-de-collatz",
-    "href": "talleres/taller_1.html#conjetura-de-collatz",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "objectID": "material/talleres/taller_1.html#conjetura-de-collatz",
+    "href": "material/talleres/taller_1.html#conjetura-de-collatz",
+    "title": "Introducción a Python",
     "section": "5. 📜 Conjetura de Collatz",
-    "text": "5. 📜 Conjetura de Collatz\nUn programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "5. 📜 Conjetura de Collatz\nEn este ejercicio, vamos a crear un programa que implemente la Conjetura de Collatz, también conocida como la conjetura 3n + 1. Este ejercicio es excelente para practicar el uso de bucles, listas y estructuras condicionales en Python.\n\nContexto\nLa Conjetura de Collatz es un problema matemático no resuelto que involucra una secuencia de números. Comienza con cualquier número positivo entero n y aplica las siguientes reglas repetidamente:\n\nSi n es par, se divide por 2.\nSi n es impar, se multiplica por 3 y se le suma 1.\n\nLa conjetura afirma que, no importa qué valor inicial se elija, la secuencia siempre llegará a 1.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que implemente la Conjetura de Collatz y genere la secuencia de números hasta llegar a 1.\n\n\n\n\nDefinir una función: Crearemos una función llamada conjetura_de_collatz que tome un parámetro: el número inicial (n).\nImplementar la lógica: Usaremos un bucle while para generar la secuencia de números aplicando las reglas de la conjetura.\nProbar la función: Probaremos la función con un número inicial y mostraremos la secuencia generada.\n\n\n\nCódigo para la Conjetura de Collatz\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada conjetura_de_collatz que realiza lo siguiente:\n\nParámetro de Entrada:\n\nn: Un entero positivo que representa el número inicial de la secuencia.\n\nLista de Resultados:\n\nresultado: Una lista que almacenará la secuencia de números generada por la conjetura.\n\nLógica del Bucle:\n\nUsa un bucle while que continúa hasta que n sea igual a 1.\nEn cada iteración, añade el valor actual de n a la lista resultado.\nSi n es par, lo divide por 2 usando n // 2.\nSi n es impar, lo multiplica por 3 y le suma 1 usando 3 * n + 1.\n\nAñadir el Valor Final:\n\nDespués de salir del bucle, añade el valor final 1 a la lista resultado.\n\nDevolver la Secuencia:\n\nLa función devuelve la lista resultado que contiene la secuencia completa de números.\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo muestra cómo usar la función conjetura_de_collatz con un número inicial de 6. Al ejecutar este ejemplo, se imprimirá la secuencia generada, mostrando cada número en la secuencia hasta llegar a 1.\n6 -&gt; 3 -&gt; 10 -&gt; 5 -&gt; 16 -&gt; 8 -&gt; 4 -&gt; 2 -&gt; 1\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el valor de numero para probar diferentes números iniciales y explorar cómo funciona la secuencia de la Conjetura de Collatz. Por ejemplo, pueden cambiar numero a 7, 15, 27, etc., y observar las secuencias generadas.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de bucles, listas y estructuras condicionales en Python, y es una forma interesante de explorar un problema matemático fascinante y desafiante.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1.html#ejercicios-de-aritmética",
-    "href": "talleres/taller_1.html#ejercicios-de-aritmética",
-    "title": "🚀 Taller 01: Introducción a Python",
-    "section": "6. ➕ Ejercicios de Aritmética",
-    "text": "6. ➕ Ejercicios de Aritmética\n\nSuma de Números\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nFactorial de un Número\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "material/talleres/taller_1.html#ejemplos-adicionales",
+    "href": "material/talleres/taller_1.html#ejemplos-adicionales",
+    "title": "Introducción a Python",
+    "section": "📚 Ejemplos Adicionales",
+    "text": "📚 Ejemplos Adicionales\n\n1. 🌡️ Conversión de Temperatura\nUn programa para convertir grados Celsius a Fahrenheit. Este ejercicio es ideal para practicar operaciones matemáticas básicas y el uso de funciones en Python.\n\nContexto\nLa conversión de temperatura es una operación común en muchos campos científicos. La fórmula para convertir grados Celsius a Fahrenheit es:\n\\[ \\text{Fahrenheit} = \\left( \\text{Celsius} \\times \\frac{9}{5} \\right) + 32 \\]\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que convierta grados Celsius a Fahrenheit y pruebe la función con un ejemplo.\n\n\n\n\nDefinir una función: Crearemos una función llamada celsius_a_fahrenheit que tome un parámetro: la temperatura en grados Celsius (celsius).\nImplementar la conversión: Usaremos la fórmula de conversión para calcular la temperatura en grados Fahrenheit.\nProbar la función: Probaremos la función con un valor de ejemplo y mostraremos el resultado.\n\n\n\nCódigo para Conversión de Temperatura\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nParámetro de Entrada:\n\ncelsius: Un número que representa la temperatura en grados Celsius.\n\nFórmula de Conversión:\n\nLa función utiliza la fórmula ((celsius ) + 32) para convertir la temperatura a grados Fahrenheit y devuelve el resultado.\n\nEjemplo de Uso:\n\nSe llama a la función con un valor de ejemplo (25 grados Celsius) y se imprime el resultado en grados Fahrenheit.\n\n\n\n\nEjemplo de Salida\n25 grados Celsius son 77.0 grados Fahrenheit\n\n\n\n2. 🏋️‍♂️ Cálculo del Índice de Masa Corporal (IMC)\nUn programa para calcular el IMC de una persona. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.\n\nContexto\nEl Índice de Masa Corporal (IMC) es una medida de la grasa corporal basada en la altura y el peso de una persona. La fórmula para calcular el IMC es:\n\\[ \\text{IMC} = \\frac{\\text{peso}}{\\text{altura}^2} \\]\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que calcule el IMC de una persona y pruebe la función con un ejemplo.\n\n\n\n\nDefinir una función: Crearemos una función llamada calcular_imc que tome dos parámetros: el peso (peso) y la altura (altura).\nImplementar el cálculo: Usaremos la fórmula del IMC para calcular el índice y devolver el resultado.\nProbar la función: Probaremos la función con valores de ejemplo y mostraremos el resultado.\n\n\n\nCódigo para el Cálculo del IMC\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nParámetros de Entrada:\n\npeso: Un número que representa el peso de la persona en kilogramos.\naltura: Un número que representa la altura de la persona en metros.\n\nFórmula del IMC:\n\nLa función utiliza la fórmula () para calcular el IMC y devuelve el resultado.\n\nEjemplo de Uso:\n\nSe llama a la función con valores de ejemplo (70 kg y 1.75 m) y se imprime el resultado del IMC con dos decimales.\n\n\n\n\nEjemplo de Salida\nEl IMC es: 22.86\n\n\n\n3. 🔢 Número Primo\nUn programa para verificar si un número es primo. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.\n\nContexto\nUn número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.\n\n\n\n\nDefinir una función: Crearemos una función llamada es_primo que tome un parámetro: el número a verificar (n).\nImplementar la verificación: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.\nProbar la función: Probaremos la función con un valor de ejemplo y mostraremos el resultado.\n\n\n\nCódigo para Verificación de Número Primo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nParámetro de Entrada:\n\nn: Un entero que representa el número a verificar.\n\nLógica de Verificación:\n\nSi n es menor o igual a 1, la función devuelve False.\nUsa un bucle for para iterar desde 2 hasta la raíz cuadrada de n. Si n es divisible por cualquier número en este rango, la función devuelve False.\nSi el bucle termina sin encontrar divisores, la función devuelve True, indicando que el número es primo.\n\nEjemplo de Uso:\n\nSe llama a la función con un valor de ejemplo (29) y se imprime si el número es primo o no.\n\n\n\n\nEjemplo de Salida\n29 es un número primo\nEstos ejercicios proporcionan una excelente oportunidad para practicar operaciones matemáticas, bucles y estructuras condicionales en Python, aplicando conceptos de programación para resolver problemas comunes y prácticos.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_1.html#ejemplos-adicionales",
-    "href": "talleres/taller_1.html#ejemplos-adicionales",
-    "title": "🚀 Taller 01: Introducción a Python",
-    "section": "7. 📚 Ejemplos Adicionales",
-    "text": "7. 📚 Ejemplos Adicionales\n\nConversión de Temperatura\nUn programa para convertir grados Celsius a Fahrenheit.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCálculo del Índice de Masa Corporal (IMC)\nUn programa para calcular el IMC de una persona.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nNúmero Primo\nUn programa para verificar si un número es primo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_2.html",
-    "href": "talleres/taller_2.html",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "objectID": "material/talleres/taller_2.html",
+    "href": "material/talleres/taller_2.html",
+    "title": "Python en Ciencia",
     "section": "",
-    "text": "1. 🔬 Física\nPython se usa ampliamente en la física para simular sistemas y analizar datos experimentales.",
+    "text": "1. 🔬 Física",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2.html#física",
-    "href": "talleres/taller_2.html#física",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "objectID": "material/talleres/taller_2.html#simulación-de-movimiento",
+    "href": "material/talleres/taller_2.html#simulación-de-movimiento",
+    "title": "Python en Ciencia",
+    "section": "Simulación de Movimiento",
+    "text": "Simulación de Movimiento\nEn este ejercicio, vamos a simular el movimiento de un objeto bajo la influencia de la gravedad y visualizar la trayectoria usando la biblioteca matplotlib. Este ejercicio es excelente para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python.\n\nContexto\nLa simulación de movimientos es una aplicación común en física y matemáticas. En este ejercicio, simularemos la trayectoria de un proyectil lanzado con una velocidad inicial y un ángulo de lanzamiento específicos. Usaremos las ecuaciones del movimiento para calcular la posición del proyectil en diferentes momentos y visualizaremos la trayectoria usando matplotlib.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir un programa en Python que simule el movimiento de un proyectil bajo la influencia de la gravedad y visualice la trayectoria utilizando matplotlib.\n\n\n\n\nImportar bibliotecas: Usaremos numpy para las operaciones matemáticas y matplotlib para la visualización.\nDefinir parámetros de la simulación: Estableceremos los parámetros como la aceleración debida a la gravedad, el tiempo, la velocidad inicial y el ángulo de lanzamiento.\nCalcular la trayectoria: Usaremos las ecuaciones del movimiento para calcular las posiciones horizontales y verticales del proyectil en diferentes momentos.\nVisualizar la trayectoria: Crearemos una gráfica de la trayectoria del proyectil utilizando matplotlib.\n\n\n\nCódigo para la Simulación de Movimiento\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nImportar Bibliotecas:\n\nnumpy: Utilizado para operaciones matemáticas y manejo de arrays.\nmatplotlib.pyplot: Utilizado para crear gráficos.\n\nDefinir Parámetros de la Simulación:\n\ng: Aceleración debido a la gravedad (9.8 m/s²).\nt: Array de tiempo desde 0 hasta 5 segundos, con 100 puntos.\nv0: Velocidad inicial del proyectil (20 m/s).\ntheta: Ángulo de lanzamiento convertido a radianes (45 grados).\n\nComponentes de la Velocidad Inicial:\n\nvx: Componente horizontal de la velocidad inicial (( v0 () )).\nvy: Componente vertical de la velocidad inicial (( v0 () )).\n\nCalcular la Trayectoria:\n\nx: Posición horizontal en función del tiempo (( vx t )).\ny: Posición vertical en función del tiempo (( vy t - 0.5 g t^2 )).\n\nVisualizar la Trayectoria:\n\nCrear una figura con plt.figure y definir el tamaño.\nUsar plt.plot para graficar x versus y.\nAñadir título y etiquetas a los ejes con plt.title, plt.xlabel y plt.ylabel.\nAjustar el límite inferior del eje y con plt.ylim(bottom=0) para asegurarse de que la gráfica no muestre valores negativos en la altura.\nMostrar la gráfica con plt.show().\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo simula la trayectoria de un proyectil lanzado con una velocidad inicial de 20 m/s y un ángulo de 45 grados. La gráfica resultante muestra cómo el proyectil se mueve a lo largo del tiempo bajo la influencia de la gravedad.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar los parámetros de la simulación, como la velocidad inicial v0, el ángulo de lanzamiento theta y el intervalo de tiempo t para observar cómo cambian la trayectoria del proyectil. Por ejemplo, pueden cambiar v0 a 30 m/s, theta a 30 grados, o ajustar el rango de t para ver diferentes comportamientos en la gráfica.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python, aplicando conceptos de física para simular y visualizar el movimiento de un objeto bajo la influencia de la gravedad.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#simulación-de-movimiento-armónico-simple",
+    "href": "material/talleres/taller_2.html#simulación-de-movimiento-armónico-simple",
+    "title": "Python en Ciencia",
+    "section": "Simulación de Movimiento Armónico Simple",
+    "text": "Simulación de Movimiento Armónico Simple\nEn este ejercicio, vamos a simular el movimiento de un oscilador armónico simple y visualizar la posición del oscilador en función del tiempo usando la biblioteca matplotlib. Este ejercicio es excelente para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python.\n\nContexto\nEl movimiento armónico simple es un tipo de oscilación que se describe con la ecuación diferencial de un resorte ideal sin fricción. La posición del oscilador en función del tiempo se puede describir usando la función coseno. Este tipo de movimiento es común en sistemas físicos como péndulos y resortes.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir un programa en Python que simule el movimiento de un oscilador armónico simple y visualice la posición del oscilador en función del tiempo utilizando matplotlib.\n\n\n\n\nImportar bibliotecas: Usaremos numpy para las operaciones matemáticas y matplotlib para la visualización.\nDefinir parámetros del oscilador: Estableceremos los parámetros como la masa del oscilador, la constante del resorte, la frecuencia angular y la amplitud.\nCalcular la posición: Usaremos la fórmula del movimiento armónico simple para calcular la posición del oscilador en diferentes momentos.\nVisualizar la posición: Crearemos una gráfica de la posición del oscilador en función del tiempo utilizando matplotlib.\n\n\n\nCódigo para la Simulación de Movimiento Armónico Simple\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nImportar Bibliotecas:\n\nnumpy: Utilizado para operaciones matemáticas y manejo de arrays.\nmatplotlib.pyplot: Utilizado para crear gráficos.\n\nDefinir Parámetros del Oscilador:\n\nm: Masa del oscilador (1.0 kg).\nk: Constante del resorte (10.0 N/m).\nomega: Frecuencia angular calculada como () (rad/s).\nA: Amplitud del movimiento (1.0 m).\nt: Array de tiempo desde 0 hasta 10 segundos, con 500 puntos.\n\nCalcular la Posición:\n\nx: Posición del oscilador en función del tiempo calculada como (A (t)).\n\nVisualizar la Posición:\n\nCrear una figura con plt.figure y definir el tamaño.\nUsar plt.plot para graficar t versus x.\nAñadir título y etiquetas a los ejes con plt.title, plt.xlabel y plt.ylabel.\nMostrar la gráfica con plt.show().\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo simula el movimiento de un oscilador armónico simple con una masa de 1 kg, una constante de resorte de 10 N/m, y una amplitud de 1 m. La gráfica resultante muestra cómo la posición del oscilador varía a lo largo del tiempo.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar los parámetros del oscilador, como la masa m, la constante del resorte k, la amplitud A y el intervalo de tiempo t para observar cómo cambian las oscilaciones del oscilador. Por ejemplo, pueden cambiar m a 2.0 kg, k a 20.0 N/m, o ajustar el rango de t para ver diferentes comportamientos en la gráfica.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de bibliotecas de visualización y operaciones matemáticas en Python, aplicando conceptos de física para simular y visualizar el movimiento de un oscilador armónico simple.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#lanzamiento-de-moneda",
+    "href": "material/talleres/taller_2.html#lanzamiento-de-moneda",
+    "title": "Python en Ciencia",
+    "section": "Lanzamiento de Moneda",
+    "text": "Lanzamiento de Moneda\nEn este ejercicio, vamos a simular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz. Este ejercicio es excelente para practicar el uso de arrays y funciones estadísticas en Python con la biblioteca numpy.\n\nContexto\nEl lanzamiento de una moneda es un experimento clásico en probabilidad. En cada lanzamiento, hay una probabilidad del 50% de obtener cara y una probabilidad del 50% de obtener cruz. Simulando múltiples lanzamientos, podemos estimar las probabilidades experimentales y compararlas con las probabilidades teóricas.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir un programa en Python que simule el lanzamiento de una moneda, cuente las ocurrencias de cara y cruz, y calcule las probabilidades de cada resultado.\n\n\n\n\nImportar bibliotecas: Usaremos numpy para generar los lanzamientos de la moneda y calcular las frecuencias.\nSimular lanzamientos: Generaremos un número específico de lanzamientos de la moneda utilizando numpy.random.choice.\nCalcular frecuencias: Contaremos las ocurrencias de cara y cruz.\nCalcular probabilidades: Calcularemos las probabilidades de obtener cara y cruz basadas en las frecuencias.\nMostrar los resultados: Imprimiremos las frecuencias y probabilidades calculadas.\n\n\n\nCódigo para el Lanzamiento de Moneda\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nImportar Biblioteca:\n\nnumpy: Utilizado para generar lanzamientos aleatorios y realizar cálculos estadísticos.\n\nSimular Lanzamientos:\n\nlanzamientos = np.random.choice(['Cara', 'Cruz'], 100): Utiliza numpy.random.choice para simular 100 lanzamientos de una moneda, eligiendo aleatoriamente entre ‘Cara’ y ‘Cruz’.\n\nCalcular Frecuencias:\n\ncaras = np.sum(lanzamientos == 'Cara'): Cuenta cuántas veces apareció ‘Cara’ en los lanzamientos.\ncruces = np.sum(lanzamientos == 'Cruz'): Cuenta cuántas veces apareció ‘Cruz’ en los lanzamientos.\n\nCalcular Probabilidades:\n\nprob_cara = caras / 100: Calcula la probabilidad de obtener ‘Cara’ dividiendo el número de caras por el número total de lanzamientos.\nprob_cruz = cruces / 100: Calcula la probabilidad de obtener ‘Cruz’ dividiendo el número de cruces por el número total de lanzamientos.\n\nMostrar Resultados:\n\nprint(f\"Caras: {caras}, Cruces: {cruces}\"): Imprime la cantidad de caras y cruces obtenidas.\nprint(f\"Probabilidad de Cara: {prob_cara}\"): Imprime la probabilidad de obtener ‘Cara’.\nprint(f\"Probabilidad de Cruz: {prob_cruz}\"): Imprime la probabilidad de obtener ‘Cruz’.\n\n\n\n\nEjemplo de Salida\nCaras: 48, Cruces: 52\nProbabilidad de Cara: 0.48\nProbabilidad de Cruz: 0.52\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el número de lanzamientos para ver cómo afecta a las probabilidades calculadas. Por ejemplo, pueden cambiar el número de lanzamientos a 1000 o 10000 para obtener una mejor estimación de las probabilidades. Además, pueden repetir la simulación varias veces para observar la variabilidad en los resultados.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de arrays y funciones estadísticas en Python, aplicando conceptos de probabilidad para simular y analizar experimentos aleatorios.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#lanzamiento-de-dados",
+    "href": "material/talleres/taller_2.html#lanzamiento-de-dados",
+    "title": "Python en Ciencia",
+    "section": "Lanzamiento de Dados",
+    "text": "Lanzamiento de Dados\nEn este ejercicio, vamos a simular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible. Este ejercicio es excelente para practicar el uso de arrays, funciones estadísticas y diccionarios en Python con la biblioteca numpy.\n\nContexto\nEl lanzamiento de dos dados es un experimento clásico en probabilidad. Cada dado tiene seis caras, numeradas del 1 al 6. Cuando se lanzan dos dados, las sumas posibles de los números en las caras superiores van desde 2 hasta 12. Simulando múltiples lanzamientos, podemos calcular la frecuencia de cada suma y analizar la distribución de los resultados.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir un programa en Python que simule el lanzamiento de dos dados, calcule la frecuencia de cada suma posible y muestre los resultados.\n\n\n\n\nImportar bibliotecas: Usaremos numpy para generar los lanzamientos de los dados y calcular las frecuencias.\nSimular lanzamientos: Generaremos un número específico de lanzamientos de dos dados utilizando numpy.random.randint.\nCalcular sumas: Calcularemos las sumas de los resultados de los dos dados.\nCalcular frecuencias: Contaremos las ocurrencias de cada suma posible usando un diccionario.\nMostrar los resultados: Imprimiremos la frecuencia de cada suma calculada.\n\n\n\nCódigo para el Lanzamiento de Dados\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nImportar Biblioteca:\n\nnumpy: Utilizado para generar lanzamientos aleatorios y realizar cálculos estadísticos.\n\nSimular Lanzamientos:\n\ndados1 = np.random.randint(1, 7, 100): Genera 100 lanzamientos del primer dado, eligiendo un número aleatorio entre 1 y 6 para cada lanzamiento.\ndados2 = np.random.randint(1, 7, 100): Genera 100 lanzamientos del segundo dado, eligiendo un número aleatorio entre 1 y 6 para cada lanzamiento.\n\nCalcular Sumas:\n\nsumas = dados1 + dados2: Calcula la suma de los resultados de los dos dados para cada lanzamiento.\n\nCalcular Frecuencias:\n\nfrecuencias = {suma: np.sum(sumas == suma) for suma in range(2, 13)}: Utiliza un diccionario para contar las ocurrencias de cada suma posible (desde 2 hasta 12). Para cada suma en el rango, cuenta cuántas veces aparece esa suma en el array sumas.\n\nMostrar Resultados:\n\nprint(\"Frecuencia de cada suma:\"): Imprime un encabezado para los resultados.\nfor suma, frecuencia in frecuencias.items():: Itera sobre el diccionario de frecuencias e imprime cada suma y su frecuencia.\n\n\n\n\nEjemplo de Salida\nFrecuencia de cada suma:\nSuma 2: 2\nSuma 3: 5\nSuma 4: 8\nSuma 5: 10\nSuma 6: 18\nSuma 7: 16\nSuma 8: 12\nSuma 9: 10\nSuma 10: 9\nSuma 11: 6\nSuma 12: 4\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el número de lanzamientos para ver cómo afecta a la distribución de las sumas. Por ejemplo, pueden cambiar el número de lanzamientos a 1000 o 10000 para obtener una mejor estimación de las frecuencias. Además, pueden repetir la simulación varias veces para observar la variabilidad en los resultados.\nEste ejercicio proporciona una excelente oportunidad para practicar el uso de arrays, funciones estadísticas y diccionarios en Python, aplicando conceptos de probabilidad para simular y analizar experimentos aleatorios.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_3.html",
+    "href": "material/talleres/taller_3.html",
+    "title": "Python en Ciencia de Datos",
     "section": "",
-    "text": "Simulación de Movimiento\nSimulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca matplotlib para la visualización:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSimulación de Movimiento Armónico Simple\nSimulación del movimiento de un oscilador armónico simple:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLey de Coulomb\nCálculo de la fuerza entre dos cargas usando la ley de Coulomb:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "📊 Exploración y Visualización de Datos\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon. Este ejercicio es excelente para practicar la manipulación de datos y la visualización con las bibliotecas pandas y matplotlib.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_2.html#estadística-y-probabilidad",
-    "href": "talleres/taller_2.html#estadística-y-probabilidad",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
-    "section": "2. 📈 Estadística y Probabilidad",
-    "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_3.html",
-    "href": "talleres/taller_3.html",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "objectID": "material/talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "href": "material/talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "title": "Python en Ciencia de Datos",
     "section": "",
-    "text": "📊 Exploración y Visualización de Datos\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon.",
+    "text": "Cargar el Conjunto de Datos\nEn esta sección, cargaremos un conjunto de datos de Pokémon desde una URL y mostraremos las primeras filas para obtener una vista previa de los datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\nObtenemos una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_3.html#exploración-y-visualización-de-datos",
-    "href": "talleres/taller_3.html#exploración-y-visualización-de-datos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
-    "section": "",
-    "text": "Cargar el Conjunto de Datos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\nObtener una visión general de las estadísticas del conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
-    ]
-  },
-  {
-    "objectID": "talleres/taller_3.html#análisis-y-visualización-de-datos",
-    "href": "talleres/taller_3.html#análisis-y-visualización-de-datos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "objectID": "material/talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "href": "material/talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "title": "Python en Ciencia de Datos",
     "section": "📈 Análisis y Visualización de Datos",
-    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\nVeamos cuántos Pokémon de cada tipo hay en el conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\nComparar las estadísticas de ataque y defensa de los Pokémon.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\nCalcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\nExplorar la relación entre el peso y la altura de los Pokémon (utilizando las estadísticas de Weight y Height si estuvieran disponibles).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\nVamos a contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizaremos estos datos en un gráfico de barras.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\nCompararemos las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\nCalcularemos y visualizaremos el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\nExploraremos la relación entre el peso y la altura de los Pokémon utilizando las estadísticas simuladas de Weight y Height.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
-    "objectID": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
-    "href": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "objectID": "material/talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "href": "material/talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "title": "Python en Ciencia de Datos",
     "section": "📊 Tablas y Gráficos Interactivos",
-    "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\nMostrar los 10 Pokémon con la mayor estadística de ataque.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\nMostrar los 10 Pokémon con la mayor estadística de defensa.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\nMostraremos los 10 Pokémon con la mayor estadística de ataque.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\nMostraremos los 10 Pokémon con la mayor estadística de defensa.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\n\nImportar Bibliotecas:\n\npandas: Utilizado para la manipulación de datos.\nmatplotlib.pyplot: Utilizado para la visualización de datos.\nnumpy: Utilizado para operaciones matemáticas y generación de datos aleatorios.\n\nCargar el Conjunto de Datos:\n\nUsamos pd.read_csv para cargar los datos desde una URL.\npokemon_data.head() muestra las primeras filas del conjunto de datos para obtener una vista previa.\n\nDescripción del Conjunto de Datos:\n\npokemon_data.describe() proporciona estadísticas descriptivas de las columnas numéricas del conjunto de datos.\n\nVisualización de Datos:\n\nTipos de Pokémon: Contamos los Pokémon por tipo y creamos un gráfico de barras para visualizar las cantidades.\nEstadísticas de Ataque y Defensa: Creamos un gráfico de dispersión para comparar las estadísticas de ataque y defensa.\nPromedio de Estadísticas por Tipo: Calculamos el promedio de las estadísticas principales por tipo y creamos un gráfico de barras apiladas.\nPeso y Altura: Simulamos datos de peso y altura y creamos un gráfico de dispersión para explorar la relación entre estas variables.\n\nTablas Interactivas:\n\nMostramos tablas con los 10 Pokémon con las mayores estadísticas de ataque y defensa utilizando nlargest.\n\n\nEste ejercicio proporciona una excelente oportunidad para practicar la manipulación y visualización de datos en Python, aplicando conceptos de análisis de datos para explorar y entender un conjunto de datos real.",
     "crumbs": [
-      "Talleres",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/aprendizaje.html",
+    "href": "material/anexos/aprendizaje.html",
+    "title": "Seguir aprendiendo",
+    "section": "",
+    "text": "Recursos recomendados 📚",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/aprendizaje.html#recursos-recomendados",
+    "href": "material/anexos/aprendizaje.html#recursos-recomendados",
+    "title": "Seguir aprendiendo",
+    "section": "",
+    "text": "Cursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/aprendizaje.html#consejos-para-aprender-python",
+    "href": "material/anexos/aprendizaje.html#consejos-para-aprender-python",
+    "title": "Seguir aprendiendo",
+    "section": "Consejos para Aprender Python",
+    "text": "Consejos para Aprender Python\n\nPracticar regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en proyectos reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver ejercicios y retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/tecnologia.html",
+    "href": "material/anexos/tecnologia.html",
+    "title": "Sobre la página",
+    "section": "",
+    "text": "Esta página fue creada con quarto y la extensión quarto-pyodide\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sobre la página</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/autoria.html",
+    "href": "material/anexos/autoria.html",
+    "title": "Autoría",
+    "section": "",
+    "text": "Reconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Autoría</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/colaborar.html",
+    "href": "material/anexos/colaborar.html",
+    "title": "Colaborar",
+    "section": "",
+    "text": "Cómo Contribuir",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/colaborar.html#cómo-contribuir",
+    "href": "material/anexos/colaborar.html#cómo-contribuir",
+    "title": "Colaborar",
+    "section": "",
+    "text": "Reportar Problemas\nSi encuentras errores, repórtalos creando un “issue” en nuestro repositorio de GitHub.\n\n\nProponer Mejoras\nPropon ideas creando un “issue” o enviando un “pull request” con tus sugerencias.\n\n\nContribuir con Código\n\nFork el repositorio: Crea una copia en tu cuenta de GitHub.\nClona tu fork:\ngit clone https://github.com/tu_usuario/pyschool_content.git\nCrea una rama:\ngit checkout -b mi_contribucion\nHaz tus cambios.\nCommit tus cambios:\ngit commit -m \"Descripción de mi contribución\"\nPush a tu fork:\ngit push origin mi_contribucion\nCrea un Pull Request: Describe tus cambios.\n\n\n\nDocumentación\nMejora la documentación siguiendo los mismos pasos.\n\n\nRevisión de Código\nAyuda revisando “pull requests” y proporcionando feedback constructivo.",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
+    ]
+  },
+  {
+    "objectID": "material/anexos/colaborar.html#código-de-conducta",
+    "href": "material/anexos/colaborar.html#código-de-conducta",
+    "title": "Colaborar",
+    "section": "Código de Conducta",
+    "text": "Código de Conducta\nMantén un ambiente respetuoso. Lee nuestro Código de Conducta antes de contribuir.",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
     ]
   }
 ]
