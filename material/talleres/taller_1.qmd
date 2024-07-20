@@ -1,0 +1,512 @@
+# Introducción a Python
+
+🎯 **Objetivos del capítulo**
+
+- Aprender los conceptos básicos de Python.
+- Familiarizarse con la sintaxis y funcionalidad de Python.
+- Resolver problemas prácticos y entretenidos.
+- Experimentar con el código directamente en el navegador utilizando `Quarto-Pyodide`.
+
+
+## 1. 👋 Hola Mundo
+
+El clásico primer programa en cualquier lenguaje de programación. Este ejercicio es una excelente manera de introducirse en el mundo de la programación, independientemente del lenguaje que se esté utilizando. En este caso, utilizaremos Python para imprimir "Hola, Mundo" en la pantalla. Este simple programa ayuda a los principiantes a familiarizarse con la sintaxis básica del lenguaje y el entorno de desarrollo.
+
+### Contexto
+
+El programa "Hola Mundo" es tradicionalmente el primer programa que los programadores escriben cuando están aprendiendo un nuevo lenguaje de programación. Es una manera sencilla y efectiva de familiarizarse con la sintaxis del lenguaje, asegurarse de que el entorno de desarrollo está correctamente configurado y comprobar que el código se puede ejecutar correctamente. En Python, escribir un programa "Hola Mundo" es tan simple como usar la función `print`.
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es asegurarse de que tu entorno de desarrollo esté configurado correctamente y que puedes ejecutar un programa básico en Python.
+:::
+
+1. **Configuración del entorno**: Asegurarse de que Python está instalado y configurado correctamente en tu sistema.
+2. **Escribir el código**: Escribir un programa sencillo que imprima "Hola, Mundo" en la pantalla.
+3. **Ejecutar el programa**: Ejecutar el programa para ver el resultado y asegurarse de que todo funciona correctamente.
+
+### Código para "Hola Mundo"
+
+```{pyodide-python}
+print("Hola, Mundo")
+```
+
+### Explicación del Código
+
+Este código usa la función `print` para imprimir el texto "Hola, Mundo" en la pantalla. Aquí hay una breve explicación de los elementos clave:
+
+1. **print**: `print` es una función incorporada en Python que se utiliza para mostrar texto en la pantalla.
+2. **"Hola, Mundo"**: El texto que queremos imprimir se coloca entre comillas dobles. En Python, las comillas dobles y simples se pueden usar indistintamente para definir cadenas de texto.
+
+### Ejemplo de Uso
+
+Cuando ejecutas este código en tu entorno de desarrollo, deberías ver la salida siguiente en la pantalla:
+
+```
+Hola, Mundo
+```
+
+### Prueba y Modificación
+
+Una vez que has ejecutado el programa y confirmado que funciona, puedes intentar modificar el texto para imprimir diferentes mensajes. Por ejemplo, puedes cambiar el texto a "¡Bienvenido a Python!" y ejecutar el programa de nuevo para ver el nuevo mensaje en la pantalla.
+
+```{pyodide-python}
+print("¡Bienvenido a Python!")
+```
+
+Este ejercicio proporciona una base sólida para entender cómo funciona la función `print` en Python y es un paso fundamental hacia la construcción de programas más complejos. Además, garantiza que tu entorno de desarrollo está configurado correctamente para ejecutar programas en Python.
+
+## 2. 🧮 Calculadora Básica
+
+En este ejercicio, vamos a crear una simple calculadora que puede realizar operaciones básicas como suma, resta, multiplicación y división. Esta actividad es ideal para que los principiantes practiquen el uso de funciones, operadores aritméticos y estructuras condicionales en Python.
+
+### Contexto
+
+Una calculadora es una herramienta fundamental que permite realizar cálculos matemáticos básicos y complejos. En este ejercicio, nos centraremos en construir una calculadora que pueda manejar cuatro operaciones básicas: suma (`+`), resta (`-`), multiplicación (`*`) y división (`/`). Además, nos aseguraremos de manejar casos especiales como la división por cero, que no es una operación válida en matemáticas y debe ser tratada con cuidado en nuestro código.
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que pueda realizar las operaciones básicas de una calculadora y manejar casos especiales como la división por cero.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `calculadora` que tome tres parámetros: la operación a realizar (`operacion`) y dos números (`num1` y `num2`).
+2. **Implementar las operaciones**: Usaremos estructuras condicionales (`if`, `elif`, `else`) para definir las operaciones aritméticas básicas.
+3. **Manejo de errores**: Incluiremos una verificación para la división por cero y devolveremos un mensaje de error apropiado.
+4. **Probar la función**: Probaremos la función con diferentes operaciones y valores para asegurarnos de que funcione correctamente.
+
+### Código de la Calculadora
+
+```{pyodide-python}
+def calculadora(operacion, num1, num2):
+    if operacion == '+':
+        return f"Resultado: {num1 + num2}"
+    elif operacion == '-':
+        return f"Resultado: {num1 - num2}"
+    elif operacion == '*':
+        return f"Resultado: {num1 * num2}"
+    elif operacion == '/':
+        if num2 != 0:
+            return f"Resultado: {num1 / num2}"
+        else:
+            return "Error: División por cero"
+    else:
+        return "Operación no válida"
+
+# Ejemplo de uso
+operacion = '+'
+num1 = 10
+num2 = 5
+resultado = calculadora(operacion, num1, num2)
+print(resultado)
+```
+
+### Explicación del Código
+
+Este código define una función llamada `calculadora` que realiza lo siguiente:
+
+1. **Parámetros de Entrada**:
+    - `operacion`: Un string que indica la operación a realizar (`+`, `-`, `*`, `/`).
+    - `num1`: El primer número para la operación.
+    - `num2`: El segundo número para la operación.
+
+2. **Estructura Condicional**:
+    - Usa `if`, `elif`, y `else` para verificar qué operación se debe realizar.
+    - Realiza la operación correspondiente y devuelve el resultado en un formato de cadena que incluye el texto "Resultado: ".
+
+3. **Manejo de Errores**:
+    - Para la operación de división (`/`), verifica si `num2` es diferente de cero antes de realizar la división. Si `num2` es cero, devuelve un mensaje de error "Error: División por cero".
+    - Si se proporciona una operación no válida, devuelve "Operación no válida".
+
+### Ejemplo de Uso
+
+El código de ejemplo muestra cómo usar la función `calculadora` con una operación de suma (`+`), y los números `10` y `5`. Al ejecutar este ejemplo, se imprimirá `Resultado: 15`.
+
+### Prueba y Modificación
+
+Los estudiantes pueden modificar los valores de `operacion`, `num1`, y `num2` para probar diferentes cálculos y explorar cómo funciona la función. Por ejemplo, pueden cambiar `operacion` a `'-'`, `'*'`, o `'/'` y ajustar los valores de `num1` y `num2` para ver diferentes resultados.
+
+Este ejercicio proporciona una base sólida para entender cómo funcionan las funciones, los operadores aritméticos y las estructuras condicionales en Python, y es un paso fundamental hacia la construcción de programas más complejos.
+
+
+## 3. 📅 Verificación de Año Bisiesto
+
+En este ejercicio, vamos a crear un programa que determine si un año es bisiesto. Este ejercicio es excelente para practicar el uso de operadores lógicos y condicionales en Python.
+
+### Contexto
+
+Un año bisiesto es un año que tiene 366 días en lugar de los 365 días habituales. Este día adicional se añade en febrero, que tiene 29 días en lugar de 28. Las reglas para determinar si un año es bisiesto son las siguientes:
+
+1. Un año es bisiesto si es divisible por 4.
+2. Sin embargo, si el año es divisible por 100, no es un año bisiesto a menos que también sea divisible por 400.
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que determine si un año es bisiesto o no, utilizando las reglas mencionadas anteriormente.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `es_bisiesto` que tome un parámetro: el año (`anio`) a verificar.
+2. **Implementar la lógica**: Usaremos operadores lógicos (`and`, `or`) y estructuras condicionales (`if`, `else`) para determinar si el año es bisiesto.
+3. **Probar la función**: Probaremos la función con diferentes años para asegurarnos de que funcione correctamente.
+
+### Código para Verificación de Año Bisiesto
+
+```{pyodide-python}
+def es_bisiesto(anio):
+    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):
+        return True
+    else:
+        return False
+
+# Ejemplo de uso
+anio = 2024
+if es_bisiesto(anio):
+    print(f"{anio} es un año bisiesto")
+else:
+    print(f"{anio} no es un año bisiesto")
+```
+
+### Explicación del Código
+
+Este código define una función llamada `es_bisiesto` que realiza lo siguiente:
+
+1. **Parámetro de Entrada**:
+    - `anio`: Un entero que representa el año a verificar.
+
+2. **Lógica para Determinar Año Bisiesto**:
+    - Utiliza operadores lógicos y condicionales para verificar las reglas de un año bisiesto.
+    - **Regla 1**: `(anio % 4 == 0 and anio % 100 != 0)` - Un año es bisiesto si es divisible por 4 y no es divisible por 100.
+    - **Regla 2**: `(anio % 400 == 0)` - Un año es bisiesto si es divisible por 400.
+    - Si alguna de las reglas es verdadera, la función devuelve `True`, indicando que el año es bisiesto. De lo contrario, devuelve `False`.
+
+3. **Ejemplo de Uso**:
+    - El código de ejemplo muestra cómo usar la función `es_bisiesto` para verificar si el año 2024 es bisiesto.
+    - Usa una estructura condicional `if` para imprimir un mensaje indicando si el año es bisiesto o no.
+
+### Prueba y Modificación
+
+Los estudiantes pueden modificar el valor de `anio` para probar diferentes años y explorar cómo funciona la función. Por ejemplo, pueden cambiar `anio` a `1900`, `2000`, `2023`, etc., y observar los resultados.
+
+Este ejercicio proporciona una excelente oportunidad para practicar el uso de operadores lógicos y condicionales en Python, y es una forma efectiva de entender cómo aplicar reglas matemáticas para resolver problemas del mundo real.
+
+
+## 4. 🔢 Adivina el Número
+
+En este ejercicio, vamos a crear un juego en el que la computadora elige un número al azar y el usuario intenta adivinarlo. Este ejercicio es ideal para practicar el uso de bucles, la generación de números aleatorios y las estructuras condicionales en Python.
+
+### Contexto
+
+El juego de "Adivina el Número" es un clásico juego de programación en el que la computadora selecciona un número al azar dentro de un rango específico, y el jugador tiene que adivinar cuál es ese número. La computadora proporciona pistas sobre si la conjetura del jugador es demasiado alta o baja, y el juego continúa hasta que el jugador adivina el número o se queda sin intentos.
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que implemente el juego de "Adivina el Número", manejando los intentos del usuario y proporcionando retroalimentación sobre cada conjetura.
+:::
+
+1. **Importar Módulos**: Usaremos el módulo `random` para generar el número secreto.
+2. **Definir una función**: Crearemos una función llamada `adivina_el_numero` que tome dos parámetros: el número secreto (`numero_secreto`) y una lista de intentos del usuario (`intentos_usuario`).
+3. **Implementar la lógica del juego**: Usaremos un bucle para procesar los intentos del usuario, proporcionando retroalimentación sobre cada conjetura.
+4. **Probar la función**: Probaremos la función con un conjunto de intentos y un número secreto generado aleatoriamente.
+
+### Código para el Juego de Adivina el Número
+
+```{pyodide-python}
+import random
+
+def adivina_el_numero(numero_secreto, intentos_usuario):
+    intentos = 0
+    adivinado = False
+
+    for intento in intentos_usuario:
+        intentos += 1
+        if intento < numero_secreto:
+            print("Muy bajo")
+        elif intento > numero_secreto:
+            print("Muy alto")
+        else:
+            print(f"¡Correcto! Adivinaste el número en {intentos} intentos.")
+            adivinado = True
+            break
+
+    if not adivinado:
+        print(f"No adivinaste el número en {len(intentos_usuario)} intentos. El número era {numero_secreto}.")
+
+# Ejemplo de uso
+numero_secreto = random.randint(1, 100)
+intentos_usuario = [50, 25, 75, 60, 90]
+adivina_el_numero(numero_secreto, intentos_usuario)
+```
+
+### Explicación del Código
+
+Este código define una función llamada `adivina_el_numero` que realiza lo siguiente:
+
+1. **Parámetros de Entrada**:
+    - `numero_secreto`: Un entero que representa el número que el usuario debe adivinar.
+    - `intentos_usuario`: Una lista de enteros que representa las conjeturas del usuario.
+
+2. **Variables de Control**:
+    - `intentos`: Un contador que lleva el registro del número de intentos realizados.
+    - `adivinado`: Un booleano que indica si el número ha sido adivinado o no.
+
+3. **Lógica del Bucle**:
+    - Usa un bucle `for` para iterar sobre los intentos del usuario.
+    - Incrementa el contador de intentos en cada iteración.
+    - Compara cada intento con el `numero_secreto`:
+        - Si el intento es menor que el número secreto, imprime "Muy bajo".
+        - Si el intento es mayor que el número secreto, imprime "Muy alto".
+        - Si el intento es igual al número secreto, imprime un mensaje de éxito y termina el bucle.
+
+4. **Manejo de Resultados**:
+    - Si el usuario no adivina el número después de todos los intentos, imprime un mensaje indicando el número secreto.
+
+### Ejemplo de Uso
+
+El código de ejemplo muestra cómo usar la función `adivina_el_numero` con un número secreto generado aleatoriamente entre 1 y 100, y una lista de intentos del usuario. Al ejecutar este ejemplo, el programa proporcionará retroalimentación sobre cada conjetura y determinará si el usuario ha adivinado el número.
+
+### Prueba y Modificación
+
+Los estudiantes pueden modificar la lista de `intentos_usuario` para probar diferentes secuencias de conjeturas y explorar cómo funciona el juego. Por ejemplo, pueden ajustar los valores en la lista para ver cómo el programa responde a conjeturas altas, bajas y correctas.
+
+Este ejercicio proporciona una excelente oportunidad para practicar el uso de bucles, la generación de números aleatorios y las estructuras condicionales en Python, y es una forma divertida de aplicar conceptos de programación en un juego interactivo.
+
+
+## 5. 📜 Conjetura de Collatz
+
+En este ejercicio, vamos a crear un programa que implemente la Conjetura de Collatz, también conocida como la conjetura 3n + 1. Este ejercicio es excelente para practicar el uso de bucles, listas y estructuras condicionales en Python.
+
+### Contexto
+
+La Conjetura de Collatz es un problema matemático no resuelto que involucra una secuencia de números. Comienza con cualquier número positivo entero `n` y aplica las siguientes reglas repetidamente:
+
+1. Si `n` es par, se divide por 2.
+2. Si `n` es impar, se multiplica por 3 y se le suma 1.
+
+La conjetura afirma que, no importa qué valor inicial se elija, la secuencia siempre llegará a 1.
+
+### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que implemente la Conjetura de Collatz y genere la secuencia de números hasta llegar a 1.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `conjetura_de_collatz` que tome un parámetro: el número inicial (`n`).
+2. **Implementar la lógica**: Usaremos un bucle `while` para generar la secuencia de números aplicando las reglas de la conjetura.
+3. **Probar la función**: Probaremos la función con un número inicial y mostraremos la secuencia generada.
+
+### Código para la Conjetura de Collatz
+
+```{pyodide-python}
+def conjetura_de_collatz(n):
+    resultado = []
+    while n != 1:
+        resultado.append(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+    resultado.append(n)
+    return resultado
+
+# Ejemplo de uso
+numero = 6
+print(" -> ".join(map(str, conjetura_de_collatz(numero))))
+```
+
+### Explicación del Código
+
+Este código define una función llamada `conjetura_de_collatz` que realiza lo siguiente:
+
+1. **Parámetro de Entrada**:
+    - `n`: Un entero positivo que representa el número inicial de la secuencia.
+
+2. **Lista de Resultados**:
+    - `resultado`: Una lista que almacenará la secuencia de números generada por la conjetura.
+
+3. **Lógica del Bucle**:
+    - Usa un bucle `while` que continúa hasta que `n` sea igual a 1.
+    - En cada iteración, añade el valor actual de `n` a la lista `resultado`.
+    - Si `n` es par, lo divide por 2 usando `n // 2`.
+    - Si `n` es impar, lo multiplica por 3 y le suma 1 usando `3 * n + 1`.
+
+4. **Añadir el Valor Final**:
+    - Después de salir del bucle, añade el valor final 1 a la lista `resultado`.
+
+5. **Devolver la Secuencia**:
+    - La función devuelve la lista `resultado` que contiene la secuencia completa de números.
+
+### Ejemplo de Uso
+
+El código de ejemplo muestra cómo usar la función `conjetura_de_collatz` con un número inicial de 6. Al ejecutar este ejemplo, se imprimirá la secuencia generada, mostrando cada número en la secuencia hasta llegar a 1.
+
+```
+6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+```
+
+### Prueba y Modificación
+
+Los estudiantes pueden modificar el valor de `numero` para probar diferentes números iniciales y explorar cómo funciona la secuencia de la Conjetura de Collatz. Por ejemplo, pueden cambiar `numero` a `7`, `15`, `27`, etc., y observar las secuencias generadas.
+
+Este ejercicio proporciona una excelente oportunidad para practicar el uso de bucles, listas y estructuras condicionales en Python, y es una forma interesante de explorar un problema matemático fascinante y desafiante.
+
+
+## 📚 Ejemplos Adicionales
+
+### 1. 🌡️ Conversión de Temperatura
+
+Un programa para convertir grados Celsius a Fahrenheit. Este ejercicio es ideal para practicar operaciones matemáticas básicas y el uso de funciones en Python.
+
+#### Contexto
+
+La conversión de temperatura es una operación común en muchos campos científicos. La fórmula para convertir grados Celsius a Fahrenheit es:
+
+$$ \text{Fahrenheit} = \left( \text{Celsius} \times \frac{9}{5} \right) + 32 $$
+
+#### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que convierta grados Celsius a Fahrenheit y pruebe la función con un ejemplo.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `celsius_a_fahrenheit` que tome un parámetro: la temperatura en grados Celsius (`celsius`).
+2. **Implementar la conversión**: Usaremos la fórmula de conversión para calcular la temperatura en grados Fahrenheit.
+3. **Probar la función**: Probaremos la función con un valor de ejemplo y mostraremos el resultado.
+
+#### Código para Conversión de Temperatura
+
+```{pyodide-python}
+def celsius_a_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+# Ejemplo de uso
+celsius = 25
+print(f"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit")
+```
+
+#### Explicación del Código
+
+1. **Parámetro de Entrada**:
+    - `celsius`: Un número que representa la temperatura en grados Celsius.
+
+2. **Fórmula de Conversión**:
+    - La función utiliza la fórmula \((celsius \times \frac{9}{5}) + 32\) para convertir la temperatura a grados Fahrenheit y devuelve el resultado.
+
+3. **Ejemplo de Uso**:
+    - Se llama a la función con un valor de ejemplo (25 grados Celsius) y se imprime el resultado en grados Fahrenheit.
+
+#### Ejemplo de Salida
+
+```
+25 grados Celsius son 77.0 grados Fahrenheit
+```
+
+### 2. 🏋️‍♂️ Cálculo del Índice de Masa Corporal (IMC)
+
+Un programa para calcular el IMC de una persona. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.
+
+#### Contexto
+
+El Índice de Masa Corporal (IMC) es una medida de la grasa corporal basada en la altura y el peso de una persona. La fórmula para calcular el IMC es:
+
+$$ \text{IMC} = \frac{\text{peso}}{\text{altura}^2} $$
+
+#### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que calcule el IMC de una persona y pruebe la función con un ejemplo.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `calcular_imc` que tome dos parámetros: el peso (`peso`) y la altura (`altura`).
+2. **Implementar el cálculo**: Usaremos la fórmula del IMC para calcular el índice y devolver el resultado.
+3. **Probar la función**: Probaremos la función con valores de ejemplo y mostraremos el resultado.
+
+#### Código para el Cálculo del IMC
+
+```{pyodide-python}
+def calcular_imc(peso, altura):
+    return peso / (altura ** 2)
+
+# Ejemplo de uso
+peso = 70  # kg
+altura = 1.75  # m
+print(f"El IMC es: {calcular_imc(peso, altura):.2f}")
+```
+
+#### Explicación del Código
+
+1. **Parámetros de Entrada**:
+    - `peso`: Un número que representa el peso de la persona en kilogramos.
+    - `altura`: Un número que representa la altura de la persona en metros.
+
+2. **Fórmula del IMC**:
+    - La función utiliza la fórmula \(\frac{peso}{altura^2}\) para calcular el IMC y devuelve el resultado.
+
+3. **Ejemplo de Uso**:
+    - Se llama a la función con valores de ejemplo (70 kg y 1.75 m) y se imprime el resultado del IMC con dos decimales.
+
+#### Ejemplo de Salida
+
+```
+El IMC es: 22.86
+```
+
+### 3. 🔢 Número Primo
+
+Un programa para verificar si un número es primo. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.
+
+#### Contexto
+
+Un número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.
+
+#### Objetivos del Ejercicio
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.
+:::
+
+1. **Definir una función**: Crearemos una función llamada `es_primo` que tome un parámetro: el número a verificar (`n`).
+2. **Implementar la verificación**: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.
+3. **Probar la función**: Probaremos la función con un valor de ejemplo y mostraremos el resultado.
+
+#### Código para Verificación de Número Primo
+
+```{pyodide-python}
+def es_primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Ejemplo de uso
+numero = 29
+if es_primo(numero):
+    print(f"{numero} es un número primo")
+else:
+    print(f"{numero} no es un número primo")
+```
+
+#### Explicación del Código
+
+1. **Parámetro de Entrada**:
+    - `n`: Un entero que representa el número a verificar.
+
+2. **Lógica de Verificación**:
+    - Si `n` es menor o igual a 1, la función devuelve `False`.
+    - Usa un bucle `for` para iterar desde 2 hasta la raíz cuadrada de `n`. Si `n` es divisible por cualquier número en este rango, la función devuelve `False`.
+    - Si el bucle termina sin encontrar divisores, la función devuelve `True`, indicando que el número es primo.
+
+3. **Ejemplo de Uso**:
+    - Se llama a la función con un valor de ejemplo (29) y se imprime si el número es primo o no.
+
+#### Ejemplo de Salida
+
+```
+29 es un número primo
+```
+
+Estos ejercicios proporcionan una excelente oportunidad para practicar operaciones matemáticas, bucles y estructuras condicionales en Python, aplicando conceptos de programación para resolver problemas comunes y prácticos.

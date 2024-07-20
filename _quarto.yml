@@ -5,20 +5,24 @@ project:
 book:
   title: "🐍 PySchool"
   author: "Python Chile"
-  date: "08/20/2024"
+  date: "08/02/2024"
   favicon: "images/pc.png"
+  repo-url: "https://github.com/fralfaro/pyschool_content"
+
   chapters:
     - index.qmd
-    - part: prefacio/intro.qmd
+    - part: 🚀 Talleres
       chapters:
-        - prefacio/intro_progra.qmd
-        - prefacio/intro_python.qmd
-    - part: talleres/intro.qmd
+        - material/talleres/intro.qmd
+        - material/talleres/taller_1.qmd
+        - material/talleres/taller_2.qmd
+        - material/talleres/taller_3.qmd
+    - part: 📜 Anexos
       chapters:
-        - talleres/taller_1.qmd
-        - talleres/taller_2.qmd
-        - talleres/taller_3.qmd
-
+        - material/anexos/aprendizaje.qmd
+        - material/anexos/tecnologia.qmd
+        - material/anexos/autoria.qmd
+        - material/anexos/colaborar.qmd
 index:
   qmd:
 lang: es
@@ -27,6 +31,8 @@ format:
   html:
     theme: flatly
     number-sections: false
+    toc: false
+    page-layout: full
   epub:
     cover-image: images/cover.png
 

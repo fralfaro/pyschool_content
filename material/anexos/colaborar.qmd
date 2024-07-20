@@ -1,0 +1,47 @@
+# Colaborar
+
+¡Nos encantaría contar contigo en PySchool! 🎉 Aquí te explicamos cómo colaborar:
+
+## Cómo Contribuir
+
+### Reportar Problemas
+
+Si encuentras errores, repórtalos creando un "issue" en nuestro [repositorio de GitHub](https://github.com/fralfaro/pyschool_content/issues).
+
+### Proponer Mejoras
+
+Propon ideas creando un "issue" o enviando un "pull request" con tus sugerencias.
+
+### Contribuir con Código
+
+1. **Fork el repositorio**: Crea una copia en tu cuenta de GitHub.
+2. **Clona tu fork**:
+   ```bash
+   git clone https://github.com/tu_usuario/pyschool_content.git
+   ```
+3. **Crea una rama**:
+   ```bash
+   git checkout -b mi_contribucion
+   ```
+4. **Haz tus cambios**.
+5. **Commit tus cambios**:
+   ```bash
+   git commit -m "Descripción de mi contribución"
+   ```
+6. **Push a tu fork**:
+   ```bash
+   git push origin mi_contribucion
+   ```
+7. **Crea un Pull Request**: Describe tus cambios.
+
+### Documentación
+
+Mejora la documentación siguiendo los mismos pasos.
+
+### Revisión de Código
+
+Ayuda revisando "pull requests" y proporcionando feedback constructivo.
+
+## Código de Conducta
+
+Mantén un ambiente respetuoso. Lee nuestro [Código de Conducta](https://github.com/fralfaro/pyschool_content/blob/main/CODE_OF_CONDUCT.md) antes de contribuir.

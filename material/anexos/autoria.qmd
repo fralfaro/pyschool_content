@@ -1,0 +1,11 @@
+# Autoría
+
+Este proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.
+
+## Reconocimientos Adicionales
+
+Además, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.
+
+Si deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la [página oficial de Python Chile](https://pythonchile.cl). ¡Gracias por apoyar y ser parte de nuestra comunidad!
+
+
