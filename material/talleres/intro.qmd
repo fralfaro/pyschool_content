@@ -2,52 +2,61 @@
 
 ## Programación
 
-Si tuviéramos que resumir el propósito de la programación en una frase, sería:
+Podríamos definir la esencia de la [programación](https://es.wikipedia.org/wiki/Programaci%C3%B3n) en una frase sencilla:
 
-> “Automatizar tareas para que la computadora las realice por nosotros.
+> "Automatizar tareas para que sean ejecutadas por la computadora."
 
-Cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.
+La programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.
 
-> “Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” -- Donald Knuth
+> "Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora." — Donald Knuth
 
-La programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!
+Mediante la programación, comunicamos a la computadora instrucciones detalladas de las operaciones que deseamos que realice.
+Si la computadora no actúa como esperábamos, usualmente significa que no hemos especificado nuestras instrucciones con la claridad necesaria.
+
+La programación es tanto un arte como una ciencia, una práctica mediante la cual traducimos ideas complejas en comandos que las máquinas puedan seguir eficientemente.
 
 ## Python
 
-Python es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:
+[Python](https://es.wikipedia.org/wiki/Python) se ha consolidado como uno de los lenguajes de programación más populares del mundo, y su crecimiento puede atribuirse a tres factores clave:
 
-1. Es fácil de entender: un programa bien escrito se parece mucho al inglés.
-2. Posee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)
-3. Es extensible:
+1. **Claridad y simplicidad:** Los programas escritos en Python suelen ser fáciles de leer y entender, ya que su sintaxis se asemeja mucho al inglés. Esto hace que sea accesible tanto para principiantes como para expertos.
 
-## Ejecutándo código Python
+2. **Rico ecosistema de librerías:** Python viene equipado con una extensa biblioteca estándar que cubre una amplia variedad de necesidades, desde operaciones matemáticas hasta manejo del sistema operativo, pasando por funciones de tiempo y fecha, entre otras.
 
-Para utilizar Python en una computadora, es necesario:
-1. Tener instalada alguna versión de Python
-2. Escribir tu programa en un archivo (por ejemplo "mi_programa.py")
-3. Ejecutar el programa con Python ("python mi_programa.py")
+3. **Extensibilidad:** Python permite a los usuarios ampliar sus capacidades integrando otros lenguajes de programación. Esto es posible gracias a que se pueden escribir módulos en lenguajes como C o C++, los cuales pueden ser utilizados dentro de programas de Python, potenciando así su eficiencia y flexibilidad.
 
-A medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).
+Esta combinación de facilidad de uso, riqueza funcional y adaptabilidad hace que Python sea una herramienta poderosa para una variedad de aplicaciones en ciencia de datos, desarrollo web, automatización, y más.
 
-Por simplicidad, en la PySchool utilizaremos una tecnología reciente que permite *emular* la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.
+## Ejecutando código Python
 
-Existen 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.
+Para trabajar con Python en una computadora, debes seguir estos pasos:
 
-![](../../images/botones.png){fig-align="center" width="100%" alt="Descripción de la imagen"}
+1. **Instalación de Python:** Asegúrate de tener alguna versión de Python instalada en tu equipo.
+2. **Creación de un programa:** Escribe tu código en un archivo, como "mi_programa.py".
+3. **Ejecución del programa:** Utiliza Python para ejecutar el archivo, mediante el comando `python mi_programa.py` en la terminal.
+
+Con el aumento de la popularidad de Python, surgieron plataformas alternativas para su uso, como los notebooks (Jupyter Notebooks, Google Colab y otros), que ofrecen entornos interactivos y versátiles.
+
+En PySchool, optamos por una tecnología innovadora que *emula* la ejecución de Python directamente en una página web. Esta opción no requiere instalaciones y puede usarse desde cualquier dispositivo con conexión a internet, aunque es importante reconocer que sigue siendo un ambiente simulado.
+
+El entorno incluye tres botones en la parte superior del contenedor de código que permiten ejecutar el código, reiniciar el código a su estado inicial y copiar el código al portapapeles. A continuación, se muestra una imagen que ilustra estos botones:
+
+![](../../images/botones.png){fig-align="center" width="100%" alt="Botones de ejecutar, reiniciar y copiar en un entorno de código Python."}
 
 ## Ejemplo: 👋 Hola Mundo
 
-Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase "Hola, Mundo" (o "Hello World") en la pantalla.
+En el mundo de la programación, es una tradición comenzar aprendiendo a hacer que la computadora muestre el mensaje "Hola, Mundo" (o "Hello World").
 
 ```{pyodide-python}
 print("Hola, Mundo")
 ```
 
 ::: {.callout-tip collapse="false" title="Desafío:"}
-¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?
+Intenta modificar el código anterior para que, en lugar de "Hola, Mundo", el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?
 :::
 
-Podemos mejorar el código anterior utilizando **variables** que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.
+Para hacer nuestro código más flexible y reutilizable, podemos introducir **variables**. Piensa en una variable como una caja con nombre donde puedes almacenar cosas como números, texto o cualquier tipo de dato. Utilizas un nombre para referirte a esta caja, permitiéndote acceder a su contenido más adelante en tu código. Además, puedes cambiar su contenido en cualquier momento simplemente almacenando algo nuevo en ella.
+
 ```{pyodide-python}
 saludo = "Hola "
 nombre = "Chile"
@@ -55,26 +64,13 @@ print(saludo + nombre)
 ```
 
 ::: {.callout-tip collapse="false" title="Desafío:"}
-¿Qué significa el signo `+` en el ejemplo anterior? ¿Qué significan los simbolos `"`?
+¿Qué hace el signo `+` en el ejemplo anterior? ¿Qué representan los símbolos `"`?
 :::
 
-Un principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo.
-Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende "empaquetarlas" en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.
+La programación eficiente busca minimizar el trabajo repetitivo. Si una línea de código se utiliza varias veces, es práctico "empaquetarla" en una función. Esto hace el código más compacto y reduce la necesidad de múltiples modificaciones.
 
-Así por ejemplo podemos reducir el código desde
-```{pyodide-python}
-saludo = "Hola "
-nombre = "DUOC"
-print(saludo + nombre)
-saludo = "Que tal "
-nombre = "Valparaíso"
-print(saludo + nombre)
-saludo = "Saludos "
-nombre = "Chile"
-print(saludo + nombre)
-```
+Observa cómo se puede simplificar el código utilizando una función:
 
-al siguiente código
 ```{pyodide-python}
 # Comentario: esta es la función imprimir_saludo
 def imprimir_saludo(saludo, nombre):
@@ -85,8 +81,7 @@ imprimir_saludo("Que tal", "Valparaíso")
 imprimir_saludo("Saludos", "Chile")
 ```
 
-En este ejemplo hemos revisado la función `print`, strings (cadenas de carácteres), variables y funciones.
-Python proporciona muchas [funciones adicionales para manipular strings](https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str). ¿Que hacen las siguientes funciones?
+En este ejemplo, hemos explorado la función `print`, cadenas de caracteres (strings), variables y funciones en Python. Además, Python ofrece [varias funciones adicionales para manipular strings](https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str). ¿Qué hacen las siguientes funciones?
 
 ```{pyodide-python}
 mi_string = "¿HoLa Ke HaCe?"
@@ -99,4 +94,4 @@ mi_string = "¿HoLa Ke HaCe?"
 #print(mi_string.split())
 ```
 
-Debes borrar el carácter `#` para que la línea deje de ser un comentario y se ejecute.
+Recuerda eliminar el carácter `#` para que la línea se ejecute y deje de ser un comentario.
