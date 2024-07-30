@@ -13,8 +13,7 @@ PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro obje
 <img src="./images/DUOC_1.png" width="300">
 </center>
 
-La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
-
+La PySchool tendrá lugar el Viernes 02 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
 ## 📅 Cronograma
 
 ```{python}
@@ -24,7 +23,7 @@ import pandas as pd
 
 data = {
     "Inicio": ["9:00", "9:30", "10:30", "12:00", "13:00"],
-    "Término": ["9:30", "10:15", "11:30", "13:00", "1:30"],
+    "Término": ["9:30", "10:15", "11:30", "13:00", "13:30"],
     "Actividad": ["Acreditación", "Bienvenida y panel pythonistas", "Taller 1", "Taller 2", "Cierre"]
 }
 
@@ -40,10 +39,10 @@ df = pd.DataFrame(data)
 ```
 <br>
 
-**Taller 1:** Común para todos los participantes: [Introducción a Python](./talleres/taller_1.html).
+**Taller 1:** Común para todos los participantes: [Introducción a Python](./material/talleres/taller_1.html).
 
 **Taller 2:** Opcional, según la elección de cada participante:
 
-- [Python en Ciencias](./talleres/taller_2.html)
-- [Python en Ciencia de Datos](./talleres/taller_3.qmd.html)
+- [Python en Ciencias](./material/talleres/taller_2.html)
+- [Python en Ciencia de Datos](./material/talleres/taller_3.html)
 

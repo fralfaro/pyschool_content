@@ -99,7 +99,7 @@ print(f"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahr
     - `celsius`: Un número que representa la temperatura en grados Celsius.
 
 2. **Fórmula de Conversión**:
-    - La función utiliza la fórmula \((celsius \times \frac{9}{5}) + 32\) para convertir la temperatura a grados Fahrenheit y devuelve el resultado.
+    - La función utiliza la fórmula $(celsius \times \frac{9}{5}) + 32$ para convertir la temperatura a grados Fahrenheit y devuelve el resultado.
 
 ### Ejemplo de Uso
 
@@ -162,7 +162,7 @@ print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcula
     - `altura`: Un número que representa la altura de la persona en metros.
 
 2. **Fórmula del IMC**:
-    - La función utiliza la fórmula \(\frac{peso}{altura^2}\) para calcular el IMC y devuelve el resultado.
+    - La función utiliza la fórmula $\frac{peso}{altura^2}$ para calcular el IMC y devuelve el resultado.
 
 ### Ejemplo de Uso
 

@@ -23,6 +23,7 @@ El objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde u
 
 ```{pyodide-python}
 import pandas as pd
+pd.set_option('display.max_columns', None)
 
 # Cargar el conjunto de datos de Pokémon
 url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
