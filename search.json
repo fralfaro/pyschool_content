@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "🐍 PySchool",
     "section": "",
-    "text": "🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\n\n \n\nLa PySchool tendrá lugar el Viernes 02 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar. ## 📅 Cronograma\n\n\n\n\n\n\n\n\nPrograma de actividades\n\n\nHorario de eventos del día\n\n\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n13:30\nCierre\n\n\n\n\n\n\n        \n\n\n\nTaller 1: Común para todos los participantes: Introducción a Python.\nTaller 2: Opcional, según la elección de cada participante:\n\nPython en Ciencias\nPython en Ciencia de Datos",
+    "text": "🏠 Home\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el Viernes 02 de agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cronograma",
+    "href": "index.html#cronograma",
+    "title": "🐍 PySchool",
+    "section": "📅 Cronograma",
+    "text": "📅 Cronograma\n\n\n\n\n\n\n\n\nPrograma de actividades\n\n\nHorario de eventos del día\n\n\n\n\nInicio\nTérmino\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n13:30\nCierre\n\n\n\n\n\n\n        \n\n\n\nTaller 1: Común para todos los participantes: Introducción a Python.\nTaller 2: Opcional, según la elección de cada participante: Python en Ciencias o Python en Ciencia de Datos.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -135,7 +145,7 @@
     "href": "material/talleres/taller_1.html#número-primo",
     "title": "Introducción a Python",
     "section": "🔢 Número Primo",
-    "text": "🔢 Número Primo\nUn programa para verificar si un número es primo. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.\n\nContexto\nUn número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.\n\n\n\n\nDefinir una función: Crearemos una función llamada es_primo que tome un parámetro: el número a verificar (n).\nImplementar la verificación: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.\nProbar la función: Probaremos la función con un valor de ejemplo y mostraremos el resultado.\n\n\n\nCódigo para Verificación de Número Primo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada es_primo que realiza lo siguiente:\n\nParámetro de Entrada:\n\nn: Un entero que representa el número a verificar.\n\nLógica de Verificación:\n\nSi n es menor o igual a 1, la función devuelve False indicando que no es un número primo.\nUsa un bucle for para iterar desde 2 hasta la raíz cuadrada de n. Si n es divisible por cualquier número en este rango, la función devuelve False indicando que no es un número primo.\nSi el bucle termina sin encontrar divisores, la función devuelve True indicando que el número es primo.\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo muestra cómo usar la función es_primo con un valor de ejemplo (29). Al ejecutar este ejemplo, se imprimirá 29 es un número primo.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el valor de numero para probar diferentes números y explorar cómo funciona la función. Por ejemplo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nEstos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes números son primos, reforzando su comprensión de los bucles, las estructuras condicionales y las funciones en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas matemáticas y condicionales en Python, y es una forma efectiva de entender cómo aplicar algoritmos para resolver problemas del mundo real.",
+    "text": "🔢 Número Primo\nUn programa para verificar si un número es primo. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.\n\nContexto\nUn número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.\n\n\nObjetivos del Ejercicio\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.\n\n\n\n\nDefinir una función: Crearemos una función llamada es_primo que tome un parámetro: el número a verificar (n).\nImplementar la verificación: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.\nProbar la función: Probaremos la función con un valor de ejemplo y mostraremos el resultado.\n\n\n\nCódigo para Verificación de Número Primo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nExplicación del Código\nEste código define una función llamada es_primo que realiza lo siguiente:\n\nParámetro de Entrada:\n\nn: Un entero que representa el número a verificar.\n\nLógica de Verificación:\n\nSi n es menor o igual a 1, la función devuelve False indicando que no es un número primo.\nUsa un bucle for para iterar desde 2 hasta n-1. Si n es divisible por cualquier número en este rango, la función devuelve False indicando que no es un número primo.\nSi el bucle termina sin encontrar divisores, la función devuelve True indicando que el número es primo.\n\n\n\n\nEjemplo de Uso\nEl código de ejemplo muestra cómo usar la función es_primo con un valor de ejemplo (29). Al ejecutar este ejemplo, se imprimirá 29 es un número primo.\n\n\nPrueba y Modificación\nLos estudiantes pueden modificar el valor de numero para probar diferentes números y explorar cómo funciona la función. Por ejemplo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nEstos ejemplos permiten a los estudiantes ver cómo la función verifica si diferentes números son primos, reforzando su comprensión de los bucles, las estructuras condicionales y las funciones en Python. Este ejercicio proporciona una excelente oportunidad para practicar la implementación de reglas matemáticas y condicionales en Python, y es una forma efectiva de entender cómo aplicar algoritmos para resolver problemas del mundo real.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introducción a Python</span>"
@@ -223,7 +233,7 @@
     "href": "material/talleres/taller_3.html#exploración-y-visualización-de-datos",
     "title": "Python en Ciencia de Datos",
     "section": "",
-    "text": "Cargar el Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.\n\n\n\n\nImportar bibliotecas: Usar pandas para manipulación de datos.\nCargar datos: Leer el conjunto de datos desde una URL.\nMostrar datos: Mostrar las primeras filas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.\n\n\n\n\nDescripción estadística: Usar describe para obtener estadísticas básicas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Cargar el Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.\n\n\n\n\nImportar bibliotecas: Usar pandas para manipulación de datos.\nCargar datos: Leer el conjunto de datos desde una URL.\nMostrar datos: Mostrar las primeras filas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es obtener una visión general de la estructura del conjunto de datos para comprender mejor el tipo y la cantidad de datos disponibles.\n\n\n\n\nDescripción de la estructura del conjunto de datos: Usar info para obtener información sobre el tipo de datos y valores no nulos del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas del Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.\n\n\n\n\nDescripción estadística: Usar describe para obtener estadísticas básicas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
@@ -234,7 +244,7 @@
     "href": "material/talleres/taller_3.html#análisis-y-visualización-de-datos",
     "title": "Python en Ciencia de Datos",
     "section": "📈 Análisis y Visualización de Datos",
-    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.\n\n\n\n\nContar Pokémon por tipo: Usar value_counts para contar los Pokémon por tipo.\nCrear gráfico de barras: Usar matplotlib para visualizar la cantidad de Pokémon por tipo.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.\n\n\n\n\nCalcular promedios: Usar groupby y mean para calcular el promedio de estadísticas por tipo.\nGráfico de barras apiladas: Usar plot para visualizar los promedios.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.\n\n\n\n\nGráfico de dispersión: Usar scatter para visualizar la relación entre ataque y defensa.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es explorar la relación entre el peso y la altura de los Pokémon utilizando estadísticas simuladas.\n\n\n\n\nSimular datos: Crear columnas de peso y altura simuladas.\nGráfico de dispersión: Usar scatter para visualizar la relación entre peso y altura.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.\n\n\n\n\nContar Pokémon por tipo: Usar value_counts para contar los Pokémon por tipo.\nCrear gráfico de barras: Usar matplotlib para visualizar la cantidad de Pokémon por tipo.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.\n\n\n\n\nCalcular promedios: Usar groupby y mean para calcular el promedio de estadísticas por tipo.\nGráfico de barras apiladas: Usar plot para visualizar los promedios.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.\n\n\n\n\nGráfico de dispersión: Usar scatter para visualizar la relación entre ataque y defensa.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
@@ -252,6 +262,17 @@
     ]
   },
   {
+    "objectID": "material/anexos/cierre_evento.html",
+    "href": "material/anexos/cierre_evento.html",
+    "title": "Cierre PySchool",
+    "section": "",
+    "text": "🎯 Retroalimentación\nNos encantaría saber que te ha parecido PySchool, y que podemos mejorar. Agradeceríamos contestaras la siguiente encuesta:\n\n \n\nhttps://forms.gle/MjQFihE1RiKzVgid9\n\n\n\n\n\nCódigo para sorteo\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCondiciones de uso de giftcards\nLas condiciones de uso de las giftcards para uso en el local café-robots-galletas tienen las siguientes condiciones:\n\nCada giftcard es válida para un único uso.\nLa giftcard no se puede cambiar por dinero en efectivo, ni se entregará vuelto.\nLa giftcard se puede usar para cualquier producto en venta en el local.\nCada giftcard tiene vigencia de 3 meses (hasta el 31 de octubre).",
+    "crumbs": [
+      "📜 Anexos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Cierre PySchool</span>"
+    ]
+  },
+  {
     "objectID": "material/anexos/aprendizaje.html",
     "href": "material/anexos/aprendizaje.html",
     "title": "Seguir aprendiendo",
@@ -259,7 +280,7 @@
     "text": "Recursos recomendados 📚",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
@@ -270,7 +291,7 @@
     "text": "Cursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
@@ -281,7 +302,7 @@
     "text": "Consejos para Aprender Python\n\nPracticar regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en proyectos reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver ejercicios y retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
@@ -292,7 +313,7 @@
     "text": "Esta página fue creada con quarto y la extensión quarto-pyodide\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sobre la página</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sobre la página</span>"
     ]
   },
   {
@@ -303,7 +324,7 @@
     "text": "Reconocimientos adicionales\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Autoría</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Autoría</span>"
     ]
   },
   {
@@ -314,7 +335,7 @@
     "text": "Cómo Contribuir",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Colaborar</span>"
     ]
   },
   {
@@ -325,7 +346,7 @@
     "text": "Reportar Problemas\nSi encuentras errores, repórtalos creando un “issue” en nuestro repositorio de GitHub.\n\n\nProponer Mejoras\nPropon ideas creando un “issue” o enviando un “pull request” con tus sugerencias.\n\n\nContribuir con Código\n\nFork el repositorio: Crea una copia en tu cuenta de GitHub.\nClona tu fork:\ngit clone https://github.com/tu_usuario/pyschool_content.git\nCrea una rama:\ngit checkout -b mi_contribucion\nHaz tus cambios.\nCommit tus cambios:\ngit commit -m \"Descripción de mi contribución\"\nPush a tu fork:\ngit push origin mi_contribucion\nCrea un Pull Request: Describe tus cambios.\n\n\n\nDocumentación\nMejora la documentación siguiendo los mismos pasos.\n\n\nRevisión de Código\nAyuda revisando “pull requests” y proporcionando feedback constructivo.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Colaborar</span>"
     ]
   },
   {
@@ -336,7 +357,7 @@
     "text": "Código de Conducta\nMantén un ambiente respetuoso. Lee nuestro Código de Conducta antes de contribuir.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Colaborar</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Colaborar</span>"
     ]
   }
 ]
