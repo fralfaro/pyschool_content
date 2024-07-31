@@ -19,6 +19,7 @@ book:
         - material/talleres/taller_3.qmd
     - part: 📜 Anexos
       chapters:
+        - material/anexos/cierre_evento.qmd
         - material/anexos/aprendizaje.qmd
         - material/anexos/tecnologia.qmd
         - material/anexos/autoria.qmd

@@ -36,6 +36,19 @@ pokemon_data.head()
 ### Descripción del Conjunto de Datos
 
 ::: {.callout-tip collapse="false" title="Desafío:"}
+El objetivo de este ejercicio es obtener una visión general de la estructura del conjunto de datos para comprender mejor el tipo y la cantidad de datos disponibles.
+:::
+
+1. **Descripción de la estructura del conjunto de datos**: Usar `info` para obtener información sobre el tipo de datos y valores no nulos del conjunto de datos.
+
+```{pyodide-python}
+# Mostrar la información del conjunto de datos
+pokemon_data.info()
+```
+
+### Estadísticas del Conjunto de Datos
+
+::: {.callout-tip collapse="false" title="Desafío:"}
 El objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.
 :::
 
@@ -70,7 +83,7 @@ plt.title('Cantidad de Pokémon por Tipo', fontsize=14)
 plt.xlabel('Tipo', fontsize=12)
 plt.ylabel('Cantidad', fontsize=12)
 plt.xticks(rotation=45)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.grid()
 plt.show()
 ```
 
@@ -94,7 +107,7 @@ plt.title('Promedio de Estadísticas por Tipo de Pokémon', fontsize=14)
 plt.xlabel('Tipo', fontsize=12)
 plt.ylabel('Promedio de Estadísticas', fontsize=12)
 plt.legend(title='Estadísticas', loc='upper left')
-plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.grid()
 plt.show()
 ```
 
@@ -113,35 +126,7 @@ plt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='#8da0cb', al
 plt.title('Ataque vs Defensa de Pokémon', fontsize=14)
 plt.xlabel('Ataque', fontsize=12)
 plt.ylabel('Defensa', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.show()
-```
-
-
-
-### Peso y Altura de los Pokémon
-
-::: {.callout-tip collapse="false" title="Desafío:"}
-El objetivo de este ejercicio es explorar la relación entre el peso y la altura de los Pokémon utilizando estadísticas simuladas.
-:::
-
-1. **Simular datos**: Crear columnas de peso y altura simuladas.
-2. **Gráfico de dispersión**: Usar `scatter` para visualizar la relación entre peso y altura.
-
-```{pyodide-python}
-import numpy as np
-
-# Agregar columnas de peso y altura simuladas
-pokemon_data['Weight'] = np.random.uniform(5, 150, len(pokemon_data))  # Peso en kg
-pokemon_data['Height'] = np.random.uniform(0.3, 2.5, len(pokemon_data))  # Altura en m
-
-# Crear un gráfico de dispersión de peso vs altura
-plt.figure(figsize=(11, 6))
-plt.scatter(pokemon_data['Weight'], pokemon_data['Height'], color='#66c2a5', alpha=0.7, edgecolor='k', linewidth=0.5)
-plt.title('Peso vs Altura de Pokémon', fontsize=14)
-plt.xlabel('Peso (kg)', fontsize=12)
-plt.ylabel('Altura (m)', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.7)
+plt.grid()
 plt.show()
 ```
 

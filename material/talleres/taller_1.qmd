@@ -355,6 +355,12 @@ num1 = 10
 num2 = 0
 resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}")
+
+operacion = '+-'
+num1 = 5
+num2 = 7
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2}, el resultado es {resultado}")
 ```
 
 Estos ejemplos permiten a los estudiantes ver cómo la función realiza diferentes operaciones aritméticas y maneja casos especiales como la división por cero, reforzando su comprensión del uso de funciones, operadores aritméticos y estructuras condicionales en Python.
@@ -384,7 +390,7 @@ El objetivo de este ejercicio es escribir una función en Python que verifique s
 def es_primo(n):
     if n <= 1:
         return f"{n} no es un número primo"
-    for i in range(2, int(n ** 0.5) + 1):
+    for i in range(2, n):
         if n % i == 0:
             return f"{n} no es un número primo"
     return f"{n} es un número primo"
@@ -402,8 +408,8 @@ Este código define una función llamada `es_primo` que realiza lo siguiente:
     - `n`: Un entero que representa el número a verificar.
 
 2. **Lógica de Verificación**:
-    - Si `n` es menor o igual a 1, la función devuelve `False` indicando que no es un número primo.
-    - Usa un bucle `for` para iterar desde 2 hasta la raíz cuadrada de `n`. Si `n` es divisible por cualquier número en este rango, la función devuelve `False` indicando que no es un número primo.
+    - Si `n` es menor o igual a `1`, la función devuelve `False` indicando que no es un número primo.
+    - Usa un bucle `for` para iterar desde `2` hasta `n-1`. Si `n` es divisible por cualquier número en este rango, la función devuelve `False` indicando que no es un número primo.
     - Si el bucle termina sin encontrar divisores, la función devuelve `True` indicando que el número es primo.
 
 ### Ejemplo de Uso
